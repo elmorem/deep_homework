@@ -2,7 +2,7 @@ import asyncio
 from typing import List, Dict, Set, Optional, Any
 from fastapi import WebSocket
 
-from gpt_researcher import GPTResearcher
+from gpt_researcher import HomeworkResearcher
 
 
 class DetailedReport:
@@ -32,7 +32,7 @@ class DetailedReport:
         self.subtopics = subtopics
         self.headers = headers or {}
 
-        self.gpt_researcher = GPTResearcher(
+        self.gpt_researcher = HomeworkResearcher(
             query=self.query,
             query_domains=self.query_domains,
             report_type="research_report",
@@ -90,7 +90,7 @@ class DetailedReport:
 
     async def _get_subtopic_report(self, subtopic: Dict) -> Dict[str, str]:
         current_subtopic_task = subtopic.get("task")
-        subtopic_assistant = GPTResearcher(
+        subtopic_assistant = HomeworkResearcher(
             query=current_subtopic_task,
             query_domains=self.query_domains,
             report_type="subtopic_report",

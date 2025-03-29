@@ -8,7 +8,7 @@ import traceback
 from typing import Awaitable, Dict, List, Any
 from fastapi.responses import JSONResponse, FileResponse
 from gpt_researcher.document.document import DocumentLoader
-from gpt_researcher import GPTResearcher
+from gpt_researcher import HomeworkResearcher
 from backend.utils import write_md_to_pdf, write_md_to_word, write_text_to_md
 from pathlib import Path
 from datetime import datetime
@@ -76,7 +76,7 @@ class Researcher:
         self.research_id = f"{datetime.now().strftime('%Y%m%d_%H%M%S')}_{hash(query)}"
         # Initialize logs handler with research ID
         self.logs_handler = CustomLogsHandler(None, self.research_id)
-        self.researcher = GPTResearcher(
+        self.researcher = HomeworkResearcher(
             query=query,
             report_type=report_type,
             websocket=self.logs_handler

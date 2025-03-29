@@ -1,7 +1,7 @@
 from fastapi import WebSocket
 from typing import Any
 
-from gpt_researcher import GPTResearcher
+from gpt_researcher import HomeworkResearcher
 
 
 class BasicReport:
@@ -30,7 +30,7 @@ class BasicReport:
         self.headers = headers or {}
 
         # Initialize researcher
-        self.gpt_researcher = GPTResearcher(
+        self.gpt_researcher = HomeworkResearcher(
             query=self.query,
             query_domains=self.query_domains,
             report_type=self.report_type,
