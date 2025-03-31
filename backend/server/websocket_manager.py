@@ -7,9 +7,9 @@ from fastapi import WebSocket
 from backend.report_type import BasicReport, DetailedReport
 from backend.chat import ChatAgentWithMemory
 
-from gpt_researcher.utils.enum import ReportType, Tone
+from homework_researcher.utils.enum import ReportType, Tone
 from multi_agents.main import run_research_task
-from gpt_researcher.actions import stream_output  # Import stream_output
+from homework_researcher.actions import stream_output  # Import stream_output for streaming
 from backend.server.server_utils import CustomLogsHandler
 
 
