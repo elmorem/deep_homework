@@ -350,6 +350,7 @@ def set_education_level(education_level: EducationLevel) -> str:
     - Your planning and writing should be at a {education_level.value} level.
     - Your selection of sources should be at a {education_level.value} level.
     - The generation of your search queries should be at a {education_level.value} level.
+    - The generation of deep research prompts should be at a {education_level.value} level.
     """
 
 ################################################################################################
