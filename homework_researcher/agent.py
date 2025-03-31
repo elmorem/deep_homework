@@ -3,7 +3,7 @@ import json
 
 from .config import Config
 from .memory.embeddings import Memory
-from .utils.enum import ReportSource, ReportType, Tone
+from .utils.enum import ReportSource, ReportType, Tone, EducationLevel
 from .llm_provider import GenericLLMProvider
 from .vector_store.vector_store import VectorStoreWrapper
 
@@ -27,6 +27,7 @@ class HomeworkResearcher:
         report_type: str = ReportType.ResearchReport.value,
         report_format: str = "markdown",
         report_source: str = ReportSource.Web.value,
+        education_level: str = EducationLevel.HighSchool,
         tone: Tone = Tone.Objective,
         source_urls: list[str] | None = None,
         document_urls: list[str] | None = None,
@@ -57,6 +58,7 @@ class HomeworkResearcher:
         )
         self.report_format = report_format
         self.max_subtopics = max_subtopics
+        self.education_level = education_level if isinstance(education_level, EducationLevel) else EducationLevel.HighSchool
         self.tone = tone if isinstance(tone, Tone) else Tone.Objective
         self.source_urls = source_urls
         self.document_urls = document_urls
