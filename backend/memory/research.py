@@ -16,5 +16,3 @@ class ResearchState(TypedDict):
     conclusion: str
     sources: List[str]
     report: str
-
-

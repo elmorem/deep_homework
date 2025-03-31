@@ -5,10 +5,7 @@ class EducationLevel(Enum):
     JuniorHigh = "Junior high school level (introductory concepts, basic sources, simple language)"
     HighSchool = "High school level (introdutory and background sources, moderate complexity, accessible language, some critical thinkg, some primary sources)"
     Undergraduate = "Undergraduate level (allow for some prior knoledge, more complex sources, moderate to high complexity, critical thinking expected, some primary sources, highlight academic sources, discourage non-academic sources)"
-    Graduate = (
-        "Graduate level (advanced concepts, in-depth analysis, high complexity, critical thinking and synthesis of information expected, extensive use of primary sources, highlight academic sources, ignore non-academic sources)"
-    )
-
+    Graduate = "Graduate level (advanced concepts, in-depth analysis, high complexity, critical thinking and synthesis of information expected, extensive use of primary sources, highlight academic sources, ignore non-academic sources)"
 
 
 class ReportType(Enum):

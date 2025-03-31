@@ -26,6 +26,7 @@ def check_pkg(pkg: str) -> None:
             f"`pip install -U {pkg_kebab}`"
         )
 
+
 # Get a list of all retriever names to be used as validators for supported retrievers
 def get_all_retriever_names() -> list:
     try:
@@ -34,9 +35,11 @@ def get_all_retriever_names() -> list:
         all_items = os.listdir(current_dir)
 
         # Filter out only the directories, excluding __pycache__
-        retrievers = [item for item in all_items if os.path.isdir(os.path.join(current_dir, item))]
+        retrievers = [
+            item for item in all_items if os.path.isdir(os.path.join(current_dir, item))
+        ]
     except Exception as e:
         print(f"Error in get_all_retriever_names: {e}")
         retrievers = VALID_RETRIEVERS
-    
+
     return retrievers

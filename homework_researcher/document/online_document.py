@@ -8,7 +8,7 @@ from langchain_community.document_loaders import (
     UnstructuredExcelLoader,
     UnstructuredMarkdownLoader,
     UnstructuredPowerPointLoader,
-    UnstructuredWordDocumentLoader
+    UnstructuredWordDocumentLoader,
 )
 
 
@@ -23,10 +23,12 @@ class OnlineDocumentLoader:
             pages = await self._download_and_process(url)
             for page in pages:
                 if page.page_content:
-                    docs.append({
-                        "raw_content": page.page_content,
-                        "url": page.metadata.get("source")
-                    })
+                    docs.append(
+                        {
+                            "raw_content": page.page_content,
+                            "url": page.metadata.get("source"),
+                        }
+                    )
 
         if not docs:
             raise ValueError("🤷 Failed to load any documents!")
@@ -35,9 +37,7 @@ class OnlineDocumentLoader:
 
     async def _download_and_process(self, url: str) -> list:
         try:
-            headers = {
-                "User-Agent": "Mozilla/5.0"
-            }
+            headers = {"User-Agent": "Mozilla/5.0"}
             async with aiohttp.ClientSession() as session:
                 async with session.get(url, headers=headers, timeout=6) as response:
                     if response.status != 200:
@@ -45,11 +45,15 @@ class OnlineDocumentLoader:
                         return []
 
                     content = await response.read()
-                    with tempfile.NamedTemporaryFile(delete=False, suffix=self._get_extension(url)) as tmp_file:
+                    with tempfile.NamedTemporaryFile(
+                        delete=False, suffix=self._get_extension(url)
+                    ) as tmp_file:
                         tmp_file.write(content)
                         tmp_file_path = tmp_file.name
 
-                    return await self._load_document(tmp_file_path, self._get_extension(url).strip('.'))
+                    return await self._load_document(
+                        tmp_file_path, self._get_extension(url).strip(".")
+                    )
         except aiohttp.ClientError as e:
             print(f"Failed to process {url}")
             print(e)
@@ -71,7 +75,7 @@ class OnlineDocumentLoader:
                 "csv": UnstructuredCSVLoader(file_path, mode="elements"),
                 "xls": UnstructuredExcelLoader(file_path, mode="elements"),
                 "xlsx": UnstructuredExcelLoader(file_path, mode="elements"),
-                "md": UnstructuredMarkdownLoader(file_path)
+                "md": UnstructuredMarkdownLoader(file_path),
             }
 
             loader = loader_dict.get(file_extension, None)

@@ -8,7 +8,7 @@ from langchain_community.document_loaders import (
     UnstructuredExcelLoader,
     UnstructuredMarkdownLoader,
     UnstructuredPowerPointLoader,
-    UnstructuredWordDocumentLoader
+    UnstructuredWordDocumentLoader,
 )
 from langchain_community.document_loaders import BSHTMLLoader
 
@@ -27,7 +27,7 @@ class DocumentLoader:
                     file_name, file_extension_with_dot = os.path.splitext(filename)
                     file_extension = file_extension_with_dot.strip(".").lower()
                     tasks.append(self._load_document(file_path, file_extension))
-                    
+
         elif isinstance(self.path, (str, bytes, os.PathLike)):
             for root, dirs, files in os.walk(self.path):
                 for file in files:
@@ -35,9 +35,11 @@ class DocumentLoader:
                     file_name, file_extension_with_dot = os.path.splitext(file)
                     file_extension = file_extension_with_dot.strip(".").lower()
                     tasks.append(self._load_document(file_path, file_extension))
-                    
+
         else:
-            raise ValueError("Invalid type for path. Expected str, bytes, os.PathLike, or list thereof.")
+            raise ValueError(
+                "Invalid type for path. Expected str, bytes, os.PathLike, or list thereof."
+            )
 
         # for root, dirs, files in os.walk(self.path):
         #     for file in files:
@@ -50,11 +52,13 @@ class DocumentLoader:
         for pages in await asyncio.gather(*tasks):
             for page in pages:
                 if page.page_content:
-                    docs.append({
-                        "raw_content": page.page_content,
-                        "url": os.path.basename(page.metadata['source'])
-                    })
-                    
+                    docs.append(
+                        {
+                            "raw_content": page.page_content,
+                            "url": os.path.basename(page.metadata["source"]),
+                        }
+                    )
+
         if not docs:
             raise ValueError("🤷 Failed to load any documents!")
 
@@ -74,7 +78,7 @@ class DocumentLoader:
                 "xlsx": UnstructuredExcelLoader(file_path, mode="elements"),
                 "md": UnstructuredMarkdownLoader(file_path),
                 "html": BSHTMLLoader(file_path),
-                "htm": BSHTMLLoader(file_path)
+                "htm": BSHTMLLoader(file_path),
             }
 
             loader = loader_dict.get(file_extension, None)

@@ -13,13 +13,13 @@ logs_dir.mkdir(exist_ok=True)
 # Configure logging
 logging.basicConfig(
     level=logging.INFO,
-    format='%(asctime)s - %(name)s - %(levelname)s - %(message)s',
+    format="%(asctime)s - %(name)s - %(levelname)s - %(message)s",
     handlers=[
         # File handler for general application logs
-        logging.FileHandler('logs/app.log'),
+        logging.FileHandler("logs/app.log"),
         # Stream handler for console output
-        logging.StreamHandler()
-    ]
+        logging.StreamHandler(),
+    ],
 )
 
 load_dotenv(override=True)
@@ -36,4 +36,3 @@ if __name__ == "__main__":
         logger.info("Application started successfully.")
     except Exception as e:
         logger.error(f"An error occurred while starting the app: {e}")
-    

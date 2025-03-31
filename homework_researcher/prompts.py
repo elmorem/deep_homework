@@ -31,12 +31,16 @@ def generate_search_queries_prompt(
     else:
         task = question
 
-    context_prompt = f"""
+    context_prompt = (
+        f"""
 You are a seasoned research assistant tasked with generating search queries to find relevant information for the following task: "{task}".
 Context: {context}
 
 Use this context to inform and refine your search queries. The context provides real-time web information that can help you generate more specific and relevant queries. Consider any current events, recent developments, or specific details mentioned in the context that could enhance the search queries.
-""" if context else ""
+"""
+        if context
+        else ""
+    )
 
     dynamic_example = ", ".join([f'"query {i+1}"' for i in range(max_iterations)])
 
@@ -104,6 +108,7 @@ Please do your best, this is very important to my career.
 Assume that the current date is {date.today()}.
 """
 
+
 def curate_sources(query, sources, max_results=10):
     return f"""Your goal is to evaluate and curate the provided scraped content for the research task: "{query}" 
     while prioritizing the inclusion of relevant and high-quality information, especially sources containing statistics, numbers, or concrete data.
@@ -138,10 +143,14 @@ The response MUST not contain any markdown format or additional text (like ```js
 """
 
 
-
-
 def generate_resource_report_prompt(
-    question, context, report_source: str, report_format="apa", tone=None, total_words=1000, language="english"
+    question,
+    context,
+    report_source: str,
+    report_format="apa",
+    tone=None,
+    total_words=1000,
+    language="english",
 ):
     """Generates the resource report prompt for the given question and research summary.
 
@@ -180,13 +189,25 @@ def generate_resource_report_prompt(
 
 
 def generate_custom_report_prompt(
-    query_prompt, context, report_source: str, report_format="apa", tone=None, total_words=1000, language: str = "english"
+    query_prompt,
+    context,
+    report_source: str,
+    report_format="apa",
+    tone=None,
+    total_words=1000,
+    language: str = "english",
 ):
     return f'"{context}"\n\n{query_prompt}'
 
 
 def generate_outline_report_prompt(
-    question, context, report_source: str, report_format="apa", tone=None,  total_words=1000, language: str = "english"
+    question,
+    context,
+    report_source: str,
+    report_format="apa",
+    tone=None,
+    total_words=1000,
+    language: str = "english",
 ):
     """Generates the outline report prompt for the given question and research summary.
     Args: question (str): The question to generate the outline report prompt for
@@ -210,7 +231,7 @@ def generate_deep_research_prompt(
     report_format="apa",
     tone=None,
     total_words=2000,
-    language: str = "english"
+    language: str = "english",
 ):
     """Generates the deep research report prompt, specialized for handling hierarchical research results.
     Args:
@@ -239,7 +260,7 @@ You MUST write all used source document names at the end of the report as refere
 """
 
     tone_prompt = f"Write the report in a {tone.value} tone." if tone else ""
-    
+
     return f"""
 Using the following hierarchically researched information and citations:
 
@@ -421,10 +442,7 @@ Do NOT add a conclusion section.
 
 
 def generate_draft_titles_prompt(
-    current_subtopic: str,
-    main_topic: str,
-    context: str,
-    max_subsections: int = 5
+    current_subtopic: str, main_topic: str, context: str, max_subsections: int = 5
 ) -> str:
     return f"""
 "Context":
@@ -454,7 +472,12 @@ Provide the draft headers in a list format using markdown syntax, for example:
 """
 
 
-def generate_report_introduction(question: str, research_summary: str = "", language: str = "english", report_format: str = "apa") -> str:
+def generate_report_introduction(
+    question: str,
+    research_summary: str = "",
+    language: str = "english",
+    report_format: str = "apa",
+) -> str:
     return f"""{research_summary}\n 
 Using the above latest information, Prepare a detailed report introduction on the topic -- {question}.
 - The introduction should be succinct, well-structured, informative with markdown syntax.
@@ -466,7 +489,12 @@ Assume that the current date is {datetime.now(timezone.utc).strftime('%B %d, %Y'
 """
 
 
-def generate_report_conclusion(query: str, report_content: str, language: str = "english", report_format: str = "apa") -> str:
+def generate_report_conclusion(
+    query: str,
+    report_content: str,
+    language: str = "english",
+    report_format: str = "apa",
+) -> str:
     """
     Generate a concise conclusion summarizing the main findings and implications of a research report.
 
@@ -524,4 +552,3 @@ def get_prompt_by_report_type(report_type):
         )
         prompt_by_type = report_type_mapping.get(default_report_type)
     return prompt_by_type
-

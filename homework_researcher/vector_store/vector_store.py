@@ -13,7 +13,8 @@ class VectorStoreWrapper:
     """
     A Wrapper for LangchainVectorStore to handle GPT-Researcher Document Type
     """
-    def __init__(self, vector_store : VectorStore):
+
+    def __init__(self, vector_store: VectorStore):
         self.vector_store = vector_store
 
     def load(self, documents):
@@ -24,12 +25,20 @@ class VectorStoreWrapper:
         langchain_documents = self._create_langchain_documents(documents)
         splitted_documents = self._split_documents(langchain_documents)
         self.vector_store.add_documents(splitted_documents)
-    
+
     def _create_langchain_documents(self, data: List[Dict[str, str]]) -> List[Document]:
         """Convert GPT Researcher Document to Langchain Document"""
-        return [Document(page_content=item["raw_content"], metadata={"source": item["url"]}) for item in data]
+        return [
+            Document(page_content=item["raw_content"], metadata={"source": item["url"]})
+            for item in data
+        ]
 
-    def _split_documents(self, documents: List[Document], chunk_size: int = 1000, chunk_overlap: int = 200) -> List[Document]:
+    def _split_documents(
+        self,
+        documents: List[Document],
+        chunk_size: int = 1000,
+        chunk_overlap: int = 200,
+    ) -> List[Document]:
         """
         Split documents into smaller chunks
         """
@@ -41,5 +50,7 @@ class VectorStoreWrapper:
 
     async def asimilarity_search(self, query, k, filter):
         """Return query by vector store"""
-        results = await self.vector_store.asimilarity_search(query=query, k=k, filter=filter)
+        results = await self.vector_store.asimilarity_search(
+            query=query, k=k, filter=filter
+        )
         return results

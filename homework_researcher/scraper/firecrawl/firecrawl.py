@@ -2,13 +2,17 @@ from bs4 import BeautifulSoup
 import os
 from ..utils import get_relevant_images
 
+
 class FireCrawl:
 
     def __init__(self, link, session=None):
         self.link = link
         self.session = session
         from firecrawl import FirecrawlApp
-        self.firecrawl = FirecrawlApp(api_key=self.get_api_key(), api_url=self.get_server_url())
+
+        self.firecrawl = FirecrawlApp(
+            api_key=self.get_api_key(), api_url=self.get_server_url()
+        )
 
     def get_api_key(self) -> str:
         """
@@ -20,7 +24,8 @@ class FireCrawl:
             api_key = os.environ["FIRECRAWL_API_KEY"]
         except KeyError:
             raise Exception(
-                "FireCrawl API key not found. Please set the FIRECRAWL_API_KEY environment variable.")
+                "FireCrawl API key not found. Please set the FIRECRAWL_API_KEY environment variable."
+            )
         return api_key
 
     def get_server_url(self) -> str:
@@ -33,7 +38,7 @@ class FireCrawl:
         try:
             server_url = os.environ["FIRECRAWL_SERVER_URL"]
         except KeyError:
-            server_url = 'https://api.firecrawl.dev'
+            server_url = "https://api.firecrawl.dev"
         return server_url
 
     def scrape(self) -> tuple:
@@ -49,7 +54,9 @@ class FireCrawl:
         """
 
         try:
-            response = self.firecrawl.scrape_url(url=self.link, params={"formats": ["markdown"]})
+            response = self.firecrawl.scrape_url(
+                url=self.link, params={"formats": ["markdown"]}
+            )
 
             # Check if the page has been scraped success
             if "error" in response:

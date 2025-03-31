@@ -6,10 +6,11 @@ import requests
 import urllib.parse
 
 
-class SearchApiSearch():
+class SearchApiSearch:
     """
     SearchApi Retriever
     """
+
     def __init__(self, query, query_domains=None):
         """
         Initializes the SearchApiSearch object
@@ -28,8 +29,10 @@ class SearchApiSearch():
         try:
             api_key = os.environ["SEARCHAPI_API_KEY"]
         except:
-            raise Exception("SearchApi key not found. Please set the SEARCHAPI_API_KEY environment variable. "
-                            "You can get a key at https://www.searchapi.io/")
+            raise Exception(
+                "SearchApi key not found. Please set the SEARCHAPI_API_KEY environment variable. "
+                "You can get a key at https://www.searchapi.io/"
+            )
         return api_key
 
     def search(self, max_results=7):
@@ -41,7 +44,6 @@ class SearchApiSearch():
         print("SearchApiSearch: Searching with query {0}...".format(self.query))
         """Useful for general internet search queries using SearchApi."""
 
-
         url = "https://www.searchapi.io/api/v1/search"
         params = {
             "q": self.query,
@@ -49,9 +51,9 @@ class SearchApiSearch():
         }
 
         headers = {
-            'Content-Type': 'application/json',
-            'Authorization': f'Bearer {self.api_key}',
-            'X-SearchApi-Source': 'gpt-researcher'
+            "Content-Type": "application/json",
+            "Authorization": f"Bearer {self.api_key}",
+            "X-SearchApi-Source": "gpt-researcher",
         }
 
         encoded_url = url + "?" + urllib.parse.urlencode(params)

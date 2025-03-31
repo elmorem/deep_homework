@@ -2,6 +2,7 @@ from azure.storage.blob import BlobServiceClient
 import os
 import tempfile
 
+
 class AzureDocumentLoader:
     def __init__(self, container_name, connection_string):
         self.client = BlobServiceClient.from_connection_string(connection_string)

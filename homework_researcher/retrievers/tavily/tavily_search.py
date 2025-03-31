@@ -49,7 +49,6 @@ class TavilySearch:
                 return ""
         return api_key
 
-
     def _search(
         self,
         query: str,

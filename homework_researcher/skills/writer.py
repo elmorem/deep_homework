@@ -7,7 +7,7 @@ from ..actions import (
     generate_report,
     generate_draft_section_titles,
     write_report_introduction,
-    write_conclusion
+    write_conclusion,
 )
 
 
@@ -27,7 +27,12 @@ class ReportGenerator:
             "headers": self.researcher.headers,
         }
 
-    async def write_report(self, existing_headers: list = [], relevant_written_contents: list = [], ext_context=None) -> str:
+    async def write_report(
+        self,
+        existing_headers: list = [],
+        relevant_written_contents: list = [],
+        ext_context=None,
+    ) -> str:
         """
         Write a report based on existing headers and relevant contents.
 
@@ -48,7 +53,7 @@ class ReportGenerator:
                 json.dumps(research_images),
                 self.researcher.websocket,
                 True,
-                research_images
+                research_images,
             )
 
         context = ext_context or self.researcher.context
@@ -64,12 +69,14 @@ class ReportGenerator:
         report_params["context"] = context
 
         if self.researcher.report_type == "subtopic_report":
-            report_params.update({
-                "main_topic": self.researcher.parent_query,
-                "existing_headers": existing_headers,
-                "relevant_written_contents": relevant_written_contents,
-                "cost_callback": self.researcher.add_costs,
-            })
+            report_params.update(
+                {
+                    "main_topic": self.researcher.parent_query,
+                    "existing_headers": existing_headers,
+                    "relevant_written_contents": relevant_written_contents,
+                    "cost_callback": self.researcher.add_costs,
+                }
+            )
         else:
             report_params["cost_callback"] = self.researcher.add_costs
 

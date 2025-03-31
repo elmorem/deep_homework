@@ -21,7 +21,7 @@ from .actions import (
     extract_sections,
     table_of_contents,
     get_retrievers,
-    choose_agent
+    choose_agent,
 )
 
 
@@ -57,7 +57,9 @@ class HomeworkResearcher:
         self.report_type = report_type
         self.cfg = Config(config_path)
         self.llm = GenericLLMProvider(self.cfg)
-        self.report_source = report_source if report_source else getattr(self.cfg, 'report_source', None)
+        self.report_source = (
+            report_source if report_source else getattr(self.cfg, "report_source", None)
+        )
         self.report_format = report_format
         self.max_subtopics = max_subtopics
         self.tone = tone if isinstance(tone, Tone) else Tone.Objective
@@ -65,7 +67,9 @@ class HomeworkResearcher:
         self.document_urls = document_urls
         self.complement_source_urls = complement_source_urls
         self.query_domains = query_domains or []
-        self.research_sources = []  # The list of scraped sources including title, content and images
+        self.research_sources = (
+            []
+        )  # The list of scraped sources including title, content and images
         self.research_images = []  # The list of selected research images
         self.documents = documents
         self.vector_store = VectorStoreWrapper(vector_store) if vector_store else None
@@ -82,7 +86,9 @@ class HomeworkResearcher:
         self.research_costs = 0.0
         self.retrievers = get_retrievers(self.headers, self.cfg)
         self.memory = Memory(
-            self.cfg.embedding_provider, self.cfg.embedding_model, **self.cfg.embedding_kwargs
+            self.cfg.embedding_provider,
+            self.cfg.embedding_model,
+            **self.cfg.embedding_kwargs,
         )
         self.log_handler = log_handler
 
@@ -101,28 +107,42 @@ class HomeworkResearcher:
         if self.log_handler:
             try:
                 if event_type == "tool":
-                    await self.log_handler.on_tool_start(kwargs.get('tool_name', ''), **kwargs)
+                    await self.log_handler.on_tool_start(
+                        kwargs.get("tool_name", ""), **kwargs
+                    )
                 elif event_type == "action":
-                    await self.log_handler.on_agent_action(kwargs.get('action', ''), **kwargs)
+                    await self.log_handler.on_agent_action(
+                        kwargs.get("action", ""), **kwargs
+                    )
                 elif event_type == "research":
-                    await self.log_handler.on_research_step(kwargs.get('step', ''), kwargs.get('details', {}))
-                
+                    await self.log_handler.on_research_step(
+                        kwargs.get("step", ""), kwargs.get("details", {})
+                    )
+
                 # Add direct logging as backup
                 import logging
-                research_logger = logging.getLogger('research')
+
+                research_logger = logging.getLogger("research")
                 research_logger.info(f"{event_type}: {json.dumps(kwargs, default=str)}")
-                
+
             except Exception as e:
                 import logging
-                logging.getLogger('research').error(f"Error in _log_event: {e}", exc_info=True)
+
+                logging.getLogger("research").error(
+                    f"Error in _log_event: {e}", exc_info=True
+                )
 
     async def conduct_research(self, on_progress=None):
-        await self._log_event("research", step="start", details={
-            "query": self.query,
-            "report_type": self.report_type,
-            "agent": self.agent,
-            "role": self.role
-        })
+        await self._log_event(
+            "research",
+            step="start",
+            details={
+                "query": self.query,
+                "report_type": self.report_type,
+                "agent": self.agent,
+                "role": self.role,
+            },
+        )
 
         # Handle deep research separately
         if self.report_type == ReportType.DeepResearch.value and self.deep_researcher:
@@ -137,39 +157,51 @@ class HomeworkResearcher:
                 cost_callback=self.add_costs,
                 headers=self.headers,
             )
-            await self._log_event("action", action="agent_selected", details={
-                "agent": self.agent,
-                "role": self.role
-            })
+            await self._log_event(
+                "action",
+                action="agent_selected",
+                details={"agent": self.agent, "role": self.role},
+            )
 
-        await self._log_event("research", step="conducting_research", details={
-            "agent": self.agent,
-            "role": self.role
-        })
+        await self._log_event(
+            "research",
+            step="conducting_research",
+            details={"agent": self.agent, "role": self.role},
+        )
         self.context = await self.research_conductor.conduct_research()
-        
-        await self._log_event("research", step="research_completed", details={
-            "context_length": len(self.context)
-        })
+
+        await self._log_event(
+            "research",
+            step="research_completed",
+            details={"context_length": len(self.context)},
+        )
         return self.context
 
     async def _handle_deep_research(self, on_progress=None):
         """Handle deep research execution and logging."""
         # Log deep research configuration
-        await self._log_event("research", step="deep_research_initialize", details={
-            "type": "deep_research",
-            "breadth": self.deep_researcher.breadth,
-            "depth": self.deep_researcher.depth,
-            "concurrency": self.deep_researcher.concurrency_limit
-        })
+        await self._log_event(
+            "research",
+            step="deep_research_initialize",
+            details={
+                "type": "deep_research",
+                "breadth": self.deep_researcher.breadth,
+                "depth": self.deep_researcher.depth,
+                "concurrency": self.deep_researcher.concurrency_limit,
+            },
+        )
 
         # Log deep research start
-        await self._log_event("research", step="deep_research_start", details={
-            "query": self.query,
-            "breadth": self.deep_researcher.breadth,
-            "depth": self.deep_researcher.depth,
-            "concurrency": self.deep_researcher.concurrency_limit
-        })
+        await self._log_event(
+            "research",
+            step="deep_research_start",
+            details={
+                "query": self.query,
+                "breadth": self.deep_researcher.breadth,
+                "depth": self.deep_researcher.depth,
+                "concurrency": self.deep_researcher.concurrency_limit,
+            },
+        )
 
         # Run deep research and get context
         self.context = await self.deep_researcher.run(on_progress=on_progress)
@@ -178,37 +210,52 @@ class HomeworkResearcher:
         total_costs = self.get_costs()
 
         # Log deep research completion with costs
-        await self._log_event("research", step="deep_research_complete", details={
-            "context_length": len(self.context),
-            "visited_urls": len(self.visited_urls),
-            "total_costs": total_costs
-        })
+        await self._log_event(
+            "research",
+            step="deep_research_complete",
+            details={
+                "context_length": len(self.context),
+                "visited_urls": len(self.visited_urls),
+                "total_costs": total_costs,
+            },
+        )
 
         # Log final cost update
-        await self._log_event("research", step="cost_update", details={
-            "cost": total_costs,
-            "total_cost": total_costs,
-            "research_type": "deep_research"
-        })
+        await self._log_event(
+            "research",
+            step="cost_update",
+            details={
+                "cost": total_costs,
+                "total_cost": total_costs,
+                "research_type": "deep_research",
+            },
+        )
 
         # Return the research context
         return self.context
 
-    async def write_report(self, existing_headers: list = [], relevant_written_contents: list = [], ext_context=None) -> str:
-        await self._log_event("research", step="writing_report", details={
-            "existing_headers": existing_headers,
-            "context_source": "external" if ext_context else "internal"
-        })
-        
-        report = await self.report_generator.write_report(
-            existing_headers,
-            relevant_written_contents,
-            ext_context or self.context
+    async def write_report(
+        self,
+        existing_headers: list = [],
+        relevant_written_contents: list = [],
+        ext_context=None,
+    ) -> str:
+        await self._log_event(
+            "research",
+            step="writing_report",
+            details={
+                "existing_headers": existing_headers,
+                "context_source": "external" if ext_context else "internal",
+            },
         )
-        
-        await self._log_event("research", step="report_completed", details={
-            "report_length": len(report)
-        })
+
+        report = await self.report_generator.write_report(
+            existing_headers, relevant_written_contents, ext_context or self.context
+        )
+
+        await self._log_event(
+            "research", step="report_completed", details={"report_length": len(report)}
+        )
         return report
 
     async def write_report_conclusion(self, report_body: str) -> str:
@@ -234,13 +281,10 @@ class HomeworkResearcher:
         current_subtopic: str,
         draft_section_titles: list[str],
         written_contents: list[dict],
-        max_results: int = 10
+        max_results: int = 10,
     ) -> list[str]:
         return await self.context_manager.get_similar_written_contents_by_draft_section_titles(
-            current_subtopic,
-            draft_section_titles,
-            written_contents,
-            max_results
+            current_subtopic, draft_section_titles, written_contents, max_results
         )
 
     # Utility methods
@@ -285,7 +329,8 @@ class HomeworkResearcher:
             raise ValueError("Cost must be an integer or float")
         self.research_costs += cost
         if self.log_handler:
-            self._log_event("research", step="cost_update", details={
-                "cost": cost,
-                "total_cost": self.research_costs
-            })
+            self._log_event(
+                "research",
+                step="cost_update",
+                details={"cost": cost, "total_cost": self.research_costs},
+            )

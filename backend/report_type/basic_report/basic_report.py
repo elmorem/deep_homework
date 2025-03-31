@@ -16,7 +16,7 @@ class BasicReport:
         tone: Any,
         config_path: str,
         websocket: WebSocket,
-        headers=None
+        headers=None,
     ):
         self.query = query
         self.query_domains = query_domains
@@ -40,7 +40,7 @@ class BasicReport:
             tone=self.tone,
             config_path=self.config_path,
             websocket=self.websocket,
-            headers=self.headers
+            headers=self.headers,
         )
 
     async def run(self):

@@ -20,7 +20,7 @@ async def write_report_introduction(
     agent_role_prompt: str,
     config: Config,
     websocket=None,
-    cost_callback: callable = None
+    cost_callback: callable = None,
 ) -> str:
     """
     Generate an introduction for the report.
@@ -41,11 +41,14 @@ async def write_report_introduction(
             model=config.smart_llm_model,
             messages=[
                 {"role": "system", "content": f"{agent_role_prompt}"},
-                {"role": "user", "content": generate_report_introduction(
-                    question=query,
-                    research_summary=context,
-                    language=config.language
-                )},
+                {
+                    "role": "user",
+                    "content": generate_report_introduction(
+                        question=query,
+                        research_summary=context,
+                        language=config.language,
+                    ),
+                },
             ],
             temperature=0.25,
             llm_provider=config.smart_llm_provider,
@@ -67,7 +70,7 @@ async def write_conclusion(
     agent_role_prompt: str,
     config: Config,
     websocket=None,
-    cost_callback: callable = None
+    cost_callback: callable = None,
 ) -> str:
     """
     Write a conclusion for the report.
@@ -88,9 +91,12 @@ async def write_conclusion(
             model=config.smart_llm_model,
             messages=[
                 {"role": "system", "content": f"{agent_role_prompt}"},
-                {"role": "user", "content": generate_report_conclusion(query=query,
-                                                                       report_content=context,
-                                                                       language=config.language)},
+                {
+                    "role": "user",
+                    "content": generate_report_conclusion(
+                        query=query, report_content=context, language=config.language
+                    ),
+                },
             ],
             temperature=0.25,
             llm_provider=config.smart_llm_provider,
@@ -112,7 +118,7 @@ async def summarize_url(
     role: str,
     config: Config,
     websocket=None,
-    cost_callback: callable = None
+    cost_callback: callable = None,
 ) -> str:
     """
     Summarize the content of a URL.
@@ -133,7 +139,10 @@ async def summarize_url(
             model=config.smart_llm_model,
             messages=[
                 {"role": "system", "content": f"{role}"},
-                {"role": "user", "content": f"Summarize the following content from {url}:\n\n{content}"},
+                {
+                    "role": "user",
+                    "content": f"Summarize the following content from {url}:\n\n{content}",
+                },
             ],
             temperature=0.25,
             llm_provider=config.smart_llm_provider,
@@ -156,7 +165,7 @@ async def generate_draft_section_titles(
     role: str,
     config: Config,
     websocket=None,
-    cost_callback: callable = None
+    cost_callback: callable = None,
 ) -> List[str]:
     """
     Generate draft section titles for the report.
@@ -177,8 +186,12 @@ async def generate_draft_section_titles(
             model=config.smart_llm_model,
             messages=[
                 {"role": "system", "content": f"{role}"},
-                {"role": "user", "content": generate_draft_titles_prompt(
-                    current_subtopic, query, context)},
+                {
+                    "role": "user",
+                    "content": generate_draft_titles_prompt(
+                        current_subtopic, query, context
+                    ),
+                },
             ],
             temperature=0.25,
             llm_provider=config.smart_llm_provider,

@@ -19,12 +19,12 @@ class SourceCurator:
     ) -> List:
         """
         Rank sources based on research data and guidelines.
-        
+
         Args:
             query: The research query/task
             source_data: List of source documents to rank
             max_results: Maximum number of top sources to return
-            
+
         Returns:
             str: Ranked list of source URLs with reasoning
         """
@@ -43,8 +43,12 @@ class SourceCurator:
                 model=self.researcher.cfg.smart_llm_model,
                 messages=[
                     {"role": "system", "content": f"{self.researcher.role}"},
-                    {"role": "user", "content": rank_sources_prompt(
-                        self.researcher.query, source_data, max_results)},
+                    {
+                        "role": "user",
+                        "content": rank_sources_prompt(
+                            self.researcher.query, source_data, max_results
+                        ),
+                    },
                 ],
                 temperature=0.2,
                 max_tokens=8000,
@@ -54,7 +58,9 @@ class SourceCurator:
             )
 
             curated_sources = json.loads(response)
-            print(f"\n\nFinal Curated sources {len(source_data)} sources: {curated_sources}")
+            print(
+                f"\n\nFinal Curated sources {len(source_data)} sources: {curated_sources}"
+            )
 
             if self.researcher.verbose:
                 await stream_output(
@@ -70,7 +76,7 @@ class SourceCurator:
             print(f"Error in curate_sources from LLM response: {response}")
             if self.researcher.verbose:
                 await stream_output(
-                    "logs", 
+                    "logs",
                     "research_plan",
                     f"🚫 Source verification failed: {str(e)}",
                     self.researcher.websocket,

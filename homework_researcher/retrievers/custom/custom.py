@@ -9,7 +9,7 @@ class CustomRetriever:
     """
 
     def __init__(self, query: str, query_domains=None):
-        self.endpoint = os.getenv('RETRIEVER_ENDPOINT')
+        self.endpoint = os.getenv("RETRIEVER_ENDPOINT")
         if not self.endpoint:
             raise ValueError("RETRIEVER_ENDPOINT environment variable not set")
 
@@ -21,9 +21,9 @@ class CustomRetriever:
         Populates parameters from environment variables prefixed with 'RETRIEVER_ARG_'
         """
         return {
-            key[len('RETRIEVER_ARG_'):].lower(): value
+            key[len("RETRIEVER_ARG_") :].lower(): value
             for key, value in os.environ.items()
-            if key.startswith('RETRIEVER_ARG_')
+            if key.startswith("RETRIEVER_ARG_")
         }
 
     def search(self, max_results: int = 5) -> Optional[List[Dict[str, Any]]]:
@@ -44,7 +44,9 @@ class CustomRetriever:
             ]
         """
         try:
-            response = requests.get(self.endpoint, params={**self.params, 'query': self.query})
+            response = requests.get(
+                self.endpoint, params={**self.params, "query": self.query}
+            )
             response.raise_for_status()
             return response.json()
         except requests.RequestException as e:

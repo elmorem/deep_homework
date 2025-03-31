@@ -16,6 +16,7 @@ class ExaSearch:
         # This validation is necessary since exa_py is optional
         check_pkg("exa_py")
         from exa_py import Exa
+
         self.query = query
         self.api_key = self._retrieve_api_key()
         self.client = Exa(api_key=self.api_key)

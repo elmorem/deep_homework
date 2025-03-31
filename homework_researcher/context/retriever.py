@@ -9,6 +9,7 @@ from langchain.schema.retriever import BaseRetriever
 
 class SearchAPIRetriever(BaseRetriever):
     """Search API retriever."""
+
     pages: List[Dict] = []
 
     def _get_relevant_documents(
@@ -28,11 +29,13 @@ class SearchAPIRetriever(BaseRetriever):
 
         return docs
 
+
 class SectionRetriever(BaseRetriever):
     """
     SectionRetriever:
     This class is used to retrieve sections while avoiding redundant subtopics.
     """
+
     sections: List[Dict] = []
     """
     sections example:
@@ -44,7 +47,7 @@ class SectionRetriever(BaseRetriever):
         ...
     ]
     """
-    
+
     def _get_relevant_documents(
         self, query: str, *, run_manager: CallbackManagerForRetrieverRun
     ) -> List[Document]:

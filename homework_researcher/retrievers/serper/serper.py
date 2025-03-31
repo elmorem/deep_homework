@@ -6,10 +6,11 @@ import requests
 import json
 
 
-class SerperSearch():
+class SerperSearch:
     """
     Google Serper Retriever
     """
+
     def __init__(self, query, query_domains=None):
         """
         Initializes the SerperSearch object
@@ -30,8 +31,10 @@ class SerperSearch():
         try:
             api_key = os.environ["SERPER_API_KEY"]
         except:
-            raise Exception("Serper API key not found. Please set the SERPER_API_KEY environment variable. "
-                            "You can get a key at https://serper.dev/")
+            raise Exception(
+                "Serper API key not found. Please set the SERPER_API_KEY environment variable. "
+                "You can get a key at https://serper.dev/"
+            )
         return api_key
 
     def search(self, max_results=7):
@@ -46,10 +49,7 @@ class SerperSearch():
         # Search the query (see https://serper.dev/playground for the format)
         url = "https://google.serper.dev/search"
 
-        headers = {
-            'X-API-KEY': self.api_key,
-            'Content-Type': 'application/json'
-        }
+        headers = {"X-API-KEY": self.api_key, "Content-Type": "application/json"}
 
         # TODO: Add support for query domains
         data = json.dumps({"q": self.query, "num": max_results})

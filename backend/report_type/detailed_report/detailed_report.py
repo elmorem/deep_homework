@@ -18,7 +18,7 @@ class DetailedReport:
         tone: Any = "",
         websocket: WebSocket = None,
         subtopics: List[Dict] = [],
-        headers: Optional[Dict] = None
+        headers: Optional[Dict] = None,
     ):
         self.query = query
         self.report_type = report_type
@@ -42,13 +42,14 @@ class DetailedReport:
             config_path=self.config_path,
             tone=self.tone,
             websocket=self.websocket,
-            headers=self.headers
+            headers=self.headers,
         )
         self.existing_headers: List[Dict] = []
         self.global_context: List[str] = []
         self.global_written_sections: List[str] = []
-        self.global_urls: Set[str] = set(
-            self.source_urls) if self.source_urls else set()
+        self.global_urls: Set[str] = (
+            set(self.source_urls) if self.source_urls else set()
+        )
 
     async def run(self) -> str:
         await self._initial_research()
@@ -108,36 +109,54 @@ class DetailedReport:
         subtopic_assistant.context = list(set(self.global_context))
         await subtopic_assistant.conduct_research()
 
-        draft_section_titles = await subtopic_assistant.get_draft_section_titles(current_subtopic_task)
+        draft_section_titles = await subtopic_assistant.get_draft_section_titles(
+            current_subtopic_task
+        )
 
         if not isinstance(draft_section_titles, str):
             draft_section_titles = str(draft_section_titles)
 
-        parse_draft_section_titles = self.gpt_researcher.extract_headers(draft_section_titles)
-        parse_draft_section_titles_text = [header.get(
-            "text", "") for header in parse_draft_section_titles]
+        parse_draft_section_titles = self.gpt_researcher.extract_headers(
+            draft_section_titles
+        )
+        parse_draft_section_titles_text = [
+            header.get("text", "") for header in parse_draft_section_titles
+        ]
 
         relevant_contents = await subtopic_assistant.get_similar_written_contents_by_draft_section_titles(
-            current_subtopic_task, parse_draft_section_titles_text, self.global_written_sections
+            current_subtopic_task,
+            parse_draft_section_titles_text,
+            self.global_written_sections,
         )
 
-        subtopic_report = await subtopic_assistant.write_report(self.existing_headers, relevant_contents)
+        subtopic_report = await subtopic_assistant.write_report(
+            self.existing_headers, relevant_contents
+        )
 
-        self.global_written_sections.extend(self.gpt_researcher.extract_sections(subtopic_report))
+        self.global_written_sections.extend(
+            self.gpt_researcher.extract_sections(subtopic_report)
+        )
         self.global_context = list(set(subtopic_assistant.context))
         self.global_urls.update(subtopic_assistant.visited_urls)
 
-        self.existing_headers.append({
-            "subtopic task": current_subtopic_task,
-            "headers": self.gpt_researcher.extract_headers(subtopic_report),
-        })
+        self.existing_headers.append(
+            {
+                "subtopic task": current_subtopic_task,
+                "headers": self.gpt_researcher.extract_headers(subtopic_report),
+            }
+        )
 
         return {"topic": subtopic, "report": subtopic_report}
 
-    async def _construct_detailed_report(self, introduction: str, report_body: str) -> str:
+    async def _construct_detailed_report(
+        self, introduction: str, report_body: str
+    ) -> str:
         toc = self.gpt_researcher.table_of_contents(report_body)
         conclusion = await self.gpt_researcher.write_report_conclusion(report_body)
         conclusion_with_references = self.gpt_researcher.add_references(
-            conclusion, self.gpt_researcher.visited_urls)
-        report = f"{introduction}\n\n{toc}\n\n{report_body}\n\n{conclusion_with_references}"
+            conclusion, self.gpt_researcher.visited_urls
+        )
+        report = (
+            f"{introduction}\n\n{toc}\n\n{report_body}\n\n{conclusion_with_references}"
+        )
         return report

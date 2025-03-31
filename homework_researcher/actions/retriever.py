@@ -1,5 +1,6 @@
 from ..config.config import Config
 
+
 def get_retriever(retriever: str):
     """
     Gets the retriever

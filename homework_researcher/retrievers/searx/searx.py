@@ -5,10 +5,11 @@ from typing import List, Dict
 from urllib.parse import urljoin
 
 
-class SearxSearch():
+class SearxSearch:
     """
     SearxNG API Retriever
     """
+
     def __init__(self, query: str, query_domains=None):
         """
         Initializes the SearxSearch object
@@ -27,8 +28,8 @@ class SearxSearch():
         """
         try:
             base_url = os.environ["SEARX_URL"]
-            if not base_url.endswith('/'):
-                base_url += '/'
+            if not base_url.endswith("/"):
+                base_url += "/"
             return base_url
         except KeyError:
             raise Exception(
@@ -47,28 +48,25 @@ class SearxSearch():
         search_url = urljoin(self.base_url, "search")
         # TODO: Add support for query domains
         params = {
-            # The search query. 
-            'q': self.query, 
+            # The search query.
+            "q": self.query,
             # Output format of results. Format needs to be activated in searxng config.
-            'format': 'json'
+            "format": "json",
         }
 
         try:
             response = requests.get(
-                search_url,
-                params=params,
-                headers={'Accept': 'application/json'}
+                search_url, params=params, headers={"Accept": "application/json"}
             )
             response.raise_for_status()
             results = response.json()
 
             # Normalize results to match the expected format
             search_response = []
-            for result in results.get('results', [])[:max_results]:
-                search_response.append({
-                    "href": result.get('url', ''),
-                    "body": result.get('content', '')
-                })
+            for result in results.get("results", [])[:max_results]:
+                search_response.append(
+                    {"href": result.get("url", ""), "body": result.get("content", "")}
+                )
 
             return search_response
 

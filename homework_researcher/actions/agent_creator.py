@@ -4,6 +4,7 @@ import json_repair
 from ..utils.llm import create_chat_completion
 from ..prompts import auto_agent_instructions
 
+
 async def choose_agent(
     query, cfg, parent_query=None, cost_callback: callable = None, headers=None
 ):
