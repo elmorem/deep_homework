@@ -3,7 +3,7 @@ import json
 from ..config.config import Config
 from ..utils.llm import create_chat_completion
 from ..prompts import curate_sources as rank_sources_prompt
-from ..actions import stream_output
+from ..actions.utils import stream_output
 
 
 class SourceCurator:

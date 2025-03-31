@@ -10,7 +10,7 @@ from langchain.retrievers.document_compressors import (
     EmbeddingsFilter,
 )
 from langchain.text_splitter import RecursiveCharacterTextSplitter
-from ..vector_store import VectorStoreWrapper
+from ..vector_store.vector_store import VectorStoreWrapper
 from ..utils.costs import estimate_embedding_cost
 from ..memory.embeddings import OPENAI_EMBEDDING_MODEL
 

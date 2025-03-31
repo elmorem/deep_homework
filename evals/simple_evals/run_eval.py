@@ -4,8 +4,8 @@ import argparse
 from typing import Callable, List, TypeVar
 from tqdm import tqdm
 from dotenv import load_dotenv
-from gpt_researcher.agent import GPTResearcher
-from gpt_researcher.utils.enum import ReportType, ReportSource, Tone
+from homework_researcher.agent import HomeworkResearcher
+from homework_researcher.utils.enum import ReportType, ReportSource, Tone
 from evals.simple_evals.simpleqa_eval import SimpleQAEval
 from langchain_openai import ChatOpenAI
 import json
@@ -32,7 +32,7 @@ async def evaluate_single_query(query: str, evaluator: SimpleQAEval) -> dict:
     print(f"\nEvaluating query: {query}")
     
     # Run the researcher and get report
-    researcher = GPTResearcher(
+    researcher = HomeworkResearcher(
         query=query,
         report_type=ReportType.ResearchReport.value,
         report_format="markdown",

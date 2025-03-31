@@ -1,6 +1,6 @@
 import json_repair
 
-from gpt_researcher.llm_provider.generic.base import ReasoningEfforts
+from homework_researcher.llm_provider.generic.base import ReasoningEfforts
 from ..utils.llm import create_chat_completion
 from ..prompts import generate_search_queries_prompt
 from typing import Any, List, Dict
