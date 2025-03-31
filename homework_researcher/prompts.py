@@ -1,7 +1,7 @@
 import warnings
 from datetime import date, datetime, timezone
 
-from .utils.enum import ReportSource, ReportType, Tone
+from .utils.enum import ReportSource, ReportType, Tone, EducationLevel
 from typing import List, Dict, Any
 
 
@@ -336,6 +336,21 @@ def generate_summary_prompt(query, data):
         f"information such as numbers, stats, quotes, etc if available. "
     )
 
+
+def set_education_level(education_level: EducationLevel) -> str:
+    """Sets the education level for the research task.
+    Args:
+        education_level (str): The education level to set
+    Returns:
+        str: The education level for the research task
+    """
+    return f"""
+    "IMPORTANT!":
+    - The report should be written at a {education_level.value} level.
+    - Your planning and writing should be at a {education_level.value} level.
+    - Your selection of sources should be at a {education_level.value} level.
+    - The generation of your search queries should be at a {education_level.value} level.
+    """
 
 ################################################################################################
 
