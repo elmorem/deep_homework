@@ -337,6 +337,8 @@ def generate_summary_prompt(query, data):
     )
 
 
+def set_education_level_prompt(education_level: str) -> str:
+
 ################################################################################################
 
 # DETAILED REPORT PROMPTS
