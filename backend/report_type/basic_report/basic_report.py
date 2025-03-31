@@ -1,7 +1,7 @@
 from fastapi import WebSocket
 from typing import Any
 
-from gpt_researcher import HomeworkResearcher
+from homework_researcher.agent import HomeworkResearcher
 
 
 class BasicReport:

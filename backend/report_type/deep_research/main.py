@@ -1,4 +1,4 @@
-from gpt_researcher import HomeworkResearcher
+from homework_researcher.agent import HomeworkResearcher
 from backend.utils import write_md_to_pdf
 import asyncio
 
