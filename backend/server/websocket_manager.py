@@ -4,12 +4,14 @@ from typing import Dict, List
 
 from fastapi import WebSocket
 
-from backend.report_type import BasicReport, DetailedReport
-from backend.chat import ChatAgentWithMemory
+from backend.report_type.basic_report.basic_report import BasicReport
+from backend.report_type.detailed_report.detailed_report import DetailedReport
+from backend.chat.chat import ChatAgentWithMemory
 
 from homework_researcher.utils.enum import ReportType, Tone
 from multi_agents.main import run_research_task
-from homework_researcher.actions import stream_output  # Import stream_output for streaming
+
+from homework_researcher.actions.utils import stream_output  # Import stream_output for streaming
 from backend.server.server_utils import CustomLogsHandler
 
 

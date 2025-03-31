@@ -1,7 +1,7 @@
 from typing import Any
 from colorama import Fore, Style
 
-from gpt_researcher.utils.workers import WorkerPool
+from homework_researcher.utils.workers import WorkerPool
 from ..scraper import Scraper
 from ..config.config import Config
 from ..utils.logger import get_formatted_logger
