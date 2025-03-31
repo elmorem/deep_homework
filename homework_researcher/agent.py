@@ -2,10 +2,10 @@ from typing import Any, Optional
 import json
 
 from .config import Config
-from .memory import Memory
+from .memory.embeddings import Memory
 from .utils.enum import ReportSource, ReportType, Tone
 from .llm_provider import GenericLLMProvider
-from .vector_store import VectorStoreWrapper
+from .vector_store.vector_store import VectorStoreWrapper
 
 # Research skills
 from .skills.researcher import ResearchConductor
