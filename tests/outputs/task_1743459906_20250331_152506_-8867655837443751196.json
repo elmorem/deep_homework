@@ -1,0 +1,726 @@
+{
+  "timestamp": "2025-03-31T15:25:06.778230",
+  "events": [
+    {
+      "timestamp": "2025-03-31T15:25:08.536225",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "starting_research",
+        "output": "\ud83d\udd0d Starting the research task for 'Test query for logging verification'...",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-03-31T15:25:08.536719",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "agent_generated",
+        "output": "\ud83d\udee0\ufe0f System Debug Agent",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-03-31T15:25:08.536920",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "planning_research",
+        "output": "\ud83c\udf10 Browsing the web to learn more about the task: Test query for logging verification...",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-03-31T15:25:10.817497",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "planning_research",
+        "output": "\ud83e\udd14 Planning the research strategy and subtasks...",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-03-31T15:25:31.716587",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "subqueries",
+        "output": "\ud83d\uddc2\ufe0f I will conduct my research based on the following queries: ['Test query for logging verification using Python unit tests and Moq', 'Best practices for verifying centralized logging systems in distributed environments 2025', 'How to validate logging output with SQL queries in cloud log analytics', 'Objective methods for testing logging infrastructure and asserting log messages', 'Test query for logging verification']...",
+        "metadata": [
+          "Test query for logging verification using Python unit tests and Moq",
+          "Best practices for verifying centralized logging systems in distributed environments 2025",
+          "How to validate logging output with SQL queries in cloud log analytics",
+          "Objective methods for testing logging infrastructure and asserting log messages",
+          "Test query for logging verification"
+        ]
+      }
+    },
+    {
+      "timestamp": "2025-03-31T15:25:31.717892",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "running_subquery_research",
+        "output": "\n\ud83d\udd0d Running research for 'Test query for logging verification using Python unit tests and Moq'...",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-03-31T15:25:31.719591",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "running_subquery_research",
+        "output": "\n\ud83d\udd0d Running research for 'Best practices for verifying centralized logging systems in distributed environments 2025'...",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-03-31T15:25:31.722123",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "running_subquery_research",
+        "output": "\n\ud83d\udd0d Running research for 'How to validate logging output with SQL queries in cloud log analytics'...",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-03-31T15:25:31.723766",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "running_subquery_research",
+        "output": "\n\ud83d\udd0d Running research for 'Objective methods for testing logging infrastructure and asserting log messages'...",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-03-31T15:25:31.724961",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "running_subquery_research",
+        "output": "\n\ud83d\udd0d Running research for 'Test query for logging verification'...",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-03-31T15:25:33.961716",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "added_source_url",
+        "output": "\u2705 Added source url to research: https://toxigon.com/best-practices-centralized-logging\n",
+        "metadata": "https://toxigon.com/best-practices-centralized-logging"
+      }
+    },
+    {
+      "timestamp": "2025-03-31T15:25:33.963157",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "added_source_url",
+        "output": "\u2705 Added source url to research: https://toxigon.com/centralized-log-management-best-practices\n",
+        "metadata": "https://toxigon.com/centralized-log-management-best-practices"
+      }
+    },
+    {
+      "timestamp": "2025-03-31T15:25:33.964298",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "added_source_url",
+        "output": "\u2705 Added source url to research: https://www.strongdm.com/blog/log-management-best-practices\n",
+        "metadata": "https://www.strongdm.com/blog/log-management-best-practices"
+      }
+    },
+    {
+      "timestamp": "2025-03-31T15:25:33.965355",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "added_source_url",
+        "output": "\u2705 Added source url to research: https://www.linuxbash.sh/post/best-practices-for-logging-in-distributed-systems\n",
+        "metadata": "https://www.linuxbash.sh/post/best-practices-for-logging-in-distributed-systems"
+      }
+    },
+    {
+      "timestamp": "2025-03-31T15:25:33.966413",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "added_source_url",
+        "output": "\u2705 Added source url to research: https://codezup.com/a-hands-on-guide-to-implementing-monitoring-and-logging-strategies-for-distributed-systems/\n",
+        "metadata": "https://codezup.com/a-hands-on-guide-to-implementing-monitoring-and-logging-strategies-for-distributed-systems/"
+      }
+    },
+    {
+      "timestamp": "2025-03-31T15:25:33.967368",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "researching",
+        "output": "\ud83e\udd14 Researching for relevant information across multiple sources...\n",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-03-31T15:25:33.968302",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "scraping_urls",
+        "output": "\ud83c\udf10 Scraping content from 5 URLs...",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-03-31T15:25:33.969980",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "added_source_url",
+        "output": "\u2705 Added source url to research: https://cloud.google.com/logging/docs/log-analytics\n",
+        "metadata": "https://cloud.google.com/logging/docs/log-analytics"
+      }
+    },
+    {
+      "timestamp": "2025-03-31T15:25:33.970682",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "added_source_url",
+        "output": "\u2705 Added source url to research: https://cloud.google.com/logging/docs/analyze/query-and-view\n",
+        "metadata": "https://cloud.google.com/logging/docs/analyze/query-and-view"
+      }
+    },
+    {
+      "timestamp": "2025-03-31T15:25:33.971403",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "added_source_url",
+        "output": "\u2705 Added source url to research: https://cloud.google.com/logging/docs/analyze/save-share-query\n",
+        "metadata": "https://cloud.google.com/logging/docs/analyze/save-share-query"
+      }
+    },
+    {
+      "timestamp": "2025-03-31T15:25:33.972069",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "added_source_url",
+        "output": "\u2705 Added source url to research: https://stackoverflow.com/questions/78811117/query-log-analytics-from-cloud-function\n",
+        "metadata": "https://stackoverflow.com/questions/78811117/query-log-analytics-from-cloud-function"
+      }
+    },
+    {
+      "timestamp": "2025-03-31T15:25:33.972916",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "added_source_url",
+        "output": "\u2705 Added source url to research: https://cloud.google.com/logging/docs/analyze/examples\n",
+        "metadata": "https://cloud.google.com/logging/docs/analyze/examples"
+      }
+    },
+    {
+      "timestamp": "2025-03-31T15:25:33.973938",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "researching",
+        "output": "\ud83e\udd14 Researching for relevant information across multiple sources...\n",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-03-31T15:25:33.974991",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "scraping_urls",
+        "output": "\ud83c\udf10 Scraping content from 5 URLs...",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-03-31T15:25:34.112944",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "added_source_url",
+        "output": "\u2705 Added source url to research: https://github.com/assafelovic/gpt-researcher/blob/master/tests/test_researcher_logging.py\n",
+        "metadata": "https://github.com/assafelovic/gpt-researcher/blob/master/tests/test_researcher_logging.py"
+      }
+    },
+    {
+      "timestamp": "2025-03-31T15:25:34.113292",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "added_source_url",
+        "output": "\u2705 Added source url to research: https://finchett.com/using-moq-to-verify-your-logging-is-working/\n",
+        "metadata": "https://finchett.com/using-moq-to-verify-your-logging-is-working/"
+      }
+    },
+    {
+      "timestamp": "2025-03-31T15:25:34.113587",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "added_source_url",
+        "output": "\u2705 Added source url to research: https://stackoverflow.com/questions/3668506/efficient-sql-test-query-or-validation-query-that-will-work-across-all-or-most\n",
+        "metadata": "https://stackoverflow.com/questions/3668506/efficient-sql-test-query-or-validation-query-that-will-work-across-all-or-most"
+      }
+    },
+    {
+      "timestamp": "2025-03-31T15:25:34.113886",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "added_source_url",
+        "output": "\u2705 Added source url to research: https://cheatsheetseries.owasp.org/cheatsheets/Logging_Cheat_Sheet.html\n",
+        "metadata": "https://cheatsheetseries.owasp.org/cheatsheets/Logging_Cheat_Sheet.html"
+      }
+    },
+    {
+      "timestamp": "2025-03-31T15:25:34.114168",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "researching",
+        "output": "\ud83e\udd14 Researching for relevant information across multiple sources...\n",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-03-31T15:25:34.114440",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "scraping_urls",
+        "output": "\ud83c\udf10 Scraping content from 4 URLs...",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-03-31T15:25:34.114764",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "added_source_url",
+        "output": "\u2705 Added source url to research: https://www.baeldung.com/junit-asserting-logs\n",
+        "metadata": "https://www.baeldung.com/junit-asserting-logs"
+      }
+    },
+    {
+      "timestamp": "2025-03-31T15:25:34.115046",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "added_source_url",
+        "output": "\u2705 Added source url to research: https://softwareengineering.stackexchange.com/questions/384164/should-log-statements-be-tested\n",
+        "metadata": "https://softwareengineering.stackexchange.com/questions/384164/should-log-statements-be-tested"
+      }
+    },
+    {
+      "timestamp": "2025-03-31T15:25:34.115325",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "added_source_url",
+        "output": "\u2705 Added source url to research: https://colinchjava.github.io/2023-09-18/13-00-22-434345-log4j-and-unit-testing-how-to-capture-and-assert-log-statements-in-java-tests/\n",
+        "metadata": "https://colinchjava.github.io/2023-09-18/13-00-22-434345-log4j-and-unit-testing-how-to-capture-and-assert-log-statements-in-java-tests/"
+      }
+    },
+    {
+      "timestamp": "2025-03-31T15:25:34.115582",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "added_source_url",
+        "output": "\u2705 Added source url to research: https://dev.to/canro91/writing-tests-for-logging-and-log-messages-1m99\n",
+        "metadata": "https://dev.to/canro91/writing-tests-for-logging-and-log-messages-1m99"
+      }
+    },
+    {
+      "timestamp": "2025-03-31T15:25:34.115838",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "added_source_url",
+        "output": "\u2705 Added source url to research: https://stackoverflow.com/questions/1827677/how-to-do-a-junit-assert-on-a-message-in-a-logger\n",
+        "metadata": "https://stackoverflow.com/questions/1827677/how-to-do-a-junit-assert-on-a-message-in-a-logger"
+      }
+    },
+    {
+      "timestamp": "2025-03-31T15:25:34.116100",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "researching",
+        "output": "\ud83e\udd14 Researching for relevant information across multiple sources...\n",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-03-31T15:25:34.116359",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "scraping_urls",
+        "output": "\ud83c\udf10 Scraping content from 5 URLs...",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-03-31T15:25:34.162339",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "added_source_url",
+        "output": "\u2705 Added source url to research: https://sqlpey.com/python/top-2-methods-to-verify-logging-in-python-unit-tests/\n",
+        "metadata": "https://sqlpey.com/python/top-2-methods-to-verify-logging-in-python-unit-tests/"
+      }
+    },
+    {
+      "timestamp": "2025-03-31T15:25:34.162751",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "added_source_url",
+        "output": "\u2705 Added source url to research: http://tohyongcheng.github.io/python/2016/02/20/testing-your-logger-in-python-unit-tests.html\n",
+        "metadata": "http://tohyongcheng.github.io/python/2016/02/20/testing-your-logger-in-python-unit-tests.html"
+      }
+    },
+    {
+      "timestamp": "2025-03-31T15:25:34.163110",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "added_source_url",
+        "output": "\u2705 Added source url to research: https://stackoverflow.com/questions/899067/how-should-i-verify-a-log-message-when-testing-python-code-under-nose\n",
+        "metadata": "https://stackoverflow.com/questions/899067/how-should-i-verify-a-log-message-when-testing-python-code-under-nose"
+      }
+    },
+    {
+      "timestamp": "2025-03-31T15:25:34.163455",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "added_source_url",
+        "output": "\u2705 Added source url to research: https://codereview.stackexchange.com/questions/208251/two-approaches-to-logging-when-unit-testing-with-python\n",
+        "metadata": "https://codereview.stackexchange.com/questions/208251/two-approaches-to-logging-when-unit-testing-with-python"
+      }
+    },
+    {
+      "timestamp": "2025-03-31T15:25:34.163804",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "added_source_url",
+        "output": "\u2705 Added source url to research: https://kaylumah.nl/2021/11/14/capture-logs-in-unit-tests.html\n",
+        "metadata": "https://kaylumah.nl/2021/11/14/capture-logs-in-unit-tests.html"
+      }
+    },
+    {
+      "timestamp": "2025-03-31T15:25:34.164164",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "researching",
+        "output": "\ud83e\udd14 Researching for relevant information across multiple sources...\n",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-03-31T15:25:34.164529",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "scraping_urls",
+        "output": "\ud83c\udf10 Scraping content from 5 URLs...",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-03-31T15:25:35.801257",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "scraping_content",
+        "output": "\ud83d\udcc4 Scraped 2 pages of content",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-03-31T15:25:35.803358",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "scraping_images",
+        "output": "\ud83d\uddbc\ufe0f Selected 3 new images from 4 total images",
+        "metadata": [
+          "https://stackoverflow.com/posts/3668506/ivc/9da3?prg=01e0a56f-7dcb-4fae-9e43-ca9e48600359",
+          "https://cheatsheetseries.owasp.org/assets/OWASP_Logo.svg",
+          "https://raw.githubusercontent.com/OWASP/CheatSheetSeries/master/assets/Logging_Cheat_Sheet.drawio.png"
+        ]
+      }
+    },
+    {
+      "timestamp": "2025-03-31T15:25:35.806336",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "scraping_complete",
+        "output": "\ud83c\udf10 Scraping complete",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-03-31T15:25:35.809149",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "fetching_query_content",
+        "output": "\ud83d\udcda Getting relevant content based on query: Test query for logging verification...",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-03-31T15:25:36.408850",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "scraping_content",
+        "output": "\ud83d\udcc4 Scraped 5 pages of content",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-03-31T15:25:36.410131",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "scraping_images",
+        "output": "\ud83d\uddbc\ufe0f Selected 3 new images from 10 total images",
+        "metadata": [
+          "https://stackoverflow.com/posts/78811117/ivc/9da3?prg=1e0031b4-ce0f-408d-b886-4b870ac71077",
+          "https://www.gstatic.com/devrel-devsite/prod/v63a7e59e7b93b62eb99aa3751cce206090432f0c0d09ff73f0d3636dcec4ab60/cloud/images/cloud-logo.svg",
+          "https://cloud.google.com/static/logging/docs/images/log-analytics-ui.png"
+        ]
+      }
+    },
+    {
+      "timestamp": "2025-03-31T15:25:36.410953",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "scraping_complete",
+        "output": "\ud83c\udf10 Scraping complete",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-03-31T15:25:36.412269",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "fetching_query_content",
+        "output": "\ud83d\udcda Getting relevant content based on query: How to validate logging output with SQL queries in cloud log analytics...",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-03-31T15:25:36.421066",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "scraping_content",
+        "output": "\ud83d\udcc4 Scraped 4 pages of content",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-03-31T15:25:36.421599",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "scraping_images",
+        "output": "\ud83d\uddbc\ufe0f Selected 4 new images from 7 total images",
+        "metadata": [
+          "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fwrw069w7pmb6bj5uvi1d.png",
+          "https://media2.dev.to/dynamic/image/quality=100/https://dev-to-uploads.s3.amazonaws.com/uploads/logos/resized_logo_UQww2soKuUsjaOGNB38o.png",
+          "https://media2.dev.to/dynamic/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F200521%2Fdc60b2f5-3a14-41dd-b35a-e0f621f126eb.jpg",
+          "https://media2.dev.to/dynamic/image/width=190,height=,fit=scale-down,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F8j7kvp660rqzt99zui8e.png"
+        ]
+      }
+    },
+    {
+      "timestamp": "2025-03-31T15:25:36.422093",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "scraping_complete",
+        "output": "\ud83c\udf10 Scraping complete",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-03-31T15:25:36.422506",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "fetching_query_content",
+        "output": "\ud83d\udcda Getting relevant content based on query: Objective methods for testing logging infrastructure and asserting log messages...",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-03-31T15:25:36.569551",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "scraping_content",
+        "output": "\ud83d\udcc4 Scraped 5 pages of content",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-03-31T15:25:36.570430",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "scraping_images",
+        "output": "\ud83d\uddbc\ufe0f Selected 4 new images from 17 total images",
+        "metadata": [
+          "https://discover.strongdm.com/hs-fs/hubfs/strongdm-architecture-overview.png?width=1560&height=836&name=strongdm-architecture-overview.png",
+          "https://discover.strongdm.com/hs-fs/hubfs/ztpam-manifesto.jpg?width=976&height=546&name=ztpam-manifesto.jpg",
+          "https://www.strongdm.com/hubfs/nav/close.svg",
+          "https://www.strongdm.com/hubfs/icon-search.svg"
+        ]
+      }
+    },
+    {
+      "timestamp": "2025-03-31T15:25:36.570978",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "scraping_complete",
+        "output": "\ud83c\udf10 Scraping complete",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-03-31T15:25:36.571479",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "fetching_query_content",
+        "output": "\ud83d\udcda Getting relevant content based on query: Best practices for verifying centralized logging systems in distributed environments 2025...",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-03-31T15:25:36.581789",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "scraping_content",
+        "output": "\ud83d\udcc4 Scraped 4 pages of content",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-03-31T15:25:36.582830",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "scraping_images",
+        "output": "\ud83d\uddbc\ufe0f Selected 4 new images from 9 total images",
+        "metadata": [
+          "https://kaylumah.nl/assets/images/posts/20211114/capture-logs-in-unit-tests/001_NoLogger.png",
+          "https://kaylumah.nl/assets/images/posts/20211114/capture-logs-in-unit-tests/002_ConsoleLogger.png",
+          "https://kaylumah.nl/assets/images/posts/20211114/capture-logs-in-unit-tests/003_NullLogger.png",
+          "https://kaylumah.nl/assets/images/posts/20211114/capture-logs-in-unit-tests/004_MockLogger.png"
+        ]
+      }
+    },
+    {
+      "timestamp": "2025-03-31T15:25:36.583501",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "scraping_complete",
+        "output": "\ud83c\udf10 Scraping complete",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-03-31T15:25:36.584232",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "fetching_query_content",
+        "output": "\ud83d\udcda Getting relevant content based on query: Test query for logging verification using Python unit tests and Moq...",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-03-31T15:25:37.690090",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "research_step_finalized",
+        "output": "Finalized research step.\n\ud83d\udcb8 Total Research Costs: $0.011202280000000002",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-03-31T15:25:37.691621",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "writing_report",
+        "output": "\u270d\ufe0f Writing report for 'Test query for logging verification'...",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-03-31T15:25:55.157773",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "report_written",
+        "output": "\ud83d\udcdd Report written for 'Test query for logging verification'",
+        "metadata": null
+      }
+    }
+  ],
+  "content": {
+    "query": "",
+    "sources": [],
+    "context": [],
+    "report": "",
+    "costs": 0.0,
+    "type": "report",
+    "content": "selected_images",
+    "output": "OWASP. (2025). Logging - OWASP Cheat Sheet Series. https://cheatsheetseries.owasp.org/cheatsheets/Logging_Cheat_Sheet.html",
+    "metadata": [
+      "https://stackoverflow.com/posts/3668506/ivc/9da3?prg=01e0a56f-7dcb-4fae-9e43-ca9e48600359",
+      "https://cheatsheetseries.owasp.org/assets/OWASP_Logo.svg",
+      "https://raw.githubusercontent.com/OWASP/CheatSheetSeries/master/assets/Logging_Cheat_Sheet.drawio.png",
+      "https://stackoverflow.com/posts/78811117/ivc/9da3?prg=1e0031b4-ce0f-408d-b886-4b870ac71077",
+      "https://www.gstatic.com/devrel-devsite/prod/v63a7e59e7b93b62eb99aa3751cce206090432f0c0d09ff73f0d3636dcec4ab60/cloud/images/cloud-logo.svg",
+      "https://cloud.google.com/static/logging/docs/images/log-analytics-ui.png",
+      "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fwrw069w7pmb6bj5uvi1d.png",
+      "https://media2.dev.to/dynamic/image/quality=100/https://dev-to-uploads.s3.amazonaws.com/uploads/logos/resized_logo_UQww2soKuUsjaOGNB38o.png",
+      "https://media2.dev.to/dynamic/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F200521%2Fdc60b2f5-3a14-41dd-b35a-e0f621f126eb.jpg",
+      "https://media2.dev.to/dynamic/image/width=190,height=,fit=scale-down,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F8j7kvp660rqzt99zui8e.png"
+    ]
+  }
+}

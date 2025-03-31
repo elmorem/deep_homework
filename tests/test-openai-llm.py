@@ -1,4 +1,5 @@
 import asyncio
+from homework_researcher.llm_provider.generic.base import GenericLLMProvider
 from homework_researcher.utils.llm import get_llm
 from homework_researcher.agent import HomeworkResearcher
 from dotenv import load_dotenv
