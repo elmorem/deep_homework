@@ -7,11 +7,8 @@ from typing import Any
 from langchain.output_parsers import PydanticOutputParser
 from langchain.prompts import PromptTemplate
 
-from gpt_researcher.llm_provider.generic.base import (
-    NO_SUPPORT_TEMPERATURE_MODELS,
-    SUPPORT_REASONING_EFFORT_MODELS,
-    ReasoningEfforts,
-)
+from homework_researcher.llm_provider.generic.base import NO_SUPPORT_TEMPERATURE_MODELS, SUPPORT_REASONING_EFFORT_MODELS, ReasoningEfforts
+
 
 from ..prompts import generate_subtopics_prompt
 from .costs import estimate_llm_cost
@@ -20,8 +17,7 @@ import os
 
 
 def get_llm(llm_provider, **kwargs):
-    from gpt_researcher.llm_provider import GenericLLMProvider
-
+    from homework_researcher.llm_provider import GenericLLMProvider
     return GenericLLMProvider.from_provider(llm_provider, **kwargs)
 
 

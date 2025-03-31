@@ -1,4 +1,4 @@
-from typing import Any
+from typing import Any, Optional
 import json
 
 from .config import Config
@@ -15,14 +15,9 @@ from .skills.browser import BrowserManager
 from .skills.curator import SourceCurator
 from .skills.deep_research import DeepResearchSkill
 
-from .actions import (
-    add_references,
-    extract_headers,
-    extract_sections,
-    table_of_contents,
-    get_retrievers,
-    choose_agent,
-)
+from .actions.agent_creator import choose_agent
+from .actions.markdown_processing import add_references, extract_headers, extract_sections, table_of_contents
+from .actions.retriever import get_retrievers
 
 
 class HomeworkResearcher:
