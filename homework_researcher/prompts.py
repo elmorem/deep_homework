@@ -61,6 +61,7 @@ def generate_report_prompt(
     report_format="apa",
     total_words=1000,
     tone=None,
+    education_level=None,
     language="english",
 ):
     """Generates the report prompt for the given question and research summary.
@@ -84,7 +85,8 @@ You MUST write all used source document names at the end of the report as refere
 """
 
     tone_prompt = f"Write the report in a {tone.value} tone." if tone else ""
-
+    education_level_prompt = f"IMPORTANT!: The report should be written at a {education_level.value} level." if education_level else ""
+   
     return f"""
 Information: "{context}"
 ---
@@ -102,6 +104,7 @@ Please follow all of the following guidelines in your report:
 - Don't forget to add a reference list at the end of the report in {report_format} format and full url links without hyperlinks.
 - {reference_prompt}
 - {tone_prompt}
+- {education_level_prompt}
 
 You MUST write the report in the following language: {language}.
 Please do your best, this is very important to my career.
@@ -109,7 +112,7 @@ Assume that the current date is {date.today()}.
 """
 
 
-def curate_sources(query, sources, max_results=10):
+def curate_sources(query, sources, education_level=None, max_results=10):
     return f"""Your goal is to evaluate and curate the provided scraped content for the research task: "{query}" 
     while prioritizing the inclusion of relevant and high-quality information, especially sources containing statistics, numbers, or concrete data.
 
@@ -127,6 +130,7 @@ EVALUATION GUIDELINES:
    - Quantitative Value: Give higher priority to sources with statistics, numbers, or other concrete data.
 2. Source Selection:
    - Include as many relevant sources as possible, up to {max_results}, focusing on broad coverage and diversity.
+   - Prioritize sources with respect to the {education_level.value} level of understanding.
    - Prioritize sources with statistics, numerical data, or verifiable facts.
    - Overlapping content is acceptable if it adds depth, especially when data is involved.
    - Exclude sources only if they are entirely irrelevant, severely outdated, or unusable due to poor content quality.
@@ -149,6 +153,7 @@ def generate_resource_report_prompt(
     report_source: str,
     report_format="apa",
     tone=None,
+    education_level=None,
     total_words=1000,
     language="english",
 ):
@@ -206,6 +211,7 @@ def generate_outline_report_prompt(
     report_source: str,
     report_format="apa",
     tone=None,
+    education_level=None,
     total_words=1000,
     language: str = "english",
 ):
@@ -219,6 +225,7 @@ def generate_outline_report_prompt(
         f'"""{context}""" Using the above information, generate an outline for a research report in Markdown syntax'
         f' for the following question or topic: "{question}". The outline should provide a well-structured framework'
         " for the research report, including the main sections, subsections, and key points to be covered."
+        f'The outline should be composed at an {education_level.value} level.'
         f" The research report should be detailed, informative, in-depth, and a minimum of {total_words} words."
         " Use appropriate Markdown syntax to format the outline and ensure readability."
     )
@@ -230,6 +237,7 @@ def generate_deep_research_prompt(
     report_source: str,
     report_format="apa",
     tone=None,
+    education_level=None,
     total_words=2000,
     language: str = "english",
 ):
@@ -260,6 +268,7 @@ You MUST write all used source document names at the end of the report as refere
 """
 
     tone_prompt = f"Write the report in a {tone.value} tone." if tone else ""
+    education_level_prompt = f"IMPORTANT!: The report should be written at a {education_level.value} level." if education_level else ""
 
     return f"""
 Using the following hierarchically researched information and citations:
@@ -286,6 +295,7 @@ Additional requirements:
 - You must also prioritize new articles over older articles if the source can be trusted.
 - Use in-text citation references in {report_format} format and make it with markdown hyperlink placed at the end of the sentence or paragraph that references them like this: ([in-text citation](url)).
 - {tone_prompt}
+- {education_level_prompt}
 - Write in {language}
 
 {reference_prompt}
@@ -391,6 +401,7 @@ def generate_subtopic_report_prompt(
     max_subsections=5,
     total_words=800,
     tone: Tone = Tone.Objective,
+    education_level=None,
     language: str = "english",
 ) -> str:
     return f"""
@@ -452,6 +463,7 @@ Assume the current date is {datetime.now(timezone.utc).strftime('%B %d, %Y')} if
 - You MUST mention the difference between the existing content and the new content in the report if you are adding the similar or same subsections wherever necessary.
 - The report should have a minimum length of {total_words} words.
 - Use an {tone.value} tone throughout the report.
+- The report should be written at a {education_level.value} level.
 
 Do NOT add a conclusion section.
 """
