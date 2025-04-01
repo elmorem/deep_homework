@@ -75,6 +75,14 @@ class ReportGenerator:
         else:
             report_params["cost_callback"] = self.researcher.add_costs
 
+        # if self.researcher.verbose:
+        #     await stream_output(
+        #         "logs",
+        #         "report_written with params",
+        #         f"📝 Report written with '{report_params}'",
+        #         self.researcher.websocket,
+        #     )
+
         report = await generate_report(**report_params)
 
         if self.researcher.verbose:
@@ -168,6 +176,7 @@ class ReportGenerator:
             data=self.researcher.context,
             config=self.researcher.cfg,
             subtopics=self.researcher.subtopics,
+            education_level=self.researcher.education_level,
         )
 
         if self.researcher.verbose:

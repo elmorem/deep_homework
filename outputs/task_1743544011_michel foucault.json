@@ -1,0 +1,32 @@
+{
+  "timestamp": "2025-04-01T14:46:51.439331",
+  "events": [
+    {
+      "timestamp": "2025-04-01T14:46:54.613363",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "starting_research",
+        "output": "\ud83d\udd0d Starting the research task for 'michel foucault'...",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-04-01T14:46:54.613648",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "agent_generated",
+        "output": "\ud83d\udcda Philosophy Agent",
+        "metadata": null
+      }
+    }
+  ],
+  "content": {
+    "query": "",
+    "sources": [],
+    "context": [],
+    "report": "",
+    "costs": 0.0
+  }
+}

@@ -61,7 +61,7 @@ def generate_report_prompt(
     report_format="apa",
     total_words=1000,
     tone=None,
-    education_level=None,
+    education_level=EducationLevel.HighSchool,
     language="english",
 ):
     """Generates the report prompt for the given question and research summary.
@@ -237,7 +237,7 @@ def generate_deep_research_prompt(
     report_source: str,
     report_format="apa",
     tone=None,
-    education_level=None,
+    education_level=EducationLevel.HighSchool,
     total_words=2000,
     language: str = "english",
 ):
@@ -401,7 +401,7 @@ def generate_subtopic_report_prompt(
     max_subsections=5,
     total_words=800,
     tone: Tone = Tone.Objective,
-    education_level=None,
+    education_level=EducationLevel.HighSchool,
     language: str = "english",
 ) -> str:
     return f"""

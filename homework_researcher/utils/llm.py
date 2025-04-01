@@ -86,7 +86,7 @@ async def create_chat_completion(
 
 
 async def construct_subtopics(
-    task: str, data: str, config, subtopics: list = []
+    task: str, data: str, config, education_level: str, subtopics: list = [], 
 ) -> list:
     """
     Construct subtopics based on the given task and data.
@@ -122,6 +122,30 @@ async def construct_subtopics(
         model = provider.llm
 
         chain = prompt | model | parser
+        print(".....................")
+        print(".....................")
+        print(".....................")
+        print(".....................")
+        print(".....................")
+        print(f" we are in the construct_subtopics function education_level: {education_level}")
+        print(".....................")
+        print(".....................")
+        print(".....................")
+        print(".....................")
+        print(".....................")
+
+        if education_level == "JuniorHigh":
+            # For Junior High, we might want to limit the number of subtopics generated
+            config.max_subtopics = min(config.max_subtopics, 2)
+        elif education_level == "HighSchool":
+            # For High School, we can allow more subtopics
+            config.max_subtopics = min(config.max_subtopics, 3)
+        elif education_level == "Undergraduate":
+            # For Undergraduate, we can allow even more subtopics
+            config.max_subtopics = min(config.max_subtopics, 4)
+        elif education_level == "Graduate":
+            # For Graduate level, we can allow the maximum number of subtopics
+            config.max_subtopics = min(config.max_subtopics, 5)
 
         output = chain.invoke(
             {
