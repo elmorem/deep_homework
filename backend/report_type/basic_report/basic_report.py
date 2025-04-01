@@ -48,10 +48,9 @@ class BasicReport:
         await stream_output(
             "logs",
             "planning_research",
-            f"🌐 we are now starting to conduct our research for a BasicReport",
+            f"🌐 we are now starting to conduct our research. This is a BasicReport",
             self.researcher.websocket,
         )
-
 
         await self.researcher.conduct_research()
         report = await self.researcher.write_report()
