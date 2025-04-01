@@ -1,6 +1,7 @@
 from fastapi import WebSocket
 from typing import Any
 
+from homework_researcher.actions.utils import stream_output
 from homework_researcher.agent import HomeworkResearcher
 
 
@@ -30,7 +31,7 @@ class BasicReport:
         self.headers = headers or {}
 
         # Initialize researcher
-        self.gpt_researcher = HomeworkResearcher(
+        self.researcher = HomeworkResearcher(
             query=self.query,
             query_domains=self.query_domains,
             report_type=self.report_type,
@@ -44,6 +45,21 @@ class BasicReport:
         )
 
     async def run(self):
-        await self.gpt_researcher.conduct_research()
-        report = await self.gpt_researcher.write_report()
+        await stream_output(
+            "logs",
+            "planning_research",
+            f"🌐 we are now starting to conduct our research for a BasicReport",
+            self.researcher.websocket,
+        )
+
+
+        await self.researcher.conduct_research()
+        report = await self.researcher.write_report()
+        
+        await stream_output(
+            "logs",
+            "planning_research",
+            f"report is now generated {report}",
+            self.researcher.websocket,
+        )
         return report
