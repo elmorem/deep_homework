@@ -243,7 +243,7 @@ def generate_deep_research_prompt(
     report_source: str,
     report_format="apa",
     tone=None,
-    education_level=EducationLevel,
+    education_level=None,
     total_words=2000,
     language: str = "english",
 ):
@@ -412,9 +412,10 @@ def generate_subtopic_report_prompt(
     max_subsections=5,
     total_words=800,
     tone: Tone = Tone.Objective,
-    education_level=EducationLevel,
+    education_level: EducationLevel=None,
     language: str = "english",
 ) -> str:
+    print(f"{tone = } {education_level = }...")
     return f"""
 Context:
 "{context}"
@@ -474,7 +475,7 @@ Assume the current date is {datetime.now(timezone.utc).strftime('%B %d, %Y')} if
 - You MUST mention the difference between the existing content and the new content in the report if you are adding the similar or same subsections wherever necessary.
 - The report should have a minimum length of {total_words} words.
 - Use an {tone.value} tone throughout the report.
-- The report should be written at a {education_level.value} level.
+- The report should be written at an {education_level} level.
 
 Do NOT add a conclusion section.
 """

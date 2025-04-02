@@ -1,0 +1,1354 @@
+{
+  "timestamp": "2025-04-02T14:30:38.557781",
+  "events": [
+    {
+      "timestamp": "2025-04-02T14:30:40.152909",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "planning_research",
+        "output": "We are now moving to the research_conducotr",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-04-02T14:30:40.153355",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "starting_research",
+        "output": "\ud83d\udd0d Starting the research task for 'catcher in the rye'...",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-04-02T14:30:40.153518",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "agent_generated",
+        "output": "\ud83d\udcda Literature Agent",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-04-02T14:30:40.153689",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "planning_research",
+        "output": "\ud83c\udf10 Browsing the web to learn more about the task: catcher in the rye...",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-04-02T14:30:40.153845",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "planning_research",
+        "output": "\ud83c\udf10 Browsing according to ed level = (<EducationLevel.JuniorHigh: 'Junior high school level (introductory concepts, basic sources, simple language). MAX_SUBTOPICS=2'>,)... <class 'tuple'>...Tone.Objective ...",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-04-02T14:30:42.099511",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "planning_research",
+        "output": "\ud83e\udd14 Planning the research strategy and subtasks...",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-04-02T14:30:56.385430",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "subqueries",
+        "output": "\ud83d\uddc2\ufe0f I will conduct my research based on the following queries: ['balanced literary analysis of The Catcher in the Rye by J.D. Salinger', 'objective critique of themes and narrative in The Catcher in the Rye', 'academic review of The Catcher in the Rye cultural and historical impact', 'analysis of controversies and censorship issues in The Catcher in the Rye', 'catcher in the rye']...",
+        "metadata": [
+          "balanced literary analysis of The Catcher in the Rye by J.D. Salinger",
+          "objective critique of themes and narrative in The Catcher in the Rye",
+          "academic review of The Catcher in the Rye cultural and historical impact",
+          "analysis of controversies and censorship issues in The Catcher in the Rye",
+          "catcher in the rye"
+        ]
+      }
+    },
+    {
+      "timestamp": "2025-04-02T14:30:56.385911",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "running_subquery_research",
+        "output": "\n\ud83d\udd0d Running research for 'balanced literary analysis of The Catcher in the Rye by J.D. Salinger'...",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-04-02T14:30:56.386335",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "running_subquery_research",
+        "output": "\n\ud83d\udd0d Running research for 'objective critique of themes and narrative in The Catcher in the Rye'...",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-04-02T14:30:56.386918",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "running_subquery_research",
+        "output": "\n\ud83d\udd0d Running research for 'academic review of The Catcher in the Rye cultural and historical impact'...",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-04-02T14:30:56.387515",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "running_subquery_research",
+        "output": "\n\ud83d\udd0d Running research for 'analysis of controversies and censorship issues in The Catcher in the Rye'...",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-04-02T14:30:56.388276",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "running_subquery_research",
+        "output": "\n\ud83d\udd0d Running research for 'catcher in the rye'...",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-04-02T14:30:58.173991",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "added_source_url",
+        "output": "\u2705 Added source url to research: https://en.wikipedia.org/wiki/The_catcher_in_the_rye\n",
+        "metadata": "https://en.wikipedia.org/wiki/The_catcher_in_the_rye"
+      }
+    },
+    {
+      "timestamp": "2025-04-02T14:30:58.175910",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "added_source_url",
+        "output": "\u2705 Added source url to research: https://www.sparknotes.com/lit/catcher/\n",
+        "metadata": "https://www.sparknotes.com/lit/catcher/"
+      }
+    },
+    {
+      "timestamp": "2025-04-02T14:30:58.179727",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "added_source_url",
+        "output": "\u2705 Added source url to research: https://www.sparknotes.com/lit/catcher/summary/\n",
+        "metadata": "https://www.sparknotes.com/lit/catcher/summary/"
+      }
+    },
+    {
+      "timestamp": "2025-04-02T14:30:58.182671",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "added_source_url",
+        "output": "\u2705 Added source url to research: https://www.britannica.com/topic/The-Catcher-in-the-Rye\n",
+        "metadata": "https://www.britannica.com/topic/The-Catcher-in-the-Rye"
+      }
+    },
+    {
+      "timestamp": "2025-04-02T14:30:58.185413",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "added_source_url",
+        "output": "\u2705 Added source url to research: https://archive.org/download/classic-books-and-literature/The-Catcher-in-the-Rye-full-text-copy.pdf\n",
+        "metadata": "https://archive.org/download/classic-books-and-literature/The-Catcher-in-the-Rye-full-text-copy.pdf"
+      }
+    },
+    {
+      "timestamp": "2025-04-02T14:30:58.186384",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "researching",
+        "output": "\ud83e\udd14 Researching for relevant information across multiple sources...\n",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-04-02T14:30:58.187103",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "scraping_urls",
+        "output": "\ud83c\udf10 Scraping content from 5 URLs...",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-04-02T14:30:58.216342",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "added_source_url",
+        "output": "\u2705 Added source url to research: https://www.gradesaver.com/the-catcher-in-the-rye/study-guide/catcher-in-the-rye-a-history-of-censorship\n",
+        "metadata": "https://www.gradesaver.com/the-catcher-in-the-rye/study-guide/catcher-in-the-rye-a-history-of-censorship"
+      }
+    },
+    {
+      "timestamp": "2025-04-02T14:30:58.216739",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "added_source_url",
+        "output": "\u2705 Added source url to research: https://catcherculturalicon.weebly.com/controversies-and-censorship.html\n",
+        "metadata": "https://catcherculturalicon.weebly.com/controversies-and-censorship.html"
+      }
+    },
+    {
+      "timestamp": "2025-04-02T14:30:58.217035",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "added_source_url",
+        "output": "\u2705 Added source url to research: https://artlark.org/2022/07/16/censorship-in-salingers-the-catcher-in-the-rye/\n",
+        "metadata": "https://artlark.org/2022/07/16/censorship-in-salingers-the-catcher-in-the-rye/"
+      }
+    },
+    {
+      "timestamp": "2025-04-02T14:30:58.217361",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "added_source_url",
+        "output": "\u2705 Added source url to research: https://www.jstor.org/stable/818945\n",
+        "metadata": "https://www.jstor.org/stable/818945"
+      }
+    },
+    {
+      "timestamp": "2025-04-02T14:30:58.217970",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "added_source_url",
+        "output": "\u2705 Added source url to research: https://thecensorshipfiles.wordpress.com/volume-1/issue-1/the-catcher-in-the-rye/\n",
+        "metadata": "https://thecensorshipfiles.wordpress.com/volume-1/issue-1/the-catcher-in-the-rye/"
+      }
+    },
+    {
+      "timestamp": "2025-04-02T14:30:58.218445",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "researching",
+        "output": "\ud83e\udd14 Researching for relevant information across multiple sources...\n",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-04-02T14:30:58.219005",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "scraping_urls",
+        "output": "\ud83c\udf10 Scraping content from 5 URLs...",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-04-02T14:30:58.683693",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "added_source_url",
+        "output": "\u2705 Added source url to research: https://interestingliterature.com/2021/09/jd-salinger-the-catcher-in-the-rye-summary-analysis/\n",
+        "metadata": "https://interestingliterature.com/2021/09/jd-salinger-the-catcher-in-the-rye-summary-analysis/"
+      }
+    },
+    {
+      "timestamp": "2025-04-02T14:30:58.684296",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "added_source_url",
+        "output": "\u2705 Added source url to research: https://bookanalysis.com/j-d-salinger/the-catcher-in-the-rye/analysis/\n",
+        "metadata": "https://bookanalysis.com/j-d-salinger/the-catcher-in-the-rye/analysis/"
+      }
+    },
+    {
+      "timestamp": "2025-04-02T14:30:58.684786",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "added_source_url",
+        "output": "\u2705 Added source url to research: https://literarydevices.net/the-catcher-in-the-rye/\n",
+        "metadata": "https://literarydevices.net/the-catcher-in-the-rye/"
+      }
+    },
+    {
+      "timestamp": "2025-04-02T14:30:58.685202",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "added_source_url",
+        "output": "\u2705 Added source url to research: https://www.sparknotes.com/lit/catcher/plot-analysis/\n",
+        "metadata": "https://www.sparknotes.com/lit/catcher/plot-analysis/"
+      }
+    },
+    {
+      "timestamp": "2025-04-02T14:30:58.685729",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "added_source_url",
+        "output": "\u2705 Added source url to research: https://www.litcharts.com/lit/the-catcher-in-the-rye\n",
+        "metadata": "https://www.litcharts.com/lit/the-catcher-in-the-rye"
+      }
+    },
+    {
+      "timestamp": "2025-04-02T14:30:58.686075",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "researching",
+        "output": "\ud83e\udd14 Researching for relevant information across multiple sources...\n",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-04-02T14:30:58.686414",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "scraping_urls",
+        "output": "\ud83c\udf10 Scraping content from 5 URLs...",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-04-02T14:30:58.829629",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "added_source_url",
+        "output": "\u2705 Added source url to research: https://www.enotes.com/topics/catcher-in-the-rye/critical-essays/essays-criticism\n",
+        "metadata": "https://www.enotes.com/topics/catcher-in-the-rye/critical-essays/essays-criticism"
+      }
+    },
+    {
+      "timestamp": "2025-04-02T14:30:58.830272",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "added_source_url",
+        "output": "\u2705 Added source url to research: https://www.jetir.org/papers/JETIR2403064.pdf\n",
+        "metadata": "https://www.jetir.org/papers/JETIR2403064.pdf"
+      }
+    },
+    {
+      "timestamp": "2025-04-02T14:30:58.830635",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "added_source_url",
+        "output": "\u2705 Added source url to research: https://www.prestwickhouse.com/samples/303403.pdf\n",
+        "metadata": "https://www.prestwickhouse.com/samples/303403.pdf"
+      }
+    },
+    {
+      "timestamp": "2025-04-02T14:30:58.831004",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "added_source_url",
+        "output": "\u2705 Added source url to research: http://levity.com/corduroy/salinger1.htm\n",
+        "metadata": "http://levity.com/corduroy/salinger1.htm"
+      }
+    },
+    {
+      "timestamp": "2025-04-02T14:30:58.831355",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "researching",
+        "output": "\ud83e\udd14 Researching for relevant information across multiple sources...\n",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-04-02T14:30:58.831701",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "scraping_urls",
+        "output": "\ud83c\udf10 Scraping content from 4 URLs...",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-04-02T14:30:59.269556",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "added_source_url",
+        "output": "\u2705 Added source url to research: https://www.macrothink.org/journal/index.php/ijssr/article/download/22302/17157\n",
+        "metadata": "https://www.macrothink.org/journal/index.php/ijssr/article/download/22302/17157"
+      }
+    },
+    {
+      "timestamp": "2025-04-02T14:30:59.270242",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "added_source_url",
+        "output": "\u2705 Added source url to research: https://digitalcommons.liberty.edu/cgi/viewcontent.cgi?article=1321&context=masters\n",
+        "metadata": "https://digitalcommons.liberty.edu/cgi/viewcontent.cgi?article=1321&context=masters"
+      }
+    },
+    {
+      "timestamp": "2025-04-02T14:30:59.270771",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "added_source_url",
+        "output": "\u2705 Added source url to research: https://www.jstor.org/stable/366646?ab_segments=0/basic_search_gsv2/control\n",
+        "metadata": "https://www.jstor.org/stable/366646?ab_segments=0/basic_search_gsv2/control"
+      }
+    },
+    {
+      "timestamp": "2025-04-02T14:30:59.271187",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "added_source_url",
+        "output": "\u2705 Added source url to research: https://www.jstor.org/stable/1342870?read-now=1\n",
+        "metadata": "https://www.jstor.org/stable/1342870?read-now=1"
+      }
+    },
+    {
+      "timestamp": "2025-04-02T14:30:59.271574",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "added_source_url",
+        "output": "\u2705 Added source url to research: https://ijrti.org/papers/IJRTI2207008.pdf\n",
+        "metadata": "https://ijrti.org/papers/IJRTI2207008.pdf"
+      }
+    },
+    {
+      "timestamp": "2025-04-02T14:30:59.271963",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "researching",
+        "output": "\ud83e\udd14 Researching for relevant information across multiple sources...\n",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-04-02T14:30:59.272504",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "scraping_urls",
+        "output": "\ud83c\udf10 Scraping content from 5 URLs...",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-04-02T14:30:59.739070",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "scraping_content",
+        "output": "\ud83d\udcc4 Scraped 4 pages of content",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-04-02T14:30:59.739749",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "scraping_images",
+        "output": "\ud83d\uddbc\ufe0f Selected 4 new images from 19 total images",
+        "metadata": [
+          "https://www.gradesaver.com/assets/footer/books-c7dac18934e0bad9c1787ba8a7686bc7e6371dcc4443be965459fc78b6c86954.jpg",
+          "https://thecensorshipfiles.wordpress.com/wp-content/uploads/2016/07/cropped-censorship-banner.png",
+          "https://www.gradesaver.com/assets/logos/head-39d3d4f4e80fb364ecbffd1884663226a1a58efa38367c551694c88c40330163.svg",
+          "https://thecensorshipfiles.wordpress.com/wp-content/uploads/2016/10/catchaaaa.jpg?w=261&h=386"
+        ]
+      }
+    },
+    {
+      "timestamp": "2025-04-02T14:30:59.740175",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "scraping_complete",
+        "output": "\ud83c\udf10 Scraping complete",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-04-02T14:30:59.740587",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "fetching_query_content",
+        "output": "\ud83d\udcda Getting relevant content based on query: analysis of controversies and censorship issues in The Catcher in the Rye...",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-04-02T14:31:02.338608",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "scraping_content",
+        "output": "\ud83d\udcc4 Scraped 3 pages of content",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-04-02T14:31:02.339363",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "scraping_images",
+        "output": "\ud83d\uddbc\ufe0f Selected 0 new images from 0 total images",
+        "metadata": []
+      }
+    },
+    {
+      "timestamp": "2025-04-02T14:31:02.339884",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "scraping_complete",
+        "output": "\ud83c\udf10 Scraping complete",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-04-02T14:31:02.354272",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "fetching_query_content",
+        "output": "\ud83d\udcda Getting relevant content based on query: academic review of The Catcher in the Rye cultural and historical impact...",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-04-02T14:31:02.404561",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "scraping_content",
+        "output": "\ud83d\udcc4 Scraped 3 pages of content",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-04-02T14:31:02.405425",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "scraping_images",
+        "output": "\ud83d\uddbc\ufe0f Selected 2 new images from 3 total images",
+        "metadata": [
+          "http://www.levity.com/corduroy/images/dot.gif",
+          "http://levity.com/corduroy/images/inkbar2.gif"
+        ]
+      }
+    },
+    {
+      "timestamp": "2025-04-02T14:31:02.405953",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "scraping_complete",
+        "output": "\ud83c\udf10 Scraping complete",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-04-02T14:31:02.406471",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "fetching_query_content",
+        "output": "\ud83d\udcda Getting relevant content based on query: objective critique of themes and narrative in The Catcher in the Rye...",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-04-02T14:31:08.550457",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "scraping_content",
+        "output": "\ud83d\udcc4 Scraped 3 pages of content",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-04-02T14:31:08.551225",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "scraping_images",
+        "output": "\ud83d\uddbc\ufe0f Selected 4 new images from 7 total images",
+        "metadata": [
+          "https://en.wikipedia.org/static/images/mobile/copyright/wikipedia-wordmark-en.svg",
+          "https://cdn.britannica.com/mendel/eb-logo/MendelNewThistleLogo.png",
+          "https://cdn.britannica.com/94/181394-004-C6D6E60B/Reproduction-cover-edition-The-Catcher-in-the.jpg",
+          "https://cdn.britannica.com/63/238563-131-4099EC55/Young-woman-with-glasses-reading-a-book-student.jpg"
+        ]
+      }
+    },
+    {
+      "timestamp": "2025-04-02T14:31:08.551692",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "scraping_complete",
+        "output": "\ud83c\udf10 Scraping complete",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-04-02T14:31:08.552152",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "fetching_query_content",
+        "output": "\ud83d\udcda Getting relevant content based on query: catcher in the rye...",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-04-02T14:31:09.108050",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "scraping_content",
+        "output": "\ud83d\udcc4 Scraped 4 pages of content",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-04-02T14:31:09.108671",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "scraping_images",
+        "output": "\ud83d\uddbc\ufe0f Selected 4 new images from 16 total images",
+        "metadata": [
+          "https://bookanalysis.com/wp-content/uploads/2021/06/J.D.-Salinger.jpeg",
+          "https://bookanalysis.com/wp-content/uploads/2020/10/The-Catcher-in-the-Rye-Artwork.jpg",
+          "https://bookanalysis.com/wp-content/uploads/2020/02/The-Catcher-in-the-Rye-by-Jerome-David-Salinger-Analysis.jpg",
+          "https://bookanalysis.com/wp-content/uploads/2020/07/Teenage-Cancer-Trust-1024x538.jpg"
+        ]
+      }
+    },
+    {
+      "timestamp": "2025-04-02T14:31:09.109163",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "scraping_complete",
+        "output": "\ud83c\udf10 Scraping complete",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-04-02T14:31:09.109655",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "fetching_query_content",
+        "output": "\ud83d\udcda Getting relevant content based on query: balanced literary analysis of The Catcher in the Rye by J.D. Salinger...",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-04-02T14:31:10.838012",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "research_step_finalized",
+        "output": "Finalized research step.\n\ud83d\udcb8 Total Research Costs: $0.01256038",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-04-02T14:31:10.839008",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "generating_subtopics",
+        "output": "\ud83c\udf33 Generating subtopics for 'catcher in the rye'...",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-04-02T14:31:12.581537",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "subtopics_generated",
+        "output": "\ud83d\udcca Subtopics generated for 'catcher in the rye'",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-04-02T14:31:12.582201",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "writing_introduction",
+        "output": "\u270d\ufe0f Writing introduction for 'catcher in the rye'...",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-04-02T14:31:23.491115",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "introduction_written",
+        "output": "\ud83d\udcdd Introduction written for 'catcher in the rye'",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-04-02T14:31:23.519656",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "planning_research",
+        "output": "We are now moving to the research_conducotr",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-04-02T14:31:23.520326",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "starting_research",
+        "output": "\ud83d\udd0d Starting the research task for 'Themes and Symbolism in The Catcher in the Rye'...",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-04-02T14:31:23.520863",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "agent_generated",
+        "output": "\ud83d\udcda Literature Agent",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-04-02T14:31:23.521425",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "planning_research",
+        "output": "\ud83c\udf10 Browsing the web to learn more about the task: Themes and Symbolism in The Catcher in the Rye...",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-04-02T14:31:23.521948",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "planning_research",
+        "output": "\ud83c\udf10 Browsing according to ed level = (<EducationLevel.JuniorHigh: 'Junior high school level (introductory concepts, basic sources, simple language). MAX_SUBTOPICS=2'>,)... <class 'tuple'>...Tone.Objective ...",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-04-02T14:31:26.015259",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "planning_research",
+        "output": "\ud83e\udd14 Planning the research strategy and subtasks...",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-04-02T14:31:47.510614",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "subqueries",
+        "output": "\ud83d\uddc2\ufe0f I will conduct my research based on the following queries: ['academic analysis of themes and symbolism in The Catcher in the Rye by J.D. Salinger', 'objective literary critique of coming-of-age motifs and innocence vs phoniness in The Catcher in the Rye', 'research paper on Holden Caulfield\u2019s alienation and symbolic elements in The Catcher in the Rye', 'critical examination of recurring symbols and thematic depth in J.D. Salinger\u2019s The Catcher in the Rye']...",
+        "metadata": [
+          "academic analysis of themes and symbolism in The Catcher in the Rye by J.D. Salinger",
+          "objective literary critique of coming-of-age motifs and innocence vs phoniness in The Catcher in the Rye",
+          "research paper on Holden Caulfield\u2019s alienation and symbolic elements in The Catcher in the Rye",
+          "critical examination of recurring symbols and thematic depth in J.D. Salinger\u2019s The Catcher in the Rye"
+        ]
+      }
+    },
+    {
+      "timestamp": "2025-04-02T14:31:47.511443",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "running_subquery_research",
+        "output": "\n\ud83d\udd0d Running research for 'academic analysis of themes and symbolism in The Catcher in the Rye by J.D. Salinger'...",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-04-02T14:31:47.512830",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "running_subquery_research",
+        "output": "\n\ud83d\udd0d Running research for 'objective literary critique of coming-of-age motifs and innocence vs phoniness in The Catcher in the Rye'...",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-04-02T14:31:47.516198",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "running_subquery_research",
+        "output": "\n\ud83d\udd0d Running research for 'research paper on Holden Caulfield\u2019s alienation and symbolic elements in The Catcher in the Rye'...",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-04-02T14:31:47.517874",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "running_subquery_research",
+        "output": "\n\ud83d\udd0d Running research for 'critical examination of recurring symbols and thematic depth in J.D. Salinger\u2019s The Catcher in the Rye'...",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-04-02T14:31:49.782720",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "added_source_url",
+        "output": "\u2705 Added source url to research: https://www.academia.edu/27465328/An_Analysis_of_the_Psychological_Problems_in_The_Catcher_in_the_Rye\n",
+        "metadata": "https://www.academia.edu/27465328/An_Analysis_of_the_Psychological_Problems_in_The_Catcher_in_the_Rye"
+      }
+    },
+    {
+      "timestamp": "2025-04-02T14:31:49.783408",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "added_source_url",
+        "output": "\u2705 Added source url to research: https://www.ijarsct.co.in/Paper11140D.pdf\n",
+        "metadata": "https://www.ijarsct.co.in/Paper11140D.pdf"
+      }
+    },
+    {
+      "timestamp": "2025-04-02T14:31:49.784021",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "added_source_url",
+        "output": "\u2705 Added source url to research: https://www.researchgate.net/publication/374060213_The_Theme_of_Alienation_in_JD_Salinger's_The_Catcher_in_the_Rye\n",
+        "metadata": "https://www.researchgate.net/publication/374060213_The_Theme_of_Alienation_in_JD_Salinger's_The_Catcher_in_the_Rye"
+      }
+    },
+    {
+      "timestamp": "2025-04-02T14:31:49.784619",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "added_source_url",
+        "output": "\u2705 Added source url to research: https://www.academia.edu/42217992/Alienation_and_Complexity_Analyzing_Holden_Caulfield_in_Salingers_The_Catcher_in_the_Rye\n",
+        "metadata": "https://www.academia.edu/42217992/Alienation_and_Complexity_Analyzing_Holden_Caulfield_in_Salingers_The_Catcher_in_the_Rye"
+      }
+    },
+    {
+      "timestamp": "2025-04-02T14:31:49.785209",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "added_source_url",
+        "output": "\u2705 Added source url to research: https://www.academia.edu/4415476/HOLDEN_CAULFIELD_A_PSYCHOLOGICAL_APPROACH_ON_THE_CATCHER_IN_THE_RYE_S_ANTI_HERO\n",
+        "metadata": "https://www.academia.edu/4415476/HOLDEN_CAULFIELD_A_PSYCHOLOGICAL_APPROACH_ON_THE_CATCHER_IN_THE_RYE_S_ANTI_HERO"
+      }
+    },
+    {
+      "timestamp": "2025-04-02T14:31:49.785814",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "researching",
+        "output": "\ud83e\udd14 Researching for relevant information across multiple sources...\n",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-04-02T14:31:49.786387",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "scraping_urls",
+        "output": "\ud83c\udf10 Scraping content from 5 URLs...",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-04-02T14:31:49.798089",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "added_source_url",
+        "output": "\u2705 Added source url to research: https://bookanalysis.com/j-d-salinger/the-catcher-in-the-rye/analysis/\n",
+        "metadata": "https://bookanalysis.com/j-d-salinger/the-catcher-in-the-rye/analysis/"
+      }
+    },
+    {
+      "timestamp": "2025-04-02T14:31:49.798838",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "added_source_url",
+        "output": "\u2705 Added source url to research: https://writingbros.com/essay-examples/the-catcher-in-the-rye-role-of-symbolism-in-salingers-novel/\n",
+        "metadata": "https://writingbros.com/essay-examples/the-catcher-in-the-rye-role-of-symbolism-in-salingers-novel/"
+      }
+    },
+    {
+      "timestamp": "2025-04-02T14:31:49.799530",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "added_source_url",
+        "output": "\u2705 Added source url to research: https://gradesfixer.com/free-essay-examples/catcher-in-the-rye-a-symbolism-analysis/\n",
+        "metadata": "https://gradesfixer.com/free-essay-examples/catcher-in-the-rye-a-symbolism-analysis/"
+      }
+    },
+    {
+      "timestamp": "2025-04-02T14:31:49.800157",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "added_source_url",
+        "output": "\u2705 Added source url to research: https://dspace.jcu.cz/bitstream/handle/20.500.14390/9937/BA_THESIS_-_Symbolism_in_the_Catcher_in_the_Rye.pdf?sequence=1\n",
+        "metadata": "https://dspace.jcu.cz/bitstream/handle/20.500.14390/9937/BA_THESIS_-_Symbolism_in_the_Catcher_in_the_Rye.pdf?sequence=1"
+      }
+    },
+    {
+      "timestamp": "2025-04-02T14:31:49.800785",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "added_source_url",
+        "output": "\u2705 Added source url to research: https://www.thoughtco.com/the-catcher-in-the-rye-themes-4688966\n",
+        "metadata": "https://www.thoughtco.com/the-catcher-in-the-rye-themes-4688966"
+      }
+    },
+    {
+      "timestamp": "2025-04-02T14:31:49.801408",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "researching",
+        "output": "\ud83e\udd14 Researching for relevant information across multiple sources...\n",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-04-02T14:31:49.802174",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "scraping_urls",
+        "output": "\ud83c\udf10 Scraping content from 5 URLs...",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-04-02T14:31:50.424610",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "added_source_url",
+        "output": "\u2705 Added source url to research: https://quizlet.com/content/novel-the-catcher-in-the-rye-symbols\n",
+        "metadata": "https://quizlet.com/content/novel-the-catcher-in-the-rye-symbols"
+      }
+    },
+    {
+      "timestamp": "2025-04-02T14:31:50.425589",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "added_source_url",
+        "output": "\u2705 Added source url to research: https://www.sparknotes.com/lit/catcher/symbols/\n",
+        "metadata": "https://www.sparknotes.com/lit/catcher/symbols/"
+      }
+    },
+    {
+      "timestamp": "2025-04-02T14:31:50.426300",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "added_source_url",
+        "output": "\u2705 Added source url to research: https://www.sparknotes.com/lit/catcher/plot-analysis/\n",
+        "metadata": "https://www.sparknotes.com/lit/catcher/plot-analysis/"
+      }
+    },
+    {
+      "timestamp": "2025-04-02T14:31:50.427002",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "researching",
+        "output": "\ud83e\udd14 Researching for relevant information across multiple sources...\n",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-04-02T14:31:50.427682",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "scraping_urls",
+        "output": "\ud83c\udf10 Scraping content from 3 URLs...",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-04-02T14:31:50.558763",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "added_source_url",
+        "output": "\u2705 Added source url to research: https://gradesfixer.com/free-essay-examples/understanding-the-themes-of-j-d-salingers-the-catcher-in-the-rye/\n",
+        "metadata": "https://gradesfixer.com/free-essay-examples/understanding-the-themes-of-j-d-salingers-the-catcher-in-the-rye/"
+      }
+    },
+    {
+      "timestamp": "2025-04-02T14:31:50.559735",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "added_source_url",
+        "output": "\u2705 Added source url to research: https://www.ijsr.net/archive/v9i8/SR20729142247.pdf\n",
+        "metadata": "https://www.ijsr.net/archive/v9i8/SR20729142247.pdf"
+      }
+    },
+    {
+      "timestamp": "2025-04-02T14:31:50.560402",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "added_source_url",
+        "output": "\u2705 Added source url to research: https://ijrti.org/papers/IJRTI2207008.pdf\n",
+        "metadata": "https://ijrti.org/papers/IJRTI2207008.pdf"
+      }
+    },
+    {
+      "timestamp": "2025-04-02T14:31:50.561213",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "added_source_url",
+        "output": "\u2705 Added source url to research: https://english-studies.net/coming-of-age-story-in-literature-literary-theory/\n",
+        "metadata": "https://english-studies.net/coming-of-age-story-in-literature-literary-theory/"
+      }
+    },
+    {
+      "timestamp": "2025-04-02T14:31:50.561876",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "researching",
+        "output": "\ud83e\udd14 Researching for relevant information across multiple sources...\n",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-04-02T14:31:50.562527",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "scraping_urls",
+        "output": "\ud83c\udf10 Scraping content from 4 URLs...",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-04-02T14:31:52.731843",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "scraping_content",
+        "output": "\ud83d\udcc4 Scraped 1 pages of content",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-04-02T14:31:52.732645",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "scraping_images",
+        "output": "\ud83d\uddbc\ufe0f Selected 0 new images from 0 total images",
+        "metadata": []
+      }
+    },
+    {
+      "timestamp": "2025-04-02T14:31:52.733354",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "scraping_complete",
+        "output": "\ud83c\udf10 Scraping complete",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-04-02T14:31:52.734082",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "fetching_query_content",
+        "output": "\ud83d\udcda Getting relevant content based on query: research paper on Holden Caulfield\u2019s alienation and symbolic elements in The Catcher in the Rye...",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-04-02T14:31:54.591978",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "scraping_content",
+        "output": "\ud83d\udcc4 Scraped 5 pages of content",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-04-02T14:31:54.593508",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "scraping_images",
+        "output": "\ud83d\uddbc\ufe0f Selected 4 new images from 29 total images",
+        "metadata": [
+          "https://bookanalysis.com/wp-content/uploads/2021/06/J.D.-Salinger.jpeg",
+          "https://bookanalysis.com/wp-content/uploads/2020/10/The-Catcher-in-the-Rye-Artwork.jpg",
+          "https://bookanalysis.com/wp-content/uploads/2020/02/The-Catcher-in-the-Rye-by-Jerome-David-Salinger-Analysis.jpg",
+          "https://bookanalysis.com/wp-content/uploads/2020/07/Teenage-Cancer-Trust-1024x538.jpg"
+        ]
+      }
+    },
+    {
+      "timestamp": "2025-04-02T14:31:54.594618",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "scraping_complete",
+        "output": "\ud83c\udf10 Scraping complete",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-04-02T14:31:54.595666",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "fetching_query_content",
+        "output": "\ud83d\udcda Getting relevant content based on query: academic analysis of themes and symbolism in The Catcher in the Rye by J.D. Salinger...",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-04-02T14:31:54.635784",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "scraping_content",
+        "output": "\ud83d\udcc4 Scraped 4 pages of content",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-04-02T14:31:54.636789",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "scraping_images",
+        "output": "\ud83d\uddbc\ufe0f Selected 4 new images from 10 total images",
+        "metadata": [
+          "https://gradesfixer.com/wp-content/themes/essay/assets/img/close-blue.svg",
+          "https://gradesfixer.com/wp-content/themes/essay/assets/img/new-trigger.svg",
+          "https://gradesfixer.com/wp-content/themes/essay/assets/img/close-banner.png",
+          "https://gradesfixer.com/wp-content/uploads/2018/07/download-150x150.jpeg"
+        ]
+      }
+    },
+    {
+      "timestamp": "2025-04-02T14:31:54.637671",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "scraping_complete",
+        "output": "\ud83c\udf10 Scraping complete",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-04-02T14:31:54.638586",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "fetching_query_content",
+        "output": "\ud83d\udcda Getting relevant content based on query: objective literary critique of coming-of-age motifs and innocence vs phoniness in The Catcher in the Rye...",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-04-02T14:32:00.778335",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "scraping_content",
+        "output": "\ud83d\udcc4 Scraped 0 pages of content",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-04-02T14:32:00.780525",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "scraping_images",
+        "output": "\ud83d\uddbc\ufe0f Selected 0 new images from 0 total images",
+        "metadata": []
+      }
+    },
+    {
+      "timestamp": "2025-04-02T14:32:00.782474",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "scraping_complete",
+        "output": "\ud83c\udf10 Scraping complete",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-04-02T14:32:00.784582",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "fetching_query_content",
+        "output": "\ud83d\udcda Getting relevant content based on query: critical examination of recurring symbols and thematic depth in J.D. Salinger\u2019s The Catcher in the Rye...",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-04-02T14:32:00.788041",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "subquery_context_not_found",
+        "output": "\ud83e\udd37 No content found for 'critical examination of recurring symbols and thematic depth in J.D. Salinger\u2019s The Catcher in the Rye'...",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-04-02T14:32:00.789843",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "research_step_finalized",
+        "output": "Finalized research step.\n\ud83d\udcb8 Total Research Costs: $0.00784804",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-04-02T14:32:00.791271",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "generating_draft_sections",
+        "output": "\ud83d\udcd1 Generating draft section titles for 'Themes and Symbolism in The Catcher in the Rye'...",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-04-02T14:32:11.281471",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "draft_sections_generated",
+        "output": "\ud83d\uddc2\ufe0f Draft section titles generated for 'Themes and Symbolism in The Catcher in the Rye'",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-04-02T14:32:11.284529",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "fetching_relevant_written_content",
+        "output": "\ud83d\udd0e Getting relevant written content based on query: Themes and Symbolism in The Catcher in the Rye...",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-04-02T14:32:11.287048",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "writing_report",
+        "output": "\u270d\ufe0f Writing report for 'Themes and Symbolism in The Catcher in the Rye'...",
+        "metadata": null
+      }
+    }
+  ],
+  "content": {
+    "query": "",
+    "sources": [],
+    "context": [],
+    "report": "",
+    "costs": 0.0,
+    "type": "images",
+    "output": "[\"https://bookanalysis.com/wp-content/uploads/2021/06/J.D.-Salinger.jpeg\", \"https://bookanalysis.com/wp-content/uploads/2020/10/The-Catcher-in-the-Rye-Artwork.jpg\", \"https://bookanalysis.com/wp-content/uploads/2020/02/The-Catcher-in-the-Rye-by-Jerome-David-Salinger-Analysis.jpg\", \"https://bookanalysis.com/wp-content/uploads/2020/07/Teenage-Cancer-Trust-1024x538.jpg\", \"https://gradesfixer.com/wp-content/themes/essay/assets/img/close-blue.svg\", \"https://gradesfixer.com/wp-content/themes/essay/assets/img/new-trigger.svg\", \"https://gradesfixer.com/wp-content/themes/essay/assets/img/close-banner.png\", \"https://gradesfixer.com/wp-content/uploads/2018/07/download-150x150.jpeg\"]",
+    "content": "selected_images",
+    "metadata": [
+      "https://bookanalysis.com/wp-content/uploads/2021/06/J.D.-Salinger.jpeg",
+      "https://bookanalysis.com/wp-content/uploads/2020/10/The-Catcher-in-the-Rye-Artwork.jpg",
+      "https://bookanalysis.com/wp-content/uploads/2020/02/The-Catcher-in-the-Rye-by-Jerome-David-Salinger-Analysis.jpg",
+      "https://bookanalysis.com/wp-content/uploads/2020/07/Teenage-Cancer-Trust-1024x538.jpg",
+      "https://gradesfixer.com/wp-content/themes/essay/assets/img/close-blue.svg",
+      "https://gradesfixer.com/wp-content/themes/essay/assets/img/new-trigger.svg",
+      "https://gradesfixer.com/wp-content/themes/essay/assets/img/close-banner.png",
+      "https://gradesfixer.com/wp-content/uploads/2018/07/download-150x150.jpeg"
+    ]
+  }
+}

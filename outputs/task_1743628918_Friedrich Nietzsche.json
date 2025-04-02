@@ -1,0 +1,688 @@
+{
+  "timestamp": "2025-04-02T14:21:58.449946",
+  "events": [
+    {
+      "timestamp": "2025-04-02T14:21:58.479967",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "planning_research",
+        "output": "\ud83c\udf10 we are now starting to conduct our research. This is a BasicReport",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-04-02T14:22:00.215601",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "planning_research",
+        "output": "We are now moving to the research_conducotr",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-04-02T14:22:00.216056",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "starting_research",
+        "output": "\ud83d\udd0d Starting the research task for 'Friedrich Nietzsche'...",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-04-02T14:22:00.216217",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "agent_generated",
+        "output": "\ud83d\udcda Philosophy Agent",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-04-02T14:22:00.216400",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "planning_research",
+        "output": "\ud83c\udf10 Browsing the web to learn more about the task: Friedrich Nietzsche...",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-04-02T14:22:00.216565",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "planning_research",
+        "output": "\ud83c\udf10 Browsing according to ed level = EducationLevel.Graduate... <enum 'EducationLevel'>...Tone.Objective ...",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-04-02T14:22:01.662944",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "planning_research",
+        "output": "\ud83e\udd14 Planning the research strategy and subtasks...",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-04-02T14:22:13.988845",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "subqueries",
+        "output": "\ud83d\uddc2\ufe0f I will conduct my research based on the following queries: ['Friedrich Nietzsche objective biography and analysis of his critique of European morality', \"Balanced scholarly review of Friedrich Nietzsche's cultural criticism and life-affirmation philosophy\", 'Historical impact of Friedrich Nietzsche on Western thought and modern philosophy', \"Comprehensive evaluation of Friedrich Nietzsche's challenge to traditional religious and moral values\", 'Friedrich Nietzsche']...",
+        "metadata": [
+          "Friedrich Nietzsche objective biography and analysis of his critique of European morality",
+          "Balanced scholarly review of Friedrich Nietzsche's cultural criticism and life-affirmation philosophy",
+          "Historical impact of Friedrich Nietzsche on Western thought and modern philosophy",
+          "Comprehensive evaluation of Friedrich Nietzsche's challenge to traditional religious and moral values",
+          "Friedrich Nietzsche"
+        ]
+      }
+    },
+    {
+      "timestamp": "2025-04-02T14:22:13.989728",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "running_subquery_research",
+        "output": "\n\ud83d\udd0d Running research for 'Friedrich Nietzsche objective biography and analysis of his critique of European morality'...",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-04-02T14:22:13.990758",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "running_subquery_research",
+        "output": "\n\ud83d\udd0d Running research for 'Balanced scholarly review of Friedrich Nietzsche's cultural criticism and life-affirmation philosophy'...",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-04-02T14:22:13.991935",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "running_subquery_research",
+        "output": "\n\ud83d\udd0d Running research for 'Historical impact of Friedrich Nietzsche on Western thought and modern philosophy'...",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-04-02T14:22:13.992790",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "running_subquery_research",
+        "output": "\n\ud83d\udd0d Running research for 'Comprehensive evaluation of Friedrich Nietzsche's challenge to traditional religious and moral values'...",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-04-02T14:22:13.993520",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "running_subquery_research",
+        "output": "\n\ud83d\udd0d Running research for 'Friedrich Nietzsche'...",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-04-02T14:22:16.474615",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "added_source_url",
+        "output": "\u2705 Added source url to research: https://libguides.brooklyn.cuny.edu/c.php?g=765202&p=5726030\n",
+        "metadata": "https://libguides.brooklyn.cuny.edu/c.php?g=765202&p=5726030"
+      }
+    },
+    {
+      "timestamp": "2025-04-02T14:22:16.475530",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "added_source_url",
+        "output": "\u2705 Added source url to research: https://plato.stanford.edu/entries/nietzsche/?basic=1\n",
+        "metadata": "https://plato.stanford.edu/entries/nietzsche/?basic=1"
+      }
+    },
+    {
+      "timestamp": "2025-04-02T14:22:16.476091",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "added_source_url",
+        "output": "\u2705 Added source url to research: https://plato.stanford.edu/archIves/fall2024/entries/nietzsche/\n",
+        "metadata": "https://plato.stanford.edu/archIves/fall2024/entries/nietzsche/"
+      }
+    },
+    {
+      "timestamp": "2025-04-02T14:22:16.476617",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "added_source_url",
+        "output": "\u2705 Added source url to research: https://plato.stanford.edu/entries/nietzsche-life-works/\n",
+        "metadata": "https://plato.stanford.edu/entries/nietzsche-life-works/"
+      }
+    },
+    {
+      "timestamp": "2025-04-02T14:22:16.477132",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "added_source_url",
+        "output": "\u2705 Added source url to research: https://iep.utm.edu/nietzsch/\n",
+        "metadata": "https://iep.utm.edu/nietzsch/"
+      }
+    },
+    {
+      "timestamp": "2025-04-02T14:22:16.477666",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "researching",
+        "output": "\ud83e\udd14 Researching for relevant information across multiple sources...\n",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-04-02T14:22:16.478190",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "scraping_urls",
+        "output": "\ud83c\udf10 Scraping content from 5 URLs...",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-04-02T14:22:17.225860",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "added_source_url",
+        "output": "\u2705 Added source url to research: https://plato.stanford.edu/entries/nietzsche/?cmdf=sep+nietzsche\n",
+        "metadata": "https://plato.stanford.edu/entries/nietzsche/?cmdf=sep+nietzsche"
+      }
+    },
+    {
+      "timestamp": "2025-04-02T14:22:17.226437",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "added_source_url",
+        "output": "\u2705 Added source url to research: https://plato.stanford.edu/archIves/sum2024/entries/nietzsche/\n",
+        "metadata": "https://plato.stanford.edu/archIves/sum2024/entries/nietzsche/"
+      }
+    },
+    {
+      "timestamp": "2025-04-02T14:22:17.226745",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "added_source_url",
+        "output": "\u2705 Added source url to research: https://plato.stanford.edu/entries/nietzsche/?ref=superjump\n",
+        "metadata": "https://plato.stanford.edu/entries/nietzsche/?ref=superjump"
+      }
+    },
+    {
+      "timestamp": "2025-04-02T14:22:17.227043",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "researching",
+        "output": "\ud83e\udd14 Researching for relevant information across multiple sources...\n",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-04-02T14:22:17.227326",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "scraping_urls",
+        "output": "\ud83c\udf10 Scraping content from 3 URLs...",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-04-02T14:22:17.449861",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "added_source_url",
+        "output": "\u2705 Added source url to research: https://plato.stanford.edu/archIves/fall2006/entries/nietzsche/\n",
+        "metadata": "https://plato.stanford.edu/archIves/fall2006/entries/nietzsche/"
+      }
+    },
+    {
+      "timestamp": "2025-04-02T14:22:17.450470",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "added_source_url",
+        "output": "\u2705 Added source url to research: https://libguides.cairn.edu/philosophy/nietzeche\n",
+        "metadata": "https://libguides.cairn.edu/philosophy/nietzeche"
+      }
+    },
+    {
+      "timestamp": "2025-04-02T14:22:17.450802",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "added_source_url",
+        "output": "\u2705 Added source url to research: https://online.hillsdale.edu/courses/promo/introduction-to-western-philosophy\n",
+        "metadata": "https://online.hillsdale.edu/courses/promo/introduction-to-western-philosophy"
+      }
+    },
+    {
+      "timestamp": "2025-04-02T14:22:17.451123",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "added_source_url",
+        "output": "\u2705 Added source url to research: https://plato.stanford.edu/archIves/win1998/entries/nietzsche/\n",
+        "metadata": "https://plato.stanford.edu/archIves/win1998/entries/nietzsche/"
+      }
+    },
+    {
+      "timestamp": "2025-04-02T14:22:17.451440",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "researching",
+        "output": "\ud83e\udd14 Researching for relevant information across multiple sources...\n",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-04-02T14:22:17.451761",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "scraping_urls",
+        "output": "\ud83c\udf10 Scraping content from 4 URLs...",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-04-02T14:22:17.912514",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "scraping_content",
+        "output": "\ud83d\udcc4 Scraped 5 pages of content",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-04-02T14:22:17.913176",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "scraping_images",
+        "output": "\ud83d\uddbc\ufe0f Selected 4 new images from 25 total images",
+        "metadata": [
+          "https://plato.stanford.edu/archIves/fall2024/symbols/sep-man-red.png",
+          "https://plato.stanford.edu/archIves/fall2024/symbols/sepman-icon.jpg",
+          "https://plato.stanford.edu/archIves/fall2024/symbols/inpho.png",
+          "https://plato.stanford.edu/archIves/fall2024/symbols/pp.gif"
+        ]
+      }
+    },
+    {
+      "timestamp": "2025-04-02T14:22:17.913853",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "scraping_complete",
+        "output": "\ud83c\udf10 Scraping complete",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-04-02T14:22:17.914287",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "fetching_query_content",
+        "output": "\ud83d\udcda Getting relevant content based on query: Friedrich Nietzsche...",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-04-02T14:22:18.283962",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "added_source_url",
+        "output": "\u2705 Added source url to research: https://www.academia.edu/7830690/Friedrich_Nietzsche_on_Moral_Reasoning_in_Beyond_Good_and_Evil\n",
+        "metadata": "https://www.academia.edu/7830690/Friedrich_Nietzsche_on_Moral_Reasoning_in_Beyond_Good_and_Evil"
+      }
+    },
+    {
+      "timestamp": "2025-04-02T14:22:18.284701",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "added_source_url",
+        "output": "\u2705 Added source url to research: https://plato.stanford.edu/archIves/fall2015/entries/nietzsche/\n",
+        "metadata": "https://plato.stanford.edu/archIves/fall2015/entries/nietzsche/"
+      }
+    },
+    {
+      "timestamp": "2025-04-02T14:22:18.285131",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "researching",
+        "output": "\ud83e\udd14 Researching for relevant information across multiple sources...\n",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-04-02T14:22:18.285507",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "scraping_urls",
+        "output": "\ud83c\udf10 Scraping content from 2 URLs...",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-04-02T14:22:18.444738",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "added_source_url",
+        "output": "\u2705 Added source url to research: https://plato.stanford.edu/archIves/win2024/entries/nietzsche/\n",
+        "metadata": "https://plato.stanford.edu/archIves/win2024/entries/nietzsche/"
+      }
+    },
+    {
+      "timestamp": "2025-04-02T14:22:18.445424",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "added_source_url",
+        "output": "\u2705 Added source url to research: https://plato.stanford.edu/archIves/sum2007/entries/nietzsche/\n",
+        "metadata": "https://plato.stanford.edu/archIves/sum2007/entries/nietzsche/"
+      }
+    },
+    {
+      "timestamp": "2025-04-02T14:22:18.445826",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "added_source_url",
+        "output": "\u2705 Added source url to research: https://plato.stanford.edu/archIves/win2024/entries/nietzsche-life-works/\n",
+        "metadata": "https://plato.stanford.edu/archIves/win2024/entries/nietzsche-life-works/"
+      }
+    },
+    {
+      "timestamp": "2025-04-02T14:22:18.446221",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "researching",
+        "output": "\ud83e\udd14 Researching for relevant information across multiple sources...\n",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-04-02T14:22:18.446598",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "scraping_urls",
+        "output": "\ud83c\udf10 Scraping content from 3 URLs...",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-04-02T14:22:19.617136",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "scraping_content",
+        "output": "\ud83d\udcc4 Scraped 1 pages of content",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-04-02T14:22:19.617833",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "scraping_images",
+        "output": "\ud83d\uddbc\ufe0f Selected 4 new images from 6 total images",
+        "metadata": [
+          "https://plato.stanford.edu/archIves/fall2015/symbols/sep-man-red.png",
+          "https://plato.stanford.edu/archIves/fall2015/symbols/sepman-icon.jpg",
+          "https://plato.stanford.edu/archIves/fall2015/symbols/inpho.png",
+          "https://plato.stanford.edu/archIves/fall2015/symbols/pp.gif"
+        ]
+      }
+    },
+    {
+      "timestamp": "2025-04-02T14:22:19.618235",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "scraping_complete",
+        "output": "\ud83c\udf10 Scraping complete",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-04-02T14:22:19.618653",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "fetching_query_content",
+        "output": "\ud83d\udcda Getting relevant content based on query: Comprehensive evaluation of Friedrich Nietzsche's challenge to traditional religious and moral values...",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-04-02T14:22:19.973856",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "scraping_content",
+        "output": "\ud83d\udcc4 Scraped 3 pages of content",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-04-02T14:22:19.974576",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "scraping_images",
+        "output": "\ud83d\uddbc\ufe0f Selected 4 new images from 12 total images",
+        "metadata": [
+          "https://plato.stanford.edu/archIves/sum2007/symbols/sepman.png",
+          "https://plato.stanford.edu/archIves/sum2007/symbols/septop-sum2007.jpg",
+          "https://plato.stanford.edu/archIves/win2024/symbols/sep-man-red.png",
+          "https://plato.stanford.edu/archIves/win2024/symbols/sepman-icon.jpg"
+        ]
+      }
+    },
+    {
+      "timestamp": "2025-04-02T14:22:19.975019",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "scraping_complete",
+        "output": "\ud83c\udf10 Scraping complete",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-04-02T14:22:19.975444",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "fetching_query_content",
+        "output": "\ud83d\udcda Getting relevant content based on query: Balanced scholarly review of Friedrich Nietzsche's cultural criticism and life-affirmation philosophy...",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-04-02T14:22:20.754971",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "scraping_content",
+        "output": "\ud83d\udcc4 Scraped 3 pages of content",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-04-02T14:22:20.755694",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "scraping_images",
+        "output": "\ud83d\uddbc\ufe0f Selected 4 new images from 13 total images",
+        "metadata": [
+          "https://online.hillsdale.edu/_next/image?url=https%3A%2F%2Fassets-us-01.kc-usercontent.com%3A443%2Fc7bb3f89-eb78-007e-971a-d5864cf7a236%2F04e60143-6a25-4aa5-9e7f-ede699692a20%2Fphil-thumbnail.jpg&w=3840&q=75",
+          "https://online.hillsdale.edu/_next/image?url=https%3A%2F%2Fassets-us-01.kc-usercontent.com%3A443%2F7b82b800-474d-001b-d4fd-dbc450cbb99b%2F09d42f54-0eb7-4edb-be62-a36ba807ed06%2FIntroduction---Wonder-and-the-Good.jpg&w=3840&q=75",
+          "https://online.hillsdale.edu/_next/image?url=https%3A%2F%2Fassets-us-01.kc-usercontent.com%3A443%2F7b82b800-474d-001b-d4fd-dbc450cbb99b%2Ffe27b995-d8f5-4746-ba5b-be478c71b4fa%2FPlato---Music%252C-Poetry%252C-and-Justice.jpg&w=3840&q=75",
+          "https://online.hillsdale.edu/_next/image?url=https%3A%2F%2Fassets-us-01.kc-usercontent.com%3A443%2F7b82b800-474d-001b-d4fd-dbc450cbb99b%2Fbabf75f1-4992-4656-893d-0583cadd5de3%2FPlato---Philosophy-and-Liberal-Education.jpg&w=3840&q=75"
+        ]
+      }
+    },
+    {
+      "timestamp": "2025-04-02T14:22:20.756128",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "scraping_complete",
+        "output": "\ud83c\udf10 Scraping complete",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-04-02T14:22:20.756575",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "fetching_query_content",
+        "output": "\ud83d\udcda Getting relevant content based on query: Historical impact of Friedrich Nietzsche on Western thought and modern philosophy...",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-04-02T14:22:20.843841",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "scraping_content",
+        "output": "\ud83d\udcc4 Scraped 3 pages of content",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-04-02T14:22:20.844742",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "scraping_images",
+        "output": "\ud83d\uddbc\ufe0f Selected 4 new images from 15 total images",
+        "metadata": [
+          "https://plato.stanford.edu/symbols/sep-man-red.png",
+          "https://plato.stanford.edu/symbols/sepman-icon.jpg",
+          "https://plato.stanford.edu/symbols/inpho.png",
+          "https://plato.stanford.edu/symbols/pp.gif"
+        ]
+      }
+    },
+    {
+      "timestamp": "2025-04-02T14:22:20.845304",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "scraping_complete",
+        "output": "\ud83c\udf10 Scraping complete",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-04-02T14:22:20.845866",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "fetching_query_content",
+        "output": "\ud83d\udcda Getting relevant content based on query: Friedrich Nietzsche objective biography and analysis of his critique of European morality...",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-04-02T14:22:39.044880",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "research_step_finalized",
+        "output": "Finalized research step.\n\ud83d\udcb8 Total Research Costs: $0.0184352",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-04-02T14:22:39.046400",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "writing_report",
+        "output": "\u270d\ufe0f Writing report for 'Friedrich Nietzsche'...",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-04-02T14:23:07.970388",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "report_written",
+        "output": "\ud83d\udcdd Report written for 'Friedrich Nietzsche'",
+        "metadata": null
+      }
+    }
+  ],
+  "content": {
+    "query": "",
+    "sources": [],
+    "context": [],
+    "report": "",
+    "costs": 0.0,
+    "type": "report",
+    "content": "selected_images",
+    "output": "5. Brooklyn College Library. (2018). Nietzsche - PHIL 2101: Introduction to Philosophy. Retrieved from https://libguides.brooklyn.cuny.edu/c.php?g=765202&p=5726030  ",
+    "metadata": [
+      "https://plato.stanford.edu/archIves/fall2024/symbols/sep-man-red.png",
+      "https://plato.stanford.edu/archIves/fall2024/symbols/sepman-icon.jpg",
+      "https://plato.stanford.edu/archIves/fall2024/symbols/inpho.png",
+      "https://plato.stanford.edu/archIves/fall2024/symbols/pp.gif",
+      "https://plato.stanford.edu/archIves/fall2015/symbols/sep-man-red.png",
+      "https://plato.stanford.edu/archIves/fall2015/symbols/sepman-icon.jpg",
+      "https://plato.stanford.edu/archIves/fall2015/symbols/inpho.png",
+      "https://plato.stanford.edu/archIves/fall2015/symbols/pp.gif",
+      "https://plato.stanford.edu/archIves/sum2007/symbols/sepman.png",
+      "https://plato.stanford.edu/archIves/sum2007/symbols/septop-sum2007.jpg"
+    ]
+  }
+}

@@ -28,12 +28,6 @@ class ResearchConductor:
             f"🌐 Browsing the web to learn more about the task: {query}...",
             self.researcher.websocket,
         )
-        await stream_output(
-            "logs",
-            "planning_research",
-            f"🌐 Browsing according to ed level = {self.researcher.education_level}... {type(self.researcher.education_level)}...{self.researcher.tone} ...",
-            self.researcher.websocket,
-        )
 
         search_results = await get_search_results(
             query, self.researcher.retrievers[0], query_domains

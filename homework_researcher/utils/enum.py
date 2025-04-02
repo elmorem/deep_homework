@@ -5,7 +5,7 @@ class EducationLevel(Enum):
     JuniorHigh = "Junior high school level (introductory concepts, basic sources, simple language). MAX_SUBTOPICS=2"
     HighSchool = "High school level (introdutory and background sources, moderate complexity, accessible language, some critical thinkg, some primary sources).MAX_SUBTOPICS=3"
     Undergraduate = "Undergraduate level (allow for some prior knoledge, more complex sources, moderate to high complexity, critical thinking expected, some primary sources, highlight academic sources, discourage non-academic sources). MAX_SUBTOPICS=4"
-    Graduate = "Graduate level (advanced concepts, in-depth analysis, high complexity, critical thinking and synthesis of information expected, extensive use of primary sources, highlight academic sources, ignore non-academic sources)MAX_SUBTOPICS=5"
+    Graduate = "Graduate level (advanced concepts, in-depth analysis, high complexity, critical thinking and synthesis of information expected, extensive use of primary sources, highlight academic sources, ignore non-academic sources) MAX_SUBTOPICS=5"
 
 
 class ReportType(Enum):
