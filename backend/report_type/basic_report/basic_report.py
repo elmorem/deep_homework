@@ -55,10 +55,10 @@ class BasicReport:
         await self.researcher.conduct_research()
         report = await self.researcher.write_report()
         
-        await stream_output(
-            "logs",
-            "planning_research",
-            f"report is now generated {report}",
-            self.researcher.websocket,
-        )
+        # await stream_output(
+        #     "logs",
+        #     "planning_research",
+        #     f"report is now generated {report}",
+        #     self.researcher.websocket,
+        # )
         return report

@@ -18,6 +18,7 @@ from .skills.deep_research import DeepResearchSkill
 from .actions.agent_creator import choose_agent
 from .actions.markdown_processing import add_references, extract_headers, extract_sections, table_of_contents
 from .actions.retriever import get_retrievers
+from .actions.utils import stream_output
 
 
 class HomeworkResearcher:
@@ -165,12 +166,26 @@ class HomeworkResearcher:
             step="conducting_research",
             details={"agent": self.agent, "role": self.role},
         )
+
+        await stream_output(
+            "logs",
+            "planning_research",
+            f"We are now moving to the research_conducotr",
+            self.websocket,
+        )
+
         self.context = await self.research_conductor.conduct_research()
 
         await self._log_event(
             "research",
             step="research_completed",
             details={"context_length": len(self.context)},
+        )
+        await stream_output(
+            "logs",
+            "planning_research",
+            f"this is what our HomeworkResearch agent has found so far: {self.context}",
+            self.websocket,
         )
         return self.context
 
