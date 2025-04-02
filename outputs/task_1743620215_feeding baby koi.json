@@ -1,0 +1,693 @@
+{
+  "timestamp": "2025-04-02T11:56:55.380773",
+  "events": [
+    {
+      "timestamp": "2025-04-02T11:56:55.673576",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "planning_research",
+        "output": "\ud83c\udf10 we are now starting to conduct our research. This is a BasicReport",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-04-02T11:56:58.647276",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "planning_research",
+        "output": "We are now moving to the research_conducotr",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-04-02T11:56:58.647567",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "starting_research",
+        "output": "\ud83d\udd0d Starting the research task for 'feeding baby koi'...",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-04-02T11:56:58.647727",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "agent_generated",
+        "output": "\ud83d\udc1f Aquatic Life Agent",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-04-02T11:56:58.647910",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "planning_research",
+        "output": "\ud83c\udf10 Browsing the web to learn more about the task: feeding baby koi...",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-04-02T11:56:58.648066",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "planning_research",
+        "output": "\ud83c\udf10 Browsing according to ed level = EducationLevel.HighSchool...",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-04-02T11:57:00.582202",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "planning_research",
+        "output": "\ud83e\udd14 Planning the research strategy and subtasks...",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-04-02T11:57:18.193237",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "subqueries",
+        "output": "\ud83d\uddc2\ufe0f I will conduct my research based on the following queries: ['2025 objective guidelines for feeding baby koi: recommended foods and feeding frequency', 'Evidence-based techniques for feeding baby koi: liquid, pre-soaked pellets, and brine shrimp comparisons', 'When to start feeding baby koi after yolk sac absorption: optimal practices for fry development', 'Comparative study on nutritional strategies for baby koi: balancing liquid and particulate feed options', 'feeding baby koi']...",
+        "metadata": [
+          "2025 objective guidelines for feeding baby koi: recommended foods and feeding frequency",
+          "Evidence-based techniques for feeding baby koi: liquid, pre-soaked pellets, and brine shrimp comparisons",
+          "When to start feeding baby koi after yolk sac absorption: optimal practices for fry development",
+          "Comparative study on nutritional strategies for baby koi: balancing liquid and particulate feed options",
+          "feeding baby koi"
+        ]
+      }
+    },
+    {
+      "timestamp": "2025-04-02T11:57:18.193633",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "running_subquery_research",
+        "output": "\n\ud83d\udd0d Running research for '2025 objective guidelines for feeding baby koi: recommended foods and feeding frequency'...",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-04-02T11:57:18.194208",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "running_subquery_research",
+        "output": "\n\ud83d\udd0d Running research for 'Evidence-based techniques for feeding baby koi: liquid, pre-soaked pellets, and brine shrimp comparisons'...",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-04-02T11:57:18.195184",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "running_subquery_research",
+        "output": "\n\ud83d\udd0d Running research for 'When to start feeding baby koi after yolk sac absorption: optimal practices for fry development'...",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-04-02T11:57:18.195903",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "running_subquery_research",
+        "output": "\n\ud83d\udd0d Running research for 'Comparative study on nutritional strategies for baby koi: balancing liquid and particulate feed options'...",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-04-02T11:57:18.196454",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "running_subquery_research",
+        "output": "\n\ud83d\udd0d Running research for 'feeding baby koi'...",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-04-02T11:57:20.132418",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "added_source_url",
+        "output": "\u2705 Added source url to research: https://goldkoifish.com/how-often-should-you-feed-koi-fish/\n",
+        "metadata": "https://goldkoifish.com/how-often-should-you-feed-koi-fish/"
+      }
+    },
+    {
+      "timestamp": "2025-04-02T11:57:20.132754",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "added_source_url",
+        "output": "\u2705 Added source url to research: https://www.backyardpondideas.com/koi-feeding-guide/\n",
+        "metadata": "https://www.backyardpondideas.com/koi-feeding-guide/"
+      }
+    },
+    {
+      "timestamp": "2025-04-02T11:57:20.133004",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "added_source_url",
+        "output": "\u2705 Added source url to research: https://trickyfish.co/what-do-you-feed-baby-koi-fish/\n",
+        "metadata": "https://trickyfish.co/what-do-you-feed-baby-koi-fish/"
+      }
+    },
+    {
+      "timestamp": "2025-04-02T11:57:20.133232",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "added_source_url",
+        "output": "\u2705 Added source url to research: https://www.champkoi.com/pages/koi-feeding-guide\n",
+        "metadata": "https://www.champkoi.com/pages/koi-feeding-guide"
+      }
+    },
+    {
+      "timestamp": "2025-04-02T11:57:20.133464",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "added_source_url",
+        "output": "\u2705 Added source url to research: https://pondinformer.com/koi-feeding-guide/\n",
+        "metadata": "https://pondinformer.com/koi-feeding-guide/"
+      }
+    },
+    {
+      "timestamp": "2025-04-02T11:57:20.133714",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "researching",
+        "output": "\ud83e\udd14 Researching for relevant information across multiple sources...\n",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-04-02T11:57:20.133956",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "scraping_urls",
+        "output": "\ud83c\udf10 Scraping content from 5 URLs...",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-04-02T11:57:20.892667",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "added_source_url",
+        "output": "\u2705 Added source url to research: https://trickyfish.co/when-should-i-start-feeding-my-koi-fry/\n",
+        "metadata": "https://trickyfish.co/when-should-i-start-feeding-my-koi-fry/"
+      }
+    },
+    {
+      "timestamp": "2025-04-02T11:57:20.893880",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "added_source_url",
+        "output": "\u2705 Added source url to research: https://nextdaykoi.com/koi-fish-facts/a-guide-to-raising-koi-fry/\n",
+        "metadata": "https://nextdaykoi.com/koi-fish-facts/a-guide-to-raising-koi-fry/"
+      }
+    },
+    {
+      "timestamp": "2025-04-02T11:57:20.894613",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "added_source_url",
+        "output": "\u2705 Added source url to research: https://www.backyardpondideas.com/raising-koi-fry-guide/\n",
+        "metadata": "https://www.backyardpondideas.com/raising-koi-fry-guide/"
+      }
+    },
+    {
+      "timestamp": "2025-04-02T11:57:20.895293",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "added_source_url",
+        "output": "\u2705 Added source url to research: https://pondinformer.com/raising-koi-fry-guide/\n",
+        "metadata": "https://pondinformer.com/raising-koi-fry-guide/"
+      }
+    },
+    {
+      "timestamp": "2025-04-02T11:57:20.895939",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "added_source_url",
+        "output": "\u2705 Added source url to research: https://koi-care.com/ive-koi-fry-step-wise-approach-raising-baby-koi-2/\n",
+        "metadata": "https://koi-care.com/ive-koi-fry-step-wise-approach-raising-baby-koi-2/"
+      }
+    },
+    {
+      "timestamp": "2025-04-02T11:57:20.896913",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "researching",
+        "output": "\ud83e\udd14 Researching for relevant information across multiple sources...\n",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-04-02T11:57:20.897630",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "scraping_urls",
+        "output": "\ud83c\udf10 Scraping content from 5 URLs...",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-04-02T11:57:20.924784",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "added_source_url",
+        "output": "\u2705 Added source url to research: https://koistory.com/blog/baby-koi-a-fry-guide\n",
+        "metadata": "https://koistory.com/blog/baby-koi-a-fry-guide"
+      }
+    },
+    {
+      "timestamp": "2025-04-02T11:57:20.925609",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "researching",
+        "output": "\ud83e\udd14 Researching for relevant information across multiple sources...\n",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-04-02T11:57:20.926283",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "scraping_urls",
+        "output": "\ud83c\udf10 Scraping content from 1 URLs...",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-04-02T11:57:20.984187",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "added_source_url",
+        "output": "\u2705 Added source url to research: https://petaquariums.com/what-to-feed-baby-koi/\n",
+        "metadata": "https://petaquariums.com/what-to-feed-baby-koi/"
+      }
+    },
+    {
+      "timestamp": "2025-04-02T11:57:20.985732",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "added_source_url",
+        "output": "\u2705 Added source url to research: https://pondheaven.com/what-is-the-best-food-for-baby-koi/\n",
+        "metadata": "https://pondheaven.com/what-is-the-best-food-for-baby-koi/"
+      }
+    },
+    {
+      "timestamp": "2025-04-02T11:57:20.986731",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "added_source_url",
+        "output": "\u2705 Added source url to research: https://www.toriikoi.com/what-is-the-best-way-to-feed-koi-fish/\n",
+        "metadata": "https://www.toriikoi.com/what-is-the-best-way-to-feed-koi-fish/"
+      }
+    },
+    {
+      "timestamp": "2025-04-02T11:57:20.987540",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "added_source_url",
+        "output": "\u2705 Added source url to research: https://fishyfeatures.com/the-ultimate-guide-to-feeding-your-koi-from-pellets-to-treats/\n",
+        "metadata": "https://fishyfeatures.com/the-ultimate-guide-to-feeding-your-koi-from-pellets-to-treats/"
+      }
+    },
+    {
+      "timestamp": "2025-04-02T11:57:20.988338",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "researching",
+        "output": "\ud83e\udd14 Researching for relevant information across multiple sources...\n",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-04-02T11:57:20.989159",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "scraping_urls",
+        "output": "\ud83c\udf10 Scraping content from 4 URLs...",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-04-02T11:57:21.179169",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "added_source_url",
+        "output": "\u2705 Added source url to research: https://koiorganisationinternational.org/sites/default/files/Cold+Water+Koi+Feeding+and+Nutrition+FINAL.pdf\n",
+        "metadata": "https://koiorganisationinternational.org/sites/default/files/Cold+Water+Koi+Feeding+and+Nutrition+FINAL.pdf"
+      }
+    },
+    {
+      "timestamp": "2025-04-02T11:57:21.179799",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "added_source_url",
+        "output": "\u2705 Added source url to research: https://www.researchgate.net/publication/363432175_Introduction_to_the_Fish_Nutrition_Feed_Formulation_and_Feeding_Conversion\n",
+        "metadata": "https://www.researchgate.net/publication/363432175_Introduction_to_the_Fish_Nutrition_Feed_Formulation_and_Feeding_Conversion"
+      }
+    },
+    {
+      "timestamp": "2025-04-02T11:57:21.180431",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "researching",
+        "output": "\ud83e\udd14 Researching for relevant information across multiple sources...\n",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-04-02T11:57:21.180798",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "scraping_urls",
+        "output": "\ud83c\udf10 Scraping content from 2 URLs...",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-04-02T11:57:21.752674",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "scraping_content",
+        "output": "\ud83d\udcc4 Scraped 1 pages of content",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-04-02T11:57:21.753314",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "scraping_images",
+        "output": "\ud83d\uddbc\ufe0f Selected 4 new images from 5 total images",
+        "metadata": [
+          "https://images.squarespace-cdn.com/content/v1/4f6c8d6ae4b08696a7443c8b/1485715885923-UY9M0JAEDWMAXYVT6SJZ/image-asset.jpeg",
+          "https://images.squarespace-cdn.com/content/v1/4f6c8d6ae4b08696a7443c8b/1371007095787-ZKCFDQPPAZ09B968TUB2/1057498367_e5a2b9bafe_o.jpg",
+          "https://images.squarespace-cdn.com/content/v1/4f6c8d6ae4b08696a7443c8b/1371007677513-1SGBWFSVLSOPUFVAY77J/Screen+shot+2013-06-11+at+7.28.18+PM.png",
+          "https://images.squarespace-cdn.com/content/v1/4f6c8d6ae4b08696a7443c8b/1485714576081-NNAJBI100QB4H029BVIQ/Koi+Story+Revamp+Logo+1.png?format=1500w"
+        ]
+      }
+    },
+    {
+      "timestamp": "2025-04-02T11:57:21.753990",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "scraping_complete",
+        "output": "\ud83c\udf10 Scraping complete",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-04-02T11:57:21.754429",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "fetching_query_content",
+        "output": "\ud83d\udcda Getting relevant content based on query: feeding baby koi...",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-04-02T11:57:22.792813",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "scraping_content",
+        "output": "\ud83d\udcc4 Scraped 3 pages of content",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-04-02T11:57:22.793479",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "scraping_images",
+        "output": "\ud83d\uddbc\ufe0f Selected 4 new images from 8 total images",
+        "metadata": [
+          "https://goldkoifish.com/wp-content/uploads/2022/06/How-Often-Should-You-Feed-Koi-Fish.jpg",
+          "https://www.champkoi.com/cdn/shop/files/ChampKoi_Logo_2_600px_Canvas.png?v=1693411795&width=600",
+          "https://pondinformer.com/wp-content/uploads/2021/06/koi-feeding-guide-intro.jpg",
+          "https://pondinformer.com/wp-content/uploads/2021/06/koi-feeding-guide-additional-tips.jpg"
+        ]
+      }
+    },
+    {
+      "timestamp": "2025-04-02T11:57:22.793879",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "scraping_complete",
+        "output": "\ud83c\udf10 Scraping complete",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-04-02T11:57:22.794273",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "fetching_query_content",
+        "output": "\ud83d\udcda Getting relevant content based on query: 2025 objective guidelines for feeding baby koi: recommended foods and feeding frequency...",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-04-02T11:57:22.895733",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "scraping_content",
+        "output": "\ud83d\udcc4 Scraped 0 pages of content",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-04-02T11:57:22.896447",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "scraping_images",
+        "output": "\ud83d\uddbc\ufe0f Selected 0 new images from 0 total images",
+        "metadata": []
+      }
+    },
+    {
+      "timestamp": "2025-04-02T11:57:22.896874",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "scraping_complete",
+        "output": "\ud83c\udf10 Scraping complete",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-04-02T11:57:22.897298",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "fetching_query_content",
+        "output": "\ud83d\udcda Getting relevant content based on query: Comparative study on nutritional strategies for baby koi: balancing liquid and particulate feed options...",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-04-02T11:57:22.898885",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "subquery_context_not_found",
+        "output": "\ud83e\udd37 No content found for 'Comparative study on nutritional strategies for baby koi: balancing liquid and particulate feed options'...",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-04-02T11:57:24.202443",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "scraping_content",
+        "output": "\ud83d\udcc4 Scraped 3 pages of content",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-04-02T11:57:24.203176",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "scraping_images",
+        "output": "\ud83d\uddbc\ufe0f Selected 4 new images from 9 total images",
+        "metadata": [
+          "https://pondinformer.com/wp-content/uploads/2021/08/koi-fry-intro.jpg",
+          "https://pondinformer.com/wp-content/uploads/2021/08/fertilized-koi-carp-eggs-picture.jpg",
+          "https://pondinformer.com/wp-content/uploads/2021/08/koi-fry-physical-features.jpg",
+          "https://pondinformer.com/wp-content/uploads/2021/08/koi-fry-growth-timeline.jpg"
+        ]
+      }
+    },
+    {
+      "timestamp": "2025-04-02T11:57:24.203775",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "scraping_complete",
+        "output": "\ud83c\udf10 Scraping complete",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-04-02T11:57:24.204331",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "fetching_query_content",
+        "output": "\ud83d\udcda Getting relevant content based on query: When to start feeding baby koi after yolk sac absorption: optimal practices for fry development...",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-04-02T11:57:26.165899",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "scraping_content",
+        "output": "\ud83d\udcc4 Scraped 4 pages of content",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-04-02T11:57:26.166792",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "scraping_images",
+        "output": "\ud83d\uddbc\ufe0f Selected 4 new images from 17 total images",
+        "metadata": [
+          "https://www.toriikoi.com/wp-content/uploads/2024/07/best-way-to-feed-koi-f-feed-koi-fish.jpg",
+          "https://www.toriikoi.com/wp-content/uploads/2024/07/how-many-time-to-feed-koi-fish.jpg",
+          "https://www.toriikoi.com/wp-content/uploads/2024/07/how-to-feed-koi-fish.jpg",
+          "https://www.toriikoi.com/wp-content/uploads/2024/11/Healthy-Koi-Pond-Ecosystem-min.png"
+        ]
+      }
+    },
+    {
+      "timestamp": "2025-04-02T11:57:26.167405",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "scraping_complete",
+        "output": "\ud83c\udf10 Scraping complete",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-04-02T11:57:26.168018",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "fetching_query_content",
+        "output": "\ud83d\udcda Getting relevant content based on query: Evidence-based techniques for feeding baby koi: liquid, pre-soaked pellets, and brine shrimp comparisons...",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-04-02T11:57:29.495143",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "research_step_finalized",
+        "output": "Finalized research step.\n\ud83d\udcb8 Total Research Costs: $0.011835700000000001",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-04-02T11:57:29.496558",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "writing_report",
+        "output": "\u270d\ufe0f Writing report for 'feeding baby koi'...",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-04-02T11:58:08.096575",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "report_written",
+        "output": "\ud83d\udcdd Report written for 'feeding baby koi'",
+        "metadata": null
+      }
+    }
+  ],
+  "content": {
+    "query": "",
+    "sources": [],
+    "context": [],
+    "report": "",
+    "costs": 0.0,
+    "type": "report",
+    "content": "selected_images",
+    "output": "5. Next Day Koi. (n.d.). A Guide to Raising Koi Fry. Retrieved from [https://nextdaykoi.com/koi-fish-facts/a-guide-to-raising-koi-fry/](https://nextdaykoi.com/koi-fish-facts/a-guide-to-raising-koi-fry/)",
+    "metadata": [
+      "https://images.squarespace-cdn.com/content/v1/4f6c8d6ae4b08696a7443c8b/1485715885923-UY9M0JAEDWMAXYVT6SJZ/image-asset.jpeg",
+      "https://images.squarespace-cdn.com/content/v1/4f6c8d6ae4b08696a7443c8b/1371007095787-ZKCFDQPPAZ09B968TUB2/1057498367_e5a2b9bafe_o.jpg",
+      "https://images.squarespace-cdn.com/content/v1/4f6c8d6ae4b08696a7443c8b/1371007677513-1SGBWFSVLSOPUFVAY77J/Screen+shot+2013-06-11+at+7.28.18+PM.png",
+      "https://images.squarespace-cdn.com/content/v1/4f6c8d6ae4b08696a7443c8b/1485714576081-NNAJBI100QB4H029BVIQ/Koi+Story+Revamp+Logo+1.png?format=1500w",
+      "https://goldkoifish.com/wp-content/uploads/2022/06/How-Often-Should-You-Feed-Koi-Fish.jpg",
+      "https://www.champkoi.com/cdn/shop/files/ChampKoi_Logo_2_600px_Canvas.png?v=1693411795&width=600",
+      "https://pondinformer.com/wp-content/uploads/2021/06/koi-feeding-guide-intro.jpg",
+      "https://pondinformer.com/wp-content/uploads/2021/06/koi-feeding-guide-additional-tips.jpg",
+      "https://pondinformer.com/wp-content/uploads/2021/08/koi-fry-intro.jpg",
+      "https://pondinformer.com/wp-content/uploads/2021/08/fertilized-koi-carp-eggs-picture.jpg"
+    ]
+  }
+}

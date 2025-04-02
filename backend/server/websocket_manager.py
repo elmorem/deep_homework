@@ -92,7 +92,11 @@ class WebSocketManager:
     ):
         """Start streaming the output."""
         tone = Tone[tone]
-        education_level = EducationLevel[education_level]
+        print(f"Tone: {tone}")
+        print(f"Education Level: {education_level}")
+        #education_level = EducationLevel[education_level]
+        #if education_level is None:
+        #    education_level = EducationLevel.HighSchool
         # add customized JSON config file path here
         config_path = "default"
         report = await run_agent(

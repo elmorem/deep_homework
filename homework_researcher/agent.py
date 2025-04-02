@@ -181,12 +181,6 @@ class HomeworkResearcher:
             step="research_completed",
             details={"context_length": len(self.context)},
         )
-        await stream_output(
-            "logs",
-            "planning_research",
-            f"this is what our HomeworkResearch agent has found so far: {self.context}",
-            self.websocket,
-        )
         return self.context
 
     async def _handle_deep_research(self, on_progress=None):
