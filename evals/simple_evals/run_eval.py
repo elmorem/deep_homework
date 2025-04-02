@@ -38,7 +38,7 @@ async def evaluate_single_query(query: str, evaluator: SimpleQAEval) -> dict:
         report_format="markdown",
         report_source=ReportSource.Web.value,
         tone=Tone.Objective,
-        education_level=EducationLevel.HighSchool,
+        education_level=EducationLevel.value,
         verbose=True
     )
     context = await researcher.conduct_research()

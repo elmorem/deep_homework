@@ -37,7 +37,7 @@ def open_task():
 
     return task
 
-async def run_research_task(query, websocket=None, stream_output=None, tone=Tone.Objective, education_level=EducationLevel.HighSchool, headers=None):
+async def run_research_task(query, websocket=None, stream_output=None, tone=Tone.Objective, education_level=None, headers=None):
     task = open_task()
     task["query"] = query
 

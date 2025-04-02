@@ -25,11 +25,11 @@ class HomeworkResearcher:
     def __init__(
         self,
         query: str,
+        education_level: EducationLevel,
         report_type: str = ReportType.ResearchReport.value,
         report_format: str = "markdown",
         report_source: str = ReportSource.Web.value,
         tone: Tone = Tone.Objective,
-        education_level: str = EducationLevel.HighSchool,
         source_urls: list[str] | None = None,
         document_urls: list[str] | None = None,
         complement_source_urls: bool = False,
@@ -60,7 +60,7 @@ class HomeworkResearcher:
         self.report_format = report_format
         self.max_subtopics = max_subtopics
         self.tone = tone if isinstance(tone, Tone) else Tone.Objective
-        self.education_level = education_level if isinstance(education_level, EducationLevel) else EducationLevel.HighSchool
+        self.education_level = education_level # if isinstance(education_level, EducationLevel) else EducationLevel.HighSchool
         self.source_urls = source_urls
         self.document_urls = document_urls
         self.complement_source_urls = complement_source_urls

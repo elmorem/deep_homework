@@ -57,13 +57,15 @@ The response should contain ONLY the list.
 def generate_report_prompt(
     question: str,
     context,
+    
     report_source: str,
     report_format="apa",
     total_words=1000,
     tone=None,
-    education_level=EducationLevel.HighSchool,
+    education_level=None,
     language="english",
 ):
+    print(f"{tone = } {education_level = }...{str(education_level) = }")
     """Generates the report prompt for the given question and research summary.
     Args: question (str): The question to generate the report prompt for
             research_summary (str): The research summary to generate the report prompt for
@@ -238,7 +240,7 @@ def generate_deep_research_prompt(
     report_source: str,
     report_format="apa",
     tone=None,
-    education_level=EducationLevel.HighSchool,
+    education_level=EducationLevel,
     total_words=2000,
     language: str = "english",
 ):
@@ -402,7 +404,7 @@ def generate_subtopic_report_prompt(
     max_subsections=5,
     total_words=800,
     tone: Tone = Tone.Objective,
-    education_level=EducationLevel.HighSchool,
+    education_level=EducationLevel,
     language: str = "english",
 ) -> str:
     return f"""
