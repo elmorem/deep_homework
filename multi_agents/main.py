@@ -7,7 +7,7 @@ sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '..')
 from multi_agents.agents import ChiefEditorAgent
 import asyncio
 import json
-from homework_researcher.utils.enum import Tone
+from homework_researcher.utils.enum import Tone, EducationLevel
 
 # Run with LangSmith if API key is set
 if os.environ.get("LANGCHAIN_API_KEY"):
@@ -37,11 +37,11 @@ def open_task():
 
     return task
 
-async def run_research_task(query, websocket=None, stream_output=None, tone=Tone.Objective, headers=None):
+async def run_research_task(query, websocket=None, stream_output=None, tone=Tone.Objective, education_level=EducationLevel.HighSchool, headers=None):
     task = open_task()
     task["query"] = query
 
-    chief_editor = ChiefEditorAgent(task, websocket, stream_output, tone, headers)
+    chief_editor = ChiefEditorAgent(task, websocket, stream_output, tone, education_level, headers)
     research_report = await chief_editor.run_research_task()
 
     if websocket and stream_output:

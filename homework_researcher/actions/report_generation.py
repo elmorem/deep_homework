@@ -9,7 +9,7 @@ from ..prompts import (
     generate_report_conclusion,
     get_prompt_by_report_type,
 )
-from ..utils.enum import Tone
+from ..utils.enum import Tone, EducationLevel
 
 logger = get_formatted_logger()
 
@@ -213,6 +213,7 @@ async def generate_report(
     agent_role_prompt: str,
     report_type: str,
     tone: Tone,
+    education_level: EducationLevel,
     report_source: str,
     websocket,
     cfg,
@@ -231,6 +232,7 @@ async def generate_report(
         report_type:
         websocket:
         tone:
+        education_level:
         cfg:
         main_topic:
         existing_headers:
@@ -245,9 +247,9 @@ async def generate_report(
     report = ""
 
     if report_type == "subtopic_report":
-        content = f"{generate_prompt(query, existing_headers, relevant_written_contents, main_topic, context, report_format=cfg.report_format, tone=tone, total_words=cfg.total_words, language=cfg.language)}"
+        content = f"{generate_prompt(query, existing_headers, relevant_written_contents, main_topic, context, report_format=cfg.report_format, tone=tone, education_level=education_level, total_words=cfg.total_words, language=cfg.language)}"
     else:
-        content = f"{generate_prompt(query, context, report_source, report_format=cfg.report_format, tone=tone, total_words=cfg.total_words, language=cfg.language)}"
+        content = f"{generate_prompt(query, context, report_source, report_format=cfg.report_format, tone=tone, education_level=education_level, total_words=cfg.total_words, language=cfg.language)}"
     try:
         report = await create_chat_completion(
             model=cfg.smart_llm_model,

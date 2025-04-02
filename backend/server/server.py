@@ -33,7 +33,7 @@ from backend.server.websocket_manager import run_agent
 from backend.utils import write_md_to_word, write_md_to_pdf
 
 from homework_researcher.utils.logging_config import setup_research_logging
-from homework_researcher.utils.enum import Tone
+from homework_researcher.utils.enum import Tone, EducationLevel 
 
 import logging
 
@@ -57,6 +57,7 @@ class ResearchRequest(BaseModel):
     report_type: str
     report_source: str
     tone: str
+    education_level: str
     headers: dict | None = None
     repo_name: str
     branch_name: str
@@ -141,6 +142,7 @@ async def write_report(research_request: ResearchRequest, research_id: str = Non
         source_urls=[],
         document_urls=[],
         tone=Tone[research_request.tone],
+        education_level=EducationLevel[research_request.education_level],
         websocket=None,
         stream_output=None,
         headers=research_request.headers,

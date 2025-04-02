@@ -19,12 +19,13 @@ from . import \
 class ChiefEditorAgent:
     """Agent responsible for managing and coordinating editing tasks."""
 
-    def __init__(self, task: dict, websocket=None, stream_output=None, tone=None, headers=None):
+    def __init__(self, task: dict, websocket=None, stream_output=None, tone=None, education_level=None, headers=None):
         self.task = task
         self.websocket = websocket
         self.stream_output = stream_output
         self.headers = headers or {}
         self.tone = tone
+        self.education_level = education_level
         self.task_id = self._generate_task_id()
         self.output_dir = self._create_output_directory()
 
@@ -44,7 +45,7 @@ class ChiefEditorAgent:
         return {
             "writer": WriterAgent(self.websocket, self.stream_output, self.headers),
             "editor": EditorAgent(self.websocket, self.stream_output, self.headers),
-            "research": ResearchAgent(self.websocket, self.stream_output, self.tone, self.headers),
+            "research": ResearchAgent(self.websocket, self.stream_output, self.tone, self.education_level, self.headers),
             "publisher": PublisherAgent(self.output_dir, self.websocket, self.stream_output, self.headers),
             "human": HumanAgent(self.websocket, self.stream_output, self.headers)
         }

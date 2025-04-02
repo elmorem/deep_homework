@@ -17,6 +17,7 @@ class ReportGenerator:
             "report_type": self.researcher.report_type,
             "report_source": self.researcher.report_source,
             "tone": self.researcher.tone,
+            "education_level": self.researcher.education_level,
             "websocket": self.researcher.websocket,
             "cfg": self.researcher.cfg,
             "headers": self.researcher.headers,

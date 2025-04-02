@@ -199,6 +199,7 @@ def generate_custom_report_prompt(
     report_source: str,
     report_format="apa",
     tone=None,
+    education_level=None,
     total_words=1000,
     language: str = "english",
 ):

@@ -15,6 +15,7 @@ class BasicReport:
         source_urls,
         document_urls,
         tone: Any,
+        education_level: str,
         config_path: str,
         websocket: WebSocket,
         headers=None,
@@ -26,6 +27,7 @@ class BasicReport:
         self.source_urls = source_urls
         self.document_urls = document_urls
         self.tone = tone
+        self.education_level = education_level
         self.config_path = config_path
         self.websocket = websocket
         self.headers = headers or {}

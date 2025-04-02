@@ -10,6 +10,7 @@ async def run() -> None:
     report_type = "research_report"
     report_source = "online"
     tone = "informative"
+    education_level = "college"
     config_path = None
 
     custom_logs_handler = CustomLogsHandler(None, query)  # Pass query parameter
@@ -19,6 +20,7 @@ async def run() -> None:
         report_type=report_type,
         report_source=report_source,
         tone=tone,
+        education_level=education_level,
         config_path=config_path,
         websocket=custom_logs_handler
     )

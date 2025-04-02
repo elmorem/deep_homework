@@ -5,7 +5,7 @@ from typing import Callable, List, TypeVar
 from tqdm import tqdm
 from dotenv import load_dotenv
 from homework_researcher.agent import HomeworkResearcher
-from homework_researcher.utils.enum import ReportType, ReportSource, Tone
+from homework_researcher.utils.enum import ReportType, ReportSource, Tone, EducationLevel
 from evals.simple_evals.simpleqa_eval import SimpleQAEval
 from langchain_openai import ChatOpenAI
 import json
@@ -38,6 +38,7 @@ async def evaluate_single_query(query: str, evaluator: SimpleQAEval) -> dict:
         report_format="markdown",
         report_source=ReportSource.Web.value,
         tone=Tone.Objective,
+        education_level=EducationLevel.HighSchool,
         verbose=True
     )
     context = await researcher.conduct_research()

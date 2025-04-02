@@ -8,7 +8,7 @@ from backend.report_type.basic_report.basic_report import BasicReport
 from backend.report_type.detailed_report.detailed_report import DetailedReport
 from backend.chat.chat import ChatAgentWithMemory
 
-from homework_researcher.utils.enum import ReportType, Tone
+from homework_researcher.utils.enum import ReportType, Tone, EducationLevel
 from multi_agents.main import run_research_task
 
 from homework_researcher.actions.utils import stream_output  # Import stream_output for streaming
@@ -85,12 +85,14 @@ class WebSocketManager:
         source_urls,
         document_urls,
         tone,
+        education_level,
         websocket,
         headers=None,
         query_domains=[],
     ):
         """Start streaming the output."""
         tone = Tone[tone]
+        education_level = EducationLevel[education_level]
         # add customized JSON config file path here
         config_path = "default"
         report = await run_agent(
@@ -100,6 +102,7 @@ class WebSocketManager:
             source_urls,
             document_urls,
             tone,
+            education_level,
             websocket,
             headers=headers,
             query_domains=query_domains,
@@ -129,6 +132,7 @@ async def run_agent(
     source_urls,
     document_urls,
     tone: Tone,
+    education_level: EducationLevel,
     websocket,
     stream_output=stream_output,
     headers=None,
@@ -147,6 +151,7 @@ async def run_agent(
             websocket=logs_handler,  # Use logs_handler instead of raw websocket
             stream_output=stream_output,
             tone=tone,
+            education_level=education_level,
             headers=headers,
         )
         report = report.get("report", "")
@@ -160,6 +165,7 @@ async def run_agent(
             source_urls=source_urls,
             document_urls=document_urls,
             tone=tone,
+            education_level=education_level,
             config_path=config_path,
             websocket=logs_handler,  # Use logs_handler instead of raw websocket
             headers=headers,
@@ -175,6 +181,7 @@ async def run_agent(
             source_urls=source_urls,
             document_urls=document_urls,
             tone=tone,
+            education_level=education_level,
             config_path=config_path,
             websocket=logs_handler,  # Use logs_handler instead of raw websocket
             headers=headers,
