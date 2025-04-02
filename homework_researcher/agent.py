@@ -59,8 +59,8 @@ class HomeworkResearcher:
         )
         self.report_format = report_format
         self.max_subtopics = max_subtopics
-        self.education_level = education_level if isinstance(education_level, EducationLevel) else EducationLevel.HighSchool
         self.tone = tone if isinstance(tone, Tone) else Tone.Objective
+        self.education_level = education_level if isinstance(education_level, EducationLevel) else EducationLevel.HighSchool
         self.source_urls = source_urls
         self.document_urls = document_urls
         self.complement_source_urls = complement_source_urls

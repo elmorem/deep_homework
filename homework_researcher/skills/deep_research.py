@@ -6,7 +6,7 @@ from datetime import datetime, timedelta
 
 from homework_researcher.llm_provider.generic.base import ReasoningEfforts
 from ..utils.llm import create_chat_completion
-from ..utils.enum import ReportType, ReportSource, Tone
+from ..utils.enum import ReportType, ReportSource, Tone, EducationLevel
 from ..actions.query_processing import get_search_results
 
 logger = logging.getLogger(__name__)
