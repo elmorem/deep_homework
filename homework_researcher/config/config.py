@@ -161,6 +161,7 @@ class Config:
     def parse_llm(llm_str: str | None) -> tuple[str | None, str | None]:
         """Parse llm string into (llm_provider, llm_model)."""
         from homework_researcher.llm_provider.generic.base import _SUPPORTED_PROVIDERS
+
         if llm_str is None:
             return None, None
         try:
@@ -180,6 +181,7 @@ class Config:
     def parse_embedding(embedding_str: str | None) -> tuple[str | None, str | None]:
         """Parse embedding string into (embedding_provider, embedding_model)."""
         from homework_researcher.memory.embeddings import _SUPPORTED_PROVIDERS
+
         if embedding_str is None:
             return None, None
         try:

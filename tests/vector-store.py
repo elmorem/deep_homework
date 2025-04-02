@@ -101,13 +101,16 @@ Notes
 
 def load_document():
     document = [Document(page_content=essay)]
-    text_splitter = CharacterTextSplitter(chunk_size=200, chunk_overlap=30, separator="\n")
+    text_splitter = CharacterTextSplitter(
+        chunk_size=200, chunk_overlap=30, separator="\n"
+    )
     return text_splitter.split_documents(documents=document)
 
 
 def create_vectorstore(documents: List[Document]):
     embeddings = OpenAIEmbeddings()
     return FAISS.from_documents(documents, embeddings)
+
 
 @pytest.mark.asyncio
 async def test_gpt_researcher_with_vector_store():
@@ -123,7 +126,6 @@ async def test_gpt_researcher_with_vector_store():
         Recommend some ways to increase persistance in a healthy way.
     """
 
-
     # Create an instance of GPTResearcher
     researcher = HomeworkResearcher(
         query=query,
@@ -137,6 +139,7 @@ async def test_gpt_researcher_with_vector_store():
     report = await researcher.write_report()
 
     assert report is not None
+
 
 @pytest.mark.asyncio
 async def test_store_in_vector_store_web():
@@ -167,7 +170,7 @@ async def test_store_in_vector_store_urls():
         query=query,
         report_type="research_report",
         vector_store=vector_store,
-        source_urls=["https://en.wikipedia.org/wiki/FIFA_World_Cup"]
+        source_urls=["https://en.wikipedia.org/wiki/FIFA_World_Cup"],
     )
 
     await researcher.conduct_research()
@@ -188,7 +191,7 @@ async def test_store_in_vector_store_langchain_docs():
         report_type="research_report",
         vector_store=vector_store,
         report_source="langchain_documents",
-        documents=docs
+        documents=docs,
     )
 
     await researcher.conduct_research()
@@ -196,6 +199,7 @@ async def test_store_in_vector_store_langchain_docs():
     related_contexts = await vector_store.asimilarity_search("GPT-4", k=2)
 
     assert len(related_contexts) == 2
+
 
 @pytest.mark.asyncio
 async def test_store_in_vector_store_locals():
@@ -207,7 +211,7 @@ async def test_store_in_vector_store_locals():
         report_type="research_report",
         vector_store=vector_store,
         report_source="local",
-        config_path= "test_local"
+        config_path="test_local",
     )
 
     await researcher.conduct_research()
@@ -216,21 +220,22 @@ async def test_store_in_vector_store_locals():
 
     assert len(related_contexts) == 2
 
+
 @pytest.mark.asyncio
 async def test_store_in_vector_store_hybrids():
     vector_store = InMemoryVectorStore(embedding=OpenAIEmbeddings())
     query = "What is transformer?"
-    
+
     researcher = HomeworkResearcher(
         query=query,
         report_type="research_report",
         vector_store=vector_store,
         report_source="hybrid",
-        config_path= "test_local"
+        config_path="test_local",
     )
-    
+
     await researcher.conduct_research()
-    
+
     related_contexts = await vector_store.asimilarity_search("GPT-4", k=2)
-    
+
     assert len(related_contexts) == 2

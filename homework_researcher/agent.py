@@ -16,7 +16,12 @@ from .skills.curator import SourceCurator
 from .skills.deep_research import DeepResearchSkill
 
 from .actions.agent_creator import choose_agent
-from .actions.markdown_processing import add_references, extract_headers, extract_sections, table_of_contents
+from .actions.markdown_processing import (
+    add_references,
+    extract_headers,
+    extract_sections,
+    table_of_contents,
+)
 from .actions.retriever import get_retrievers
 from .actions.utils import stream_output
 
@@ -25,10 +30,10 @@ class HomeworkResearcher:
     def __init__(
         self,
         query: str,
+        education_level: EducationLevel,
         report_type: str = ReportType.ResearchReport.value,
         report_format: str = "markdown",
         report_source: str = ReportSource.Web.value,
-        education_level: str = EducationLevel.HighSchool,
         tone: Tone = Tone.Objective,
         source_urls: list[str] | None = None,
         document_urls: list[str] | None = None,
@@ -60,7 +65,7 @@ class HomeworkResearcher:
         self.report_format = report_format
         self.max_subtopics = max_subtopics
         self.tone = tone if isinstance(tone, Tone) else Tone.Objective
-        self.education_level = education_level if isinstance(education_level, EducationLevel) else EducationLevel.HighSchool
+        self.education_level = education_level  # if isinstance(education_level, EducationLevel) else EducationLevel.HighSchool
         self.source_urls = source_urls
         self.document_urls = document_urls
         self.complement_source_urls = complement_source_urls
@@ -180,12 +185,6 @@ class HomeworkResearcher:
             "research",
             step="research_completed",
             details={"context_length": len(self.context)},
-        )
-        await stream_output(
-            "logs",
-            "planning_research",
-            f"this is what our HomeworkResearch agent has found so far: {self.context}",
-            self.websocket,
         )
         return self.context
 

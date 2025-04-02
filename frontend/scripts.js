@@ -38,7 +38,7 @@ const GPTResearcher = (() => {
   }
 
   const listenToSockEvents = () => {
-    const { protocol, host, pathname } = window.location
+    const { protocol, host, pathname  } = window.location
     const ws_uri = `${
       protocol === 'https:' ? 'wss:' : 'ws:'
     }//${host}${pathname}ws`
@@ -62,6 +62,7 @@ const GPTResearcher = (() => {
     }
 
     socket.onopen = (event) => {
+      console.log('websocket open')
       const task = document.querySelector('input[name="task"]').value
       const report_type = document.querySelector(
         'select[name="report_type"]'
@@ -70,9 +71,11 @@ const GPTResearcher = (() => {
         'select[name="report_source"]'
       ).value
       const tone = document.querySelector('select[name="tone"]').value
+      const education_level = document.querySelector('select[name="education_level"]').value
+      
       const agent = document.querySelector('input[name="agent"]:checked').value
       let source_urls = tags
-
+      
       if (report_source !== 'sources' && source_urls.length > 0) {
         source_urls = source_urls.slice(0, source_urls.length - 1)
       }
@@ -84,6 +87,11 @@ const GPTResearcher = (() => {
           .map((domain) => domain.trim())
           .filter((domain) => domain.length > 0);
       }
+      if (!task || !report_type || !education_level || !tone) {
+        console.error('Missing required fields in requestData');
+        return;
+      }
+
 
       const requestData = {
         task: task,
@@ -91,13 +99,15 @@ const GPTResearcher = (() => {
         report_source: report_source,
         source_urls: source_urls,
         tone: tone,
+        education_level: education_level,
         agent: agent,
         query_domains: query_domains,
       }
+      
+      // socket.send(requestData)
 
       socket.send(`start ${JSON.stringify(requestData)}`)
     }
-
     // return dispose function
     return () => {
       try {

@@ -1,0 +1,700 @@
+{
+  "timestamp": "2025-04-02T12:56:37.638519",
+  "events": [
+    {
+      "timestamp": "2025-04-02T12:56:37.930014",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "planning_research",
+        "output": "\ud83c\udf10 we are now starting to conduct our research. This is a BasicReport",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-04-02T12:56:39.335576",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "planning_research",
+        "output": "We are now moving to the research_conducotr",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-04-02T12:56:39.336036",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "starting_research",
+        "output": "\ud83d\udd0d Starting the research task for 'milan kundera'...",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-04-02T12:56:39.336210",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "agent_generated",
+        "output": "\ud83d\udcda Literature Agent",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-04-02T12:56:39.336411",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "planning_research",
+        "output": "\ud83c\udf10 Browsing the web to learn more about the task: milan kundera...",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-04-02T12:56:39.336572",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "planning_research",
+        "output": "\ud83c\udf10 Browsing according to ed level = <enum 'EducationLevel'>...",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-04-02T12:56:41.339600",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "planning_research",
+        "output": "\ud83e\udd14 Planning the research strategy and subtasks...",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-04-02T12:56:57.988977",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "subqueries",
+        "output": "\ud83d\uddc2\ufe0f I will conduct my research based on the following queries: ['Milan Kundera comprehensive biography and literary analysis', 'Milan Kundera political dissent, exile, and cultural impact review', 'Milan Kundera scholarly critiques and objective literary reception 2025', 'Milan Kundera legacy as a Czech-French writer and modern political commentary', 'milan kundera']...",
+        "metadata": [
+          "Milan Kundera comprehensive biography and literary analysis",
+          "Milan Kundera political dissent, exile, and cultural impact review",
+          "Milan Kundera scholarly critiques and objective literary reception 2025",
+          "Milan Kundera legacy as a Czech-French writer and modern political commentary",
+          "milan kundera"
+        ]
+      }
+    },
+    {
+      "timestamp": "2025-04-02T12:56:57.989460",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "running_subquery_research",
+        "output": "\n\ud83d\udd0d Running research for 'Milan Kundera comprehensive biography and literary analysis'...",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-04-02T12:56:57.989893",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "running_subquery_research",
+        "output": "\n\ud83d\udd0d Running research for 'Milan Kundera political dissent, exile, and cultural impact review'...",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-04-02T12:56:57.990909",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "running_subquery_research",
+        "output": "\n\ud83d\udd0d Running research for 'Milan Kundera scholarly critiques and objective literary reception 2025'...",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-04-02T12:56:57.991410",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "running_subquery_research",
+        "output": "\n\ud83d\udd0d Running research for 'Milan Kundera legacy as a Czech-French writer and modern political commentary'...",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-04-02T12:56:57.992747",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "running_subquery_research",
+        "output": "\n\ud83d\udd0d Running research for 'milan kundera'...",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-04-02T12:56:59.855558",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "added_source_url",
+        "output": "\u2705 Added source url to research: https://www.britannica.com/biography/Milan-Kundera\n",
+        "metadata": "https://www.britannica.com/biography/Milan-Kundera"
+      }
+    },
+    {
+      "timestamp": "2025-04-02T12:56:59.856177",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "added_source_url",
+        "output": "\u2705 Added source url to research: https://www.thefamouspeople.com/profiles/milan-kundera-2387.php\n",
+        "metadata": "https://www.thefamouspeople.com/profiles/milan-kundera-2387.php"
+      }
+    },
+    {
+      "timestamp": "2025-04-02T12:56:59.856469",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "added_source_url",
+        "output": "\u2705 Added source url to research: https://www.bbc.com/news/world-europe-66173059\n",
+        "metadata": "https://www.bbc.com/news/world-europe-66173059"
+      }
+    },
+    {
+      "timestamp": "2025-04-02T12:56:59.856741",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "added_source_url",
+        "output": "\u2705 Added source url to research: https://www.npr.org/2023/07/12/1151021446/milan-kundera-dies-unbearable-lightness-of-being\n",
+        "metadata": "https://www.npr.org/2023/07/12/1151021446/milan-kundera-dies-unbearable-lightness-of-being"
+      }
+    },
+    {
+      "timestamp": "2025-04-02T12:56:59.856997",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "added_source_url",
+        "output": "\u2705 Added source url to research: https://en.wikipedia.org/wiki/Milan_Kundera\n",
+        "metadata": "https://en.wikipedia.org/wiki/Milan_Kundera"
+      }
+    },
+    {
+      "timestamp": "2025-04-02T12:56:59.857289",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "researching",
+        "output": "\ud83e\udd14 Researching for relevant information across multiple sources...\n",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-04-02T12:56:59.857562",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "scraping_urls",
+        "output": "\ud83c\udf10 Scraping content from 5 URLs...",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-04-02T12:57:00.148762",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "added_source_url",
+        "output": "\u2705 Added source url to research: https://literarysum.com/the-life-and-works-of-milan-kundera-a-comprehensive-biography/\n",
+        "metadata": "https://literarysum.com/the-life-and-works-of-milan-kundera-a-comprehensive-biography/"
+      }
+    },
+    {
+      "timestamp": "2025-04-02T12:57:00.149117",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "added_source_url",
+        "output": "\u2705 Added source url to research: https://ondertexts.com/en/biography/milan-kundera\n",
+        "metadata": "https://ondertexts.com/en/biography/milan-kundera"
+      }
+    },
+    {
+      "timestamp": "2025-04-02T12:57:00.149398",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "added_source_url",
+        "output": "\u2705 Added source url to research: https://literariness.org/2019/04/03/analysis-of-milan-kunderas-novels/\n",
+        "metadata": "https://literariness.org/2019/04/03/analysis-of-milan-kunderas-novels/"
+      }
+    },
+    {
+      "timestamp": "2025-04-02T12:57:00.149678",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "added_source_url",
+        "output": "\u2705 Added source url to research: https://www.gale.com/intl/databases-explored/literature/milan-kundera\n",
+        "metadata": "https://www.gale.com/intl/databases-explored/literature/milan-kundera"
+      }
+    },
+    {
+      "timestamp": "2025-04-02T12:57:00.149969",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "researching",
+        "output": "\ud83e\udd14 Researching for relevant information across multiple sources...\n",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-04-02T12:57:00.150261",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "scraping_urls",
+        "output": "\ud83c\udf10 Scraping content from 4 URLs...",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-04-02T12:57:00.275311",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "added_source_url",
+        "output": "\u2705 Added source url to research: https://www.ijfmr.com/special-issues/2/190.pdf\n",
+        "metadata": "https://www.ijfmr.com/special-issues/2/190.pdf"
+      }
+    },
+    {
+      "timestamp": "2025-04-02T12:57:00.275734",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "added_source_url",
+        "output": "\u2705 Added source url to research: https://pdxscholar.library.pdx.edu/cgi/viewcontent.cgi?article=4056&context=open_access_etds\n",
+        "metadata": "https://pdxscholar.library.pdx.edu/cgi/viewcontent.cgi?article=4056&context=open_access_etds"
+      }
+    },
+    {
+      "timestamp": "2025-04-02T12:57:00.276051",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "added_source_url",
+        "output": "\u2705 Added source url to research: https://www.eurasiareview.com/13072023-a-dissident-extraordinary-milan-kundera-remembered/\n",
+        "metadata": "https://www.eurasiareview.com/13072023-a-dissident-extraordinary-milan-kundera-remembered/"
+      }
+    },
+    {
+      "timestamp": "2025-04-02T12:57:00.276357",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "added_source_url",
+        "output": "\u2705 Added source url to research: https://journalhosting.ucalgary.ca/index.php/hic/article/download/68921/53373/197758\n",
+        "metadata": "https://journalhosting.ucalgary.ca/index.php/hic/article/download/68921/53373/197758"
+      }
+    },
+    {
+      "timestamp": "2025-04-02T12:57:00.276650",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "added_source_url",
+        "output": "\u2705 Added source url to research: https://www.tabletmag.com/sections/arts-letters/articles/milan-kundera-the-joke\n",
+        "metadata": "https://www.tabletmag.com/sections/arts-letters/articles/milan-kundera-the-joke"
+      }
+    },
+    {
+      "timestamp": "2025-04-02T12:57:00.276959",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "researching",
+        "output": "\ud83e\udd14 Researching for relevant information across multiple sources...\n",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-04-02T12:57:00.277256",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "scraping_urls",
+        "output": "\ud83c\udf10 Scraping content from 5 URLs...",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-04-02T12:57:00.360950",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "added_source_url",
+        "output": "\u2705 Added source url to research: https://jacobin.com/2023/07/milan-kundera-literature-socialism-novels-freedom\n",
+        "metadata": "https://jacobin.com/2023/07/milan-kundera-literature-socialism-novels-freedom"
+      }
+    },
+    {
+      "timestamp": "2025-04-02T12:57:00.361578",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "added_source_url",
+        "output": "\u2705 Added source url to research: https://english.radio.cz/milan-kundera-one-south-moravian-capitals-most-famous-sons-8794195\n",
+        "metadata": "https://english.radio.cz/milan-kundera-one-south-moravian-capitals-most-famous-sons-8794195"
+      }
+    },
+    {
+      "timestamp": "2025-04-02T12:57:00.361953",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "researching",
+        "output": "\ud83e\udd14 Researching for relevant information across multiple sources...\n",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-04-02T12:57:00.362294",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "scraping_urls",
+        "output": "\ud83c\udf10 Scraping content from 2 URLs...",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-04-02T12:57:00.658981",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "added_source_url",
+        "output": "\u2705 Added source url to research: https://searchworks.stanford.edu/view/in00000391254\n",
+        "metadata": "https://searchworks.stanford.edu/view/in00000391254"
+      }
+    },
+    {
+      "timestamp": "2025-04-02T12:57:00.660053",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "added_source_url",
+        "output": "\u2705 Added source url to research: https://www.academia.edu/108683524/Four_secondary_literature_pieces_on_Milan_Kundera\n",
+        "metadata": "https://www.academia.edu/108683524/Four_secondary_literature_pieces_on_Milan_Kundera"
+      }
+    },
+    {
+      "timestamp": "2025-04-02T12:57:00.660521",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "added_source_url",
+        "output": "\u2705 Added source url to research: https://www.tandfonline.com/doi/abs/10.3200/CRIT.50.4.350-364\n",
+        "metadata": "https://www.tandfonline.com/doi/abs/10.3200/CRIT.50.4.350-364"
+      }
+    },
+    {
+      "timestamp": "2025-04-02T12:57:00.660939",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "added_source_url",
+        "output": "\u2705 Added source url to research: https://newrepublic.com/article/173558/milan-kunderas-stubborn-struggle-survival-literature\n",
+        "metadata": "https://newrepublic.com/article/173558/milan-kunderas-stubborn-struggle-survival-literature"
+      }
+    },
+    {
+      "timestamp": "2025-04-02T12:57:00.661317",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "researching",
+        "output": "\ud83e\udd14 Researching for relevant information across multiple sources...\n",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-04-02T12:57:00.661683",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "scraping_urls",
+        "output": "\ud83c\udf10 Scraping content from 4 URLs...",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-04-02T12:57:00.932591",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "scraping_content",
+        "output": "\ud83d\udcc4 Scraped 5 pages of content",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-04-02T12:57:00.933285",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "scraping_images",
+        "output": "\ud83d\uddbc\ufe0f Selected 4 new images from 23 total images",
+        "metadata": [
+          "https://static-assets.npr.org/chrome_svg/npr-logo-2025.svg",
+          "https://media.npr.org/chrome/programs/logos/morning-edition.jpg",
+          "https://media.npr.org/assets/img/2019/02/26/we_otherentitiestemplatesat_sq-cbde87a2fa31b01047441e6f34d2769b0287bcd4-s100-c85.png",
+          "https://media.npr.org/assets/img/2019/02/26/we_otherentitiestemplatesun_sq-4a03b35e7e5adfa446aec374523a578d54dc9bf5-s100-c85.png"
+        ]
+      }
+    },
+    {
+      "timestamp": "2025-04-02T12:57:00.933702",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "scraping_complete",
+        "output": "\ud83c\udf10 Scraping complete",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-04-02T12:57:00.934145",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "fetching_query_content",
+        "output": "\ud83d\udcda Getting relevant content based on query: milan kundera...",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-04-02T12:57:01.894542",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "scraping_content",
+        "output": "\ud83d\udcc4 Scraped 1 pages of content",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-04-02T12:57:01.895150",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "scraping_images",
+        "output": "\ud83d\uddbc\ufe0f Selected 1 new images from 1 total images",
+        "metadata": [
+          "https://images.newrepublic.com/8cf273d47fa048258ef6c223178d6742820e256b.jpeg?auto=format&fit=crop&crop=faces&q=65&w=1000&ar=3%3A2&ixlib=react-9.10.0"
+        ]
+      }
+    },
+    {
+      "timestamp": "2025-04-02T12:57:01.895764",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "scraping_complete",
+        "output": "\ud83c\udf10 Scraping complete",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-04-02T12:57:01.896225",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "fetching_query_content",
+        "output": "\ud83d\udcda Getting relevant content based on query: Milan Kundera scholarly critiques and objective literary reception 2025...",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-04-02T12:57:04.262678",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "scraping_content",
+        "output": "\ud83d\udcc4 Scraped 3 pages of content",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-04-02T12:57:04.264147",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "scraping_images",
+        "output": "\ud83d\uddbc\ufe0f Selected 0 new images from 0 total images",
+        "metadata": []
+      }
+    },
+    {
+      "timestamp": "2025-04-02T12:57:04.266160",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "scraping_complete",
+        "output": "\ud83c\udf10 Scraping complete",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-04-02T12:57:04.267626",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "fetching_query_content",
+        "output": "\ud83d\udcda Getting relevant content based on query: Milan Kundera political dissent, exile, and cultural impact review...",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-04-02T12:57:04.310838",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "scraping_content",
+        "output": "\ud83d\udcc4 Scraped 4 pages of content",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-04-02T12:57:04.311491",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "scraping_images",
+        "output": "\ud83d\uddbc\ufe0f Selected 4 new images from 14 total images",
+        "metadata": [
+          "https://i0.wp.com/literariness.org/wp-content/uploads/2019/04/596ca8fc69e04be3dcbed2d3b1bb4f60.jpg?resize=700%2C925&ssl=1",
+          "https://www.gale.com/binaries/content/gallery/gale-us-en/international-images/miscellaneous/gps_hairline_image.png",
+          "https://i0.wp.com/literariness.org/wp-content/uploads/2019/04/images.jpg?resize=700%2C466&ssl=1",
+          "https://i0.wp.com/literariness.org/wp-content/uploads/2019/04/d1c8462d327ea1d5ad1d2f3937da7860.jpg?w=226&h=355&ssl=1"
+        ]
+      }
+    },
+    {
+      "timestamp": "2025-04-02T12:57:04.312016",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "scraping_complete",
+        "output": "\ud83c\udf10 Scraping complete",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-04-02T12:57:04.312530",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "fetching_query_content",
+        "output": "\ud83d\udcda Getting relevant content based on query: Milan Kundera comprehensive biography and literary analysis...",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-04-02T12:57:04.339030",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "scraping_content",
+        "output": "\ud83d\udcc4 Scraped 2 pages of content",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-04-02T12:57:04.339721",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "scraping_images",
+        "output": "\ud83d\uddbc\ufe0f Selected 4 new images from 11 total images",
+        "metadata": [
+          "https://images.jacobinmag.com/wp-content/uploads/2023/07/26122523/GettyImages-110140122.jpg",
+          "https://english.radio.cz/sites/default/files/images/065508fa428f964ba869b815f285dd65.png?timestamp=1694001905",
+          "https://english.radio.cz/sites/default/files/images/3d47de3dbb7045e013ea0c0466277be7.jpg?timestamp=1693826024",
+          "https://english.radio.cz/sites/default/files/styles/cro_3x2_mobile/public/images/5696aa8581d4df7bd3b86e788f057750.jpg?itok=_SHXoiKU&timestamp=1693993983"
+        ]
+      }
+    },
+    {
+      "timestamp": "2025-04-02T12:57:04.340309",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "scraping_complete",
+        "output": "\ud83c\udf10 Scraping complete",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-04-02T12:57:04.341009",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "fetching_query_content",
+        "output": "\ud83d\udcda Getting relevant content based on query: Milan Kundera legacy as a Czech-French writer and modern political commentary...",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-04-02T12:57:07.305048",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "research_step_finalized",
+        "output": "Finalized research step.\n\ud83d\udcb8 Total Research Costs: $0.015249559999999999",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-04-02T12:57:07.306518",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "writing_report",
+        "output": "\u270d\ufe0f Writing report for 'milan kundera'...",
+        "metadata": null
+      }
+    }
+  ],
+  "content": {
+    "query": "",
+    "sources": [],
+    "context": [],
+    "report": "",
+    "costs": 0.0,
+    "type": "images",
+    "content": "selected_images",
+    "output": "[\"https://static-assets.npr.org/chrome_svg/npr-logo-2025.svg\", \"https://media.npr.org/chrome/programs/logos/morning-edition.jpg\", \"https://media.npr.org/assets/img/2019/02/26/we_otherentitiestemplatesat_sq-cbde87a2fa31b01047441e6f34d2769b0287bcd4-s100-c85.png\", \"https://media.npr.org/assets/img/2019/02/26/we_otherentitiestemplatesun_sq-4a03b35e7e5adfa446aec374523a578d54dc9bf5-s100-c85.png\", \"https://images.newrepublic.com/8cf273d47fa048258ef6c223178d6742820e256b.jpeg?auto=format&fit=crop&crop=faces&q=65&w=1000&ar=3%3A2&ixlib=react-9.10.0\", \"https://i0.wp.com/literariness.org/wp-content/uploads/2019/04/596ca8fc69e04be3dcbed2d3b1bb4f60.jpg?resize=700%2C925&ssl=1\", \"https://www.gale.com/binaries/content/gallery/gale-us-en/international-images/miscellaneous/gps_hairline_image.png\", \"https://i0.wp.com/literariness.org/wp-content/uploads/2019/04/images.jpg?resize=700%2C466&ssl=1\", \"https://i0.wp.com/literariness.org/wp-content/uploads/2019/04/d1c8462d327ea1d5ad1d2f3937da7860.jpg?w=226&h=355&ssl=1\", \"https://images.jacobinmag.com/wp-content/uploads/2023/07/26122523/GettyImages-110140122.jpg\"]",
+    "metadata": [
+      "https://static-assets.npr.org/chrome_svg/npr-logo-2025.svg",
+      "https://media.npr.org/chrome/programs/logos/morning-edition.jpg",
+      "https://media.npr.org/assets/img/2019/02/26/we_otherentitiestemplatesat_sq-cbde87a2fa31b01047441e6f34d2769b0287bcd4-s100-c85.png",
+      "https://media.npr.org/assets/img/2019/02/26/we_otherentitiestemplatesun_sq-4a03b35e7e5adfa446aec374523a578d54dc9bf5-s100-c85.png",
+      "https://images.newrepublic.com/8cf273d47fa048258ef6c223178d6742820e256b.jpeg?auto=format&fit=crop&crop=faces&q=65&w=1000&ar=3%3A2&ixlib=react-9.10.0",
+      "https://i0.wp.com/literariness.org/wp-content/uploads/2019/04/596ca8fc69e04be3dcbed2d3b1bb4f60.jpg?resize=700%2C925&ssl=1",
+      "https://www.gale.com/binaries/content/gallery/gale-us-en/international-images/miscellaneous/gps_hairline_image.png",
+      "https://i0.wp.com/literariness.org/wp-content/uploads/2019/04/images.jpg?resize=700%2C466&ssl=1",
+      "https://i0.wp.com/literariness.org/wp-content/uploads/2019/04/d1c8462d327ea1d5ad1d2f3937da7860.jpg?w=226&h=355&ssl=1",
+      "https://images.jacobinmag.com/wp-content/uploads/2023/07/26122523/GettyImages-110140122.jpg"
+    ]
+  }
+}

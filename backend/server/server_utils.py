@@ -125,17 +125,25 @@ def sanitize_filename(filename: str) -> str:
 
 
 async def handle_start_command(websocket, data: str, manager):
+    print(f"{data = }")
     json_data = json.loads(data[6:])
+    print("---------------")
+    print(f"{json_data = }")
     (
         task,
         report_type,
         source_urls,
         document_urls,
         tone,
+        education_level,
         headers,
         report_source,
         query_domains,
     ) = extract_command_data(json_data)
+    print(f"{task = }")
+    print(f"{report_type = }")
+    print(f"{source_urls = }")
+    print(f"{education_level = }")
 
     if not task or not report_type:
         print("Error: Missing task or report_type")
@@ -157,6 +165,7 @@ async def handle_start_command(websocket, data: str, manager):
         source_urls,
         document_urls,
         tone,
+        education_level,
         websocket,
         headers,
         query_domains,
@@ -328,6 +337,7 @@ def extract_command_data(json_data: Dict) -> tuple:
         json_data.get("source_urls"),
         json_data.get("document_urls"),
         json_data.get("tone"),
+        json_data.get("education_level"),
         json_data.get("headers", {}),
         json_data.get("report_source"),
         json_data.get("query_domains", []),

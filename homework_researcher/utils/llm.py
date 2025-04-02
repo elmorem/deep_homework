@@ -7,7 +7,11 @@ from typing import Any
 from langchain.output_parsers import PydanticOutputParser
 from langchain.prompts import PromptTemplate
 
-from homework_researcher.llm_provider.generic.base import NO_SUPPORT_TEMPERATURE_MODELS, SUPPORT_REASONING_EFFORT_MODELS, ReasoningEfforts
+from homework_researcher.llm_provider.generic.base import (
+    NO_SUPPORT_TEMPERATURE_MODELS,
+    SUPPORT_REASONING_EFFORT_MODELS,
+    ReasoningEfforts,
+)
 
 
 from ..prompts import generate_subtopics_prompt
@@ -18,6 +22,7 @@ import os
 
 def get_llm(llm_provider, **kwargs):
     from homework_researcher.llm_provider import GenericLLMProvider
+
     return GenericLLMProvider.from_provider(llm_provider, **kwargs)
 
 
@@ -86,7 +91,11 @@ async def create_chat_completion(
 
 
 async def construct_subtopics(
-    task: str, data: str, config, education_level: str, subtopics: list = [], 
+    task: str,
+    data: str,
+    config,
+    education_level: str,
+    subtopics: list = [],
 ) -> list:
     """
     Construct subtopics based on the given task and data.
@@ -127,7 +136,9 @@ async def construct_subtopics(
         print(".....................")
         print(".....................")
         print(".....................")
-        print(f" we are in the construct_subtopics function education_level: {education_level}")
+        print(
+            f" we are in the construct_subtopics function education_level: {education_level}"
+        )
         print(".....................")
         print(".....................")
         print(".....................")

@@ -16,6 +16,7 @@ class DetailedReport:
         query_domains: List[str] = [],
         config_path: str = None,
         tone: Any = "",
+        education_level: str = "",
         websocket: WebSocket = None,
         subtopics: List[Dict] = [],
         headers: Optional[Dict] = None,
@@ -28,6 +29,7 @@ class DetailedReport:
         self.query_domains = query_domains
         self.config_path = config_path
         self.tone = tone
+        self.education_level = (education_level,)
         self.websocket = websocket
         self.subtopics = subtopics
         self.headers = headers or {}
@@ -41,6 +43,7 @@ class DetailedReport:
             document_urls=self.document_urls,
             config_path=self.config_path,
             tone=self.tone,
+            education_level=self.education_level,
             websocket=self.websocket,
             headers=self.headers,
         )
@@ -104,6 +107,7 @@ class DetailedReport:
             agent=self.gpt_researcher.agent,
             role=self.gpt_researcher.role,
             tone=self.tone,
+            education_level=self.education_level,
         )
 
         subtopic_assistant.context = list(set(self.global_context))
