@@ -1,0 +1,713 @@
+{
+  "timestamp": "2025-04-02T15:29:36.397534",
+  "events": [
+    {
+      "timestamp": "2025-04-02T15:29:36.688174",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "planning_research",
+        "output": "\ud83c\udf10 we are now starting to conduct our research. This is a BasicReport",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-04-02T15:29:38.370154",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "planning_research",
+        "output": "We are now moving to the research_conducotr",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-04-02T15:29:38.370423",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "starting_research",
+        "output": "\ud83d\udd0d Starting the research task for 'Macbeth'...",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-04-02T15:29:38.370591",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "agent_generated",
+        "output": "\ud83d\udcda Literature Agent",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-04-02T15:29:38.370785",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "planning_research",
+        "output": "\ud83c\udf10 Browsing the web to learn more about the task: Macbeth...",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-04-02T15:29:40.313673",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "planning_research",
+        "output": "\ud83e\udd14 Planning the research strategy and subtasks...",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-04-02T15:29:52.294510",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "subqueries",
+        "output": "\ud83d\uddc2\ufe0f I will conduct my research based on the following queries: ['Objective literary analysis of Shakespeare\u2019s Macbeth: themes, characters, and symbolism', 'Unbiased historical and political context review of Macbeth by Shakespeare (April 2025 perspective)', 'Academic critique of ambition, guilt, and supernatural elements in Macbeth', 'Evidence-based analysis of plot structure and tragic downfall in Shakespeare\u2019s Macbeth', 'Macbeth']...",
+        "metadata": [
+          "Objective literary analysis of Shakespeare\u2019s Macbeth: themes, characters, and symbolism",
+          "Unbiased historical and political context review of Macbeth by Shakespeare (April 2025 perspective)",
+          "Academic critique of ambition, guilt, and supernatural elements in Macbeth",
+          "Evidence-based analysis of plot structure and tragic downfall in Shakespeare\u2019s Macbeth",
+          "Macbeth"
+        ]
+      }
+    },
+    {
+      "timestamp": "2025-04-02T15:29:52.294988",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "running_subquery_research",
+        "output": "\n\ud83d\udd0d Running research for 'Objective literary analysis of Shakespeare\u2019s Macbeth: themes, characters, and symbolism'...",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-04-02T15:29:52.295315",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "running_subquery_research",
+        "output": "\n\ud83d\udd0d Running research for 'Unbiased historical and political context review of Macbeth by Shakespeare (April 2025 perspective)'...",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-04-02T15:29:52.296100",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "running_subquery_research",
+        "output": "\n\ud83d\udd0d Running research for 'Academic critique of ambition, guilt, and supernatural elements in Macbeth'...",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-04-02T15:29:52.297032",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "running_subquery_research",
+        "output": "\n\ud83d\udd0d Running research for 'Evidence-based analysis of plot structure and tragic downfall in Shakespeare\u2019s Macbeth'...",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-04-02T15:29:52.298109",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "running_subquery_research",
+        "output": "\n\ud83d\udd0d Running research for 'Macbeth'...",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-04-02T15:29:54.240331",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "added_source_url",
+        "output": "\u2705 Added source url to research: https://en.wikipedia.org/wiki/Macbeth\n",
+        "metadata": "https://en.wikipedia.org/wiki/Macbeth"
+      }
+    },
+    {
+      "timestamp": "2025-04-02T15:29:54.241442",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "added_source_url",
+        "output": "\u2705 Added source url to research: https://www.britannica.com/topic/Macbeth-by-Shakespeare\n",
+        "metadata": "https://www.britannica.com/topic/Macbeth-by-Shakespeare"
+      }
+    },
+    {
+      "timestamp": "2025-04-02T15:29:54.242128",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "added_source_url",
+        "output": "\u2705 Added source url to research: https://www.litcharts.com/lit/macbeth/summary\n",
+        "metadata": "https://www.litcharts.com/lit/macbeth/summary"
+      }
+    },
+    {
+      "timestamp": "2025-04-02T15:29:54.242734",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "added_source_url",
+        "output": "\u2705 Added source url to research: https://www.folger.edu/explore/shakespeares-works/macbeth/read/\n",
+        "metadata": "https://www.folger.edu/explore/shakespeares-works/macbeth/read/"
+      }
+    },
+    {
+      "timestamp": "2025-04-02T15:29:54.243330",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "added_source_url",
+        "output": "\u2705 Added source url to research: https://www.litcharts.com/shakescleare/shakespeare-translations/macbeth\n",
+        "metadata": "https://www.litcharts.com/shakescleare/shakespeare-translations/macbeth"
+      }
+    },
+    {
+      "timestamp": "2025-04-02T15:29:54.244385",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "researching",
+        "output": "\ud83e\udd14 Researching for relevant information across multiple sources...\n",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-04-02T15:29:54.245136",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "scraping_urls",
+        "output": "\ud83c\udf10 Scraping content from 5 URLs...",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-04-02T15:29:54.386926",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "added_source_url",
+        "output": "\u2705 Added source url to research: https://lunanotes.io/summary/exploring-the-themes-of-ambition-guilt-and-supernatural-influence-in-macbeth\n",
+        "metadata": "https://lunanotes.io/summary/exploring-the-themes-of-ambition-guilt-and-supernatural-influence-in-macbeth"
+      }
+    },
+    {
+      "timestamp": "2025-04-02T15:29:54.387279",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "added_source_url",
+        "output": "\u2705 Added source url to research: https://www.researchgate.net/publication/386742340_Unchecked_Ambition_and_the_Descent_into_Madness_A_Psychological_Exploration_of_Shakespeare's_Macbeth\n",
+        "metadata": "https://www.researchgate.net/publication/386742340_Unchecked_Ambition_and_the_Descent_into_Madness_A_Psychological_Exploration_of_Shakespeare's_Macbeth"
+      }
+    },
+    {
+      "timestamp": "2025-04-02T15:29:54.387551",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "added_source_url",
+        "output": "\u2705 Added source url to research: https://www.ukessays.com/guides/macbeth-quotes-a-comprehensive-academic-guide.php\n",
+        "metadata": "https://www.ukessays.com/guides/macbeth-quotes-a-comprehensive-academic-guide.php"
+      }
+    },
+    {
+      "timestamp": "2025-04-02T15:29:54.387857",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "added_source_url",
+        "output": "\u2705 Added source url to research: https://openspaces.unk.edu/cgi/viewcontent.cgi?article=1033&context=undergraduate-research-journal\n",
+        "metadata": "https://openspaces.unk.edu/cgi/viewcontent.cgi?article=1033&context=undergraduate-research-journal"
+      }
+    },
+    {
+      "timestamp": "2025-04-02T15:29:54.388174",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "added_source_url",
+        "output": "\u2705 Added source url to research: https://www.researchgate.net/publication/375450445_Ambition_Power_and_Corruption_in_Macbeth_An_Exploration_of_Shakespeare's_Timeless_Tragedy\n",
+        "metadata": "https://www.researchgate.net/publication/375450445_Ambition_Power_and_Corruption_in_Macbeth_An_Exploration_of_Shakespeare's_Timeless_Tragedy"
+      }
+    },
+    {
+      "timestamp": "2025-04-02T15:29:54.388485",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "researching",
+        "output": "\ud83e\udd14 Researching for relevant information across multiple sources...\n",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-04-02T15:29:54.388791",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "scraping_urls",
+        "output": "\ud83c\udf10 Scraping content from 5 URLs...",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-04-02T15:29:54.390175",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "added_source_url",
+        "output": "\u2705 Added source url to research: https://www.academia.edu/7132652/Historical_context_of_Shakespeares_Macbeth\n",
+        "metadata": "https://www.academia.edu/7132652/Historical_context_of_Shakespeares_Macbeth"
+      }
+    },
+    {
+      "timestamp": "2025-04-02T15:29:54.390729",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "added_source_url",
+        "output": "\u2705 Added source url to research: https://mseffie.com/assignments/macbeth/Assignments/Historical+Context.pdf\n",
+        "metadata": "https://mseffie.com/assignments/macbeth/Assignments/Historical+Context.pdf"
+      }
+    },
+    {
+      "timestamp": "2025-04-02T15:29:54.391087",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "added_source_url",
+        "output": "\u2705 Added source url to research: https://www.jstor.org/stable/23356185\n",
+        "metadata": "https://www.jstor.org/stable/23356185"
+      }
+    },
+    {
+      "timestamp": "2025-04-02T15:29:54.391424",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "added_source_url",
+        "output": "\u2705 Added source url to research: https://journals.sagepub.com/doi/full/10.1177/2158244012439557\n",
+        "metadata": "https://journals.sagepub.com/doi/full/10.1177/2158244012439557"
+      }
+    },
+    {
+      "timestamp": "2025-04-02T15:29:54.391921",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "added_source_url",
+        "output": "\u2705 Added source url to research: https://www.tandfonline.com/doi/full/10.1080/17450918.2021.1890808\n",
+        "metadata": "https://www.tandfonline.com/doi/full/10.1080/17450918.2021.1890808"
+      }
+    },
+    {
+      "timestamp": "2025-04-02T15:29:54.392259",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "researching",
+        "output": "\ud83e\udd14 Researching for relevant information across multiple sources...\n",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-04-02T15:29:54.392744",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "scraping_urls",
+        "output": "\ud83c\udf10 Scraping content from 5 URLs...",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-04-02T15:29:54.418313",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "added_source_url",
+        "output": "\u2705 Added source url to research: https://literarysum.com/uncovering-the-depths-of-macbeth-a-literary-analysis-by-william-shakespeare/\n",
+        "metadata": "https://literarysum.com/uncovering-the-depths-of-macbeth-a-literary-analysis-by-william-shakespeare/"
+      }
+    },
+    {
+      "timestamp": "2025-04-02T15:29:54.418833",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "added_source_url",
+        "output": "\u2705 Added source url to research: https://litdevices.com/literature/macbeth/\n",
+        "metadata": "https://litdevices.com/literature/macbeth/"
+      }
+    },
+    {
+      "timestamp": "2025-04-02T15:29:54.419221",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "added_source_url",
+        "output": "\u2705 Added source url to research: https://www.sparknotes.com/shakespeare/macbeth/themes/\n",
+        "metadata": "https://www.sparknotes.com/shakespeare/macbeth/themes/"
+      }
+    },
+    {
+      "timestamp": "2025-04-02T15:29:54.419733",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "added_source_url",
+        "output": "\u2705 Added source url to research: https://literarydevices.net/macbeth-themes/\n",
+        "metadata": "https://literarydevices.net/macbeth-themes/"
+      }
+    },
+    {
+      "timestamp": "2025-04-02T15:29:54.420383",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "added_source_url",
+        "output": "\u2705 Added source url to research: https://literarydevices.net/macbeth/\n",
+        "metadata": "https://literarydevices.net/macbeth/"
+      }
+    },
+    {
+      "timestamp": "2025-04-02T15:29:54.420879",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "researching",
+        "output": "\ud83e\udd14 Researching for relevant information across multiple sources...\n",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-04-02T15:29:54.421507",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "scraping_urls",
+        "output": "\ud83c\udf10 Scraping content from 5 URLs...",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-04-02T15:29:54.529557",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "added_source_url",
+        "output": "\u2705 Added source url to research: https://phdessay.com/an-analysis-of-the-tragic-downfall-of-macbeth-in-macbeth-a-play-by-william-shakespeare/\n",
+        "metadata": "https://phdessay.com/an-analysis-of-the-tragic-downfall-of-macbeth-in-macbeth-a-play-by-william-shakespeare/"
+      }
+    },
+    {
+      "timestamp": "2025-04-02T15:29:54.530201",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "added_source_url",
+        "output": "\u2705 Added source url to research: https://litgram.in/macbeth-as-tragic-hero/\n",
+        "metadata": "https://litgram.in/macbeth-as-tragic-hero/"
+      }
+    },
+    {
+      "timestamp": "2025-04-02T15:29:54.530578",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "added_source_url",
+        "output": "\u2705 Added source url to research: https://www.sparknotes.com/shakespeare/macbeth/plot-analysis/\n",
+        "metadata": "https://www.sparknotes.com/shakespeare/macbeth/plot-analysis/"
+      }
+    },
+    {
+      "timestamp": "2025-04-02T15:29:54.530934",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "added_source_url",
+        "output": "\u2705 Added source url to research: https://www.jstor.org/stable/2866894\n",
+        "metadata": "https://www.jstor.org/stable/2866894"
+      }
+    },
+    {
+      "timestamp": "2025-04-02T15:29:54.531294",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "added_source_url",
+        "output": "\u2705 Added source url to research: https://www.researchgate.net/publication/326125843_Tragedy_and_Moral_Values_in_William_Shakespeare's_Macbeth_A_Structural_Analysis\n",
+        "metadata": "https://www.researchgate.net/publication/326125843_Tragedy_and_Moral_Values_in_William_Shakespeare's_Macbeth_A_Structural_Analysis"
+      }
+    },
+    {
+      "timestamp": "2025-04-02T15:29:54.531666",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "researching",
+        "output": "\ud83e\udd14 Researching for relevant information across multiple sources...\n",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-04-02T15:29:54.532032",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "scraping_urls",
+        "output": "\ud83c\udf10 Scraping content from 5 URLs...",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-04-02T15:29:55.209754",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "scraping_content",
+        "output": "\ud83d\udcc4 Scraped 0 pages of content",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-04-02T15:29:55.211211",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "scraping_images",
+        "output": "\ud83d\uddbc\ufe0f Selected 0 new images from 0 total images",
+        "metadata": []
+      }
+    },
+    {
+      "timestamp": "2025-04-02T15:29:55.212107",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "scraping_complete",
+        "output": "\ud83c\udf10 Scraping complete",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-04-02T15:29:55.212824",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "fetching_query_content",
+        "output": "\ud83d\udcda Getting relevant content based on query: Unbiased historical and political context review of Macbeth by Shakespeare (April 2025 perspective)...",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-04-02T15:29:55.295663",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "subquery_context_not_found",
+        "output": "\ud83e\udd37 No content found for 'Unbiased historical and political context review of Macbeth by Shakespeare (April 2025 perspective)'...",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-04-02T15:29:56.846864",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "scraping_content",
+        "output": "\ud83d\udcc4 Scraped 5 pages of content",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-04-02T15:29:56.847412",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "scraping_images",
+        "output": "\ud83d\uddbc\ufe0f Selected 4 new images from 46 total images",
+        "metadata": [
+          "https://images.folger.edu/uploads/2025/01/Macbeth-scaled.jpg?fit=1024%2C1024",
+          "https://images.folger.edu/uploads/2023/01/SENSE_369_TWood-scaled.jpg?resize=10%2C20&gravity",
+          "https://images.folger.edu/uploads/2022/09/FSL_WestGarden2.jpg?resize=10%2C20&gravity",
+          "https://images.folger.edu/uploads/2023/01/Shakespeares-Birthday-2017-517-scaled.jpg?resize=10%2C20&gravity"
+        ]
+      }
+    },
+    {
+      "timestamp": "2025-04-02T15:29:56.847853",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "scraping_complete",
+        "output": "\ud83c\udf10 Scraping complete",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-04-02T15:29:56.848278",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "fetching_query_content",
+        "output": "\ud83d\udcda Getting relevant content based on query: Macbeth...",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-04-02T15:29:57.018828",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "scraping_content",
+        "output": "\ud83d\udcc4 Scraped 3 pages of content",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-04-02T15:29:57.019604",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "scraping_images",
+        "output": "\ud83d\uddbc\ufe0f Selected 4 new images from 20 total images",
+        "metadata": [
+          "https://www.ukessays.com/images/flags/uk.svg",
+          "https://blog.scanmyessay.com/wp-content/uploads/2025/03/Memorable-Macbeth-Quotes-724x1024.png",
+          "https://www.ukessays.com/images/article/service-1.jpg",
+          "https://www.ukessays.com/images/article/service-2.jpg"
+        ]
+      }
+    },
+    {
+      "timestamp": "2025-04-02T15:29:57.020101",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "scraping_complete",
+        "output": "\ud83c\udf10 Scraping complete",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-04-02T15:29:57.020582",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "fetching_query_content",
+        "output": "\ud83d\udcda Getting relevant content based on query: Academic critique of ambition, guilt, and supernatural elements in Macbeth...",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-04-02T15:30:05.194956",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "scraping_content",
+        "output": "\ud83d\udcc4 Scraped 3 pages of content",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-04-02T15:30:05.195750",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "scraping_images",
+        "output": "\ud83d\uddbc\ufe0f Selected 0 new images from 0 total images",
+        "metadata": []
+      }
+    },
+    {
+      "timestamp": "2025-04-02T15:30:05.196591",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "scraping_complete",
+        "output": "\ud83c\udf10 Scraping complete",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-04-02T15:30:05.197072",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "fetching_query_content",
+        "output": "\ud83d\udcda Getting relevant content based on query: Objective literary analysis of Shakespeare\u2019s Macbeth: themes, characters, and symbolism...",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-04-02T15:30:05.992864",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "scraping_content",
+        "output": "\ud83d\udcc4 Scraped 2 pages of content",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-04-02T15:30:05.993520",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "scraping_images",
+        "output": "\ud83d\uddbc\ufe0f Selected 4 new images from 16 total images",
+        "metadata": [
+          "https://litgramind492c.zapwp.com/q:i/r:0/wp:1/w:1/u:https://litgram.in/wp-content/uploads/2025/02/cropped-erasebg-transformed.webp",
+          "https://phdessay.com/wp-content/themes/theme/assets/img/mob-logo.svg",
+          "https://phdessay.com/wp-content/themes/theme/assets/img/footer-logo.svg",
+          "https://phdessay.com/wp-content/themes/theme/assets/img/download-essay.svg"
+        ]
+      }
+    },
+    {
+      "timestamp": "2025-04-02T15:30:05.994154",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "scraping_complete",
+        "output": "\ud83c\udf10 Scraping complete",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-04-02T15:30:05.994675",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "fetching_query_content",
+        "output": "\ud83d\udcda Getting relevant content based on query: Evidence-based analysis of plot structure and tragic downfall in Shakespeare\u2019s Macbeth...",
+        "metadata": null
+      }
+    }
+  ],
+  "content": {
+    "query": "",
+    "sources": [],
+    "context": [],
+    "report": "",
+    "costs": 0.0
+  }
+}
