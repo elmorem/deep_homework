@@ -11,7 +11,9 @@ from backend.chat.chat import ChatAgentWithMemory
 from homework_researcher.utils.enum import ReportType, Tone, EducationLevel
 from multi_agents.main import run_research_task
 
-from homework_researcher.actions.utils import stream_output  # Import stream_output for streaming
+from homework_researcher.actions.utils import (
+    stream_output,
+)  # Import stream_output for streaming
 from backend.server.server_utils import CustomLogsHandler
 
 

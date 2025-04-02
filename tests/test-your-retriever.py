@@ -4,8 +4,10 @@ from homework_researcher.config.config import Config
 from homework_researcher.actions.retriever import get_retrievers
 from homework_researcher.skills.researcher import ResearchConductor
 import pprint
+
 # Load environment variables from .env file
 load_dotenv()
+
 
 async def test_scrape_data_by_query():
     # Initialize the Config object
@@ -38,12 +40,11 @@ async def test_scrape_data_by_query():
         retriever = retriever_class(sub_query)
 
         # Perform the search using the current retriever
-        search_results = await asyncio.to_thread(
-            retriever.search, max_results=10
-        )
+        search_results = await asyncio.to_thread(retriever.search, max_results=10)
 
         print("\033[35mSearch results:\033[0m")
         pprint.pprint(search_results, indent=4, width=80)
+
 
 if __name__ == "__main__":
     asyncio.run(test_scrape_data_by_query())

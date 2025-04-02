@@ -41,7 +41,7 @@ class BasicReport:
             source_urls=self.source_urls,
             document_urls=self.document_urls,
             tone=self.tone,
-            education_level = education_level,
+            education_level=education_level,
             config_path=self.config_path,
             websocket=self.websocket,
             headers=self.headers,
@@ -57,7 +57,7 @@ class BasicReport:
 
         await self.researcher.conduct_research()
         report = await self.researcher.write_report()
-        
+
         # await stream_output(
         #     "logs",
         #     "planning_research",

@@ -6,6 +6,7 @@ from loguru import logger
 from homework_researcher.config.config import Config
 from homework_researcher.utils.llm import create_chat_completion
 
+
 async def call_model(
     prompt: list,
     model: str,

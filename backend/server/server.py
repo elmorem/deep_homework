@@ -33,7 +33,7 @@ from backend.server.websocket_manager import run_agent
 from backend.utils import write_md_to_word, write_md_to_pdf
 
 from homework_researcher.utils.logging_config import setup_research_logging
-from homework_researcher.utils.enum import Tone, EducationLevel 
+from homework_researcher.utils.enum import Tone, EducationLevel
 
 import logging
 

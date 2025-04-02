@@ -4,6 +4,7 @@ import asyncio
 from homework_researcher.agent import HomeworkResearcher
 from backend.server.server_utils import CustomLogsHandler  # Update import
 
+
 async def run() -> None:
     """Run the research process and generate a report."""
     query = "What happened in the latest burning man floods?"
@@ -22,7 +23,7 @@ async def run() -> None:
         tone=tone,
         education_level=education_level,
         config_path=config_path,
-        websocket=custom_logs_handler
+        websocket=custom_logs_handler,
     )
 
     await researcher.conduct_research()  # Conduct the research
@@ -30,6 +31,7 @@ async def run() -> None:
     logging.info("Report generated successfully.")  # Log report generation
 
     return report
+
 
 # Run the asynchronous function using asyncio
 if __name__ == "__main__":

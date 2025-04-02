@@ -57,7 +57,6 @@ The response should contain ONLY the list.
 def generate_report_prompt(
     question: str,
     context,
-    
     report_source: str,
     report_format="apa",
     total_words=1000,
@@ -87,8 +86,12 @@ You MUST write all used source document names at the end of the report as refere
 """
 
     tone_prompt = f"Write the report in a {tone.value} tone." if tone else ""
-    education_level_prompt = f"IMPORTANT!: The report should be written at a {education_level.value} level." if education_level else ""
-   
+    education_level_prompt = (
+        f"IMPORTANT!: The report should be written at a {education_level.value} level."
+        if education_level
+        else ""
+    )
+
     return f"""
 Information: "{context}"
 ---
@@ -228,7 +231,7 @@ def generate_outline_report_prompt(
         f'"""{context}""" Using the above information, generate an outline for a research report in Markdown syntax'
         f' for the following question or topic: "{question}". The outline should provide a well-structured framework'
         " for the research report, including the main sections, subsections, and key points to be covered."
-        f'The outline should be composed at an {education_level.value} level.'
+        f"The outline should be composed at an {education_level.value} level."
         f" The research report should be detailed, informative, in-depth, and a minimum of {total_words} words."
         " Use appropriate Markdown syntax to format the outline and ensure readability."
     )
@@ -271,7 +274,11 @@ You MUST write all used source document names at the end of the report as refere
 """
 
     tone_prompt = f"Write the report in a {tone.value} tone." if tone else ""
-    education_level_prompt = f"IMPORTANT!: The report should be written at a {education_level.value} level." if education_level else ""
+    education_level_prompt = (
+        f"IMPORTANT!: The report should be written at a {education_level.value} level."
+        if education_level
+        else ""
+    )
 
     return f"""
 Using the following hierarchically researched information and citations:
@@ -365,6 +372,7 @@ def set_education_level(education_level: EducationLevel) -> str:
     - The generation of your search queries should be at a {education_level.value} level.
     - The generation of deep research prompts should be at a {education_level.value} level.
     """
+
 
 ################################################################################################
 

@@ -29,7 +29,7 @@ class DetailedReport:
         self.query_domains = query_domains
         self.config_path = config_path
         self.tone = tone
-        self.education_level = education_level,
+        self.education_level = (education_level,)
         self.websocket = websocket
         self.subtopics = subtopics
         self.headers = headers or {}

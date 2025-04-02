@@ -1,9 +1,11 @@
 import os
 import asyncio
 import pytest
+
 # Ensure this path is correct
 from homework_researcher.agent import HomeworkResearcher
 from dotenv import load_dotenv
+
 load_dotenv()
 
 # Define the report types to test
@@ -13,7 +15,7 @@ report_types = [
     "subtopic_report",
     "summary_report",
     "detailed_report",
-    "quick_report"
+    "quick_report",
 ]
 
 # Define a common query and sources for testing
@@ -32,7 +34,8 @@ async def test_gpt_researcher(report_type):
 
     # Create an instance of GPTResearcher with report_source set to "documents"
     researcher = HomeworkResearcher(
-        query=query, report_type=report_type, report_source="documents")
+        query=query, report_type=report_type, report_source="documents"
+    )
 
     # Conduct research and write the report
     await researcher.conduct_research()
@@ -49,6 +52,7 @@ async def test_gpt_researcher(report_type):
     # Clean up the generated files (optional)
     # os.remove(pdf_filename)
     # os.remove(docx_filename)
+
 
 if __name__ == "__main__":
     pytest.main()

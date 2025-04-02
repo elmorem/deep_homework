@@ -7,12 +7,9 @@ from .agents import (
     ReviserAgent,
     ReviewerAgent,
     EditorAgent,
-    ChiefEditorAgent
+    ChiefEditorAgent,
 )
-from .memory import (
-    DraftState,
-    ResearchState
-)
+from .memory import DraftState, ResearchState
 
 __all__ = [
     "ResearchAgent",
@@ -23,5 +20,5 @@ __all__ = [
     "EditorAgent",
     "ChiefEditorAgent",
     "DraftState",
-    "ResearchState"
+    "ResearchState",
 ]

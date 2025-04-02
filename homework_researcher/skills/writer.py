@@ -3,7 +3,12 @@ import json
 
 from ..utils.llm import construct_subtopics
 from ..actions.utils import stream_output
-from ..actions.report_generation import generate_report, generate_draft_section_titles, write_report_introduction, write_conclusion
+from ..actions.report_generation import (
+    generate_report,
+    generate_draft_section_titles,
+    write_report_introduction,
+    write_conclusion,
+)
 
 
 class ReportGenerator:

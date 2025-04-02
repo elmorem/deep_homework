@@ -32,10 +32,12 @@ class EditorAgent:
         max_sections = task.get("max_sections")
 
         prompt = self._create_planning_prompt(
-            initial_research, include_human_feedback, human_feedback, max_sections)
+            initial_research, include_human_feedback, human_feedback, max_sections
+        )
 
         print_agent_output(
-            "Planning an outline layout based on initial research...", agent="EDITOR")
+            "Planning an outline layout based on initial research...", agent="EDITOR"
+        )
         plan = await call_model(
             prompt=prompt,
             model=task.get("model"),
@@ -48,7 +50,9 @@ class EditorAgent:
             "sections": plan.get("sections"),
         }
 
-    async def run_parallel_research(self, research_state: Dict[str, any]) -> Dict[str, List[str]]:
+    async def run_parallel_research(
+        self, research_state: Dict[str, any]
+    ) -> Dict[str, List[str]]:
         """
         Execute parallel research tasks for each section.
 
@@ -65,8 +69,7 @@ class EditorAgent:
         self._log_parallel_research(queries)
 
         final_drafts = [
-            chain.ainvoke(self._create_task_input(
-                research_state, query, title))
+            chain.ainvoke(self._create_task_input(research_state, query, title))
             for query in queries
         ]
         research_results = [
@@ -75,31 +78,45 @@ class EditorAgent:
 
         return {"research_data": research_results}
 
-    def _create_planning_prompt(self, initial_research: str, include_human_feedback: bool,
-                                human_feedback: Optional[str], max_sections: int) -> List[Dict[str, str]]:
+    def _create_planning_prompt(
+        self,
+        initial_research: str,
+        include_human_feedback: bool,
+        human_feedback: Optional[str],
+        max_sections: int,
+    ) -> List[Dict[str, str]]:
         """Create the prompt for research planning."""
         return [
             {
                 "role": "system",
                 "content": "You are a research editor. Your goal is to oversee the research project "
-                           "from inception to completion. Your main task is to plan the article section "
-                           "layout based on an initial research summary.\n ",
+                "from inception to completion. Your main task is to plan the article section "
+                "layout based on an initial research summary.\n ",
             },
             {
                 "role": "user",
-                "content": self._format_planning_instructions(initial_research, include_human_feedback,
-                                                              human_feedback, max_sections),
+                "content": self._format_planning_instructions(
+                    initial_research,
+                    include_human_feedback,
+                    human_feedback,
+                    max_sections,
+                ),
             },
         ]
 
-    def _format_planning_instructions(self, initial_research: str, include_human_feedback: bool,
-                                      human_feedback: Optional[str], max_sections: int) -> str:
+    def _format_planning_instructions(
+        self,
+        initial_research: str,
+        include_human_feedback: bool,
+        human_feedback: Optional[str],
+        max_sections: int,
+    ) -> str:
         """Format the instructions for research planning."""
-        today = datetime.now().strftime('%d/%m/%Y')
+        today = datetime.now().strftime("%d/%m/%Y")
         feedback_instruction = (
             f"Human feedback: {human_feedback}. You must plan the sections based on the human feedback."
-            if include_human_feedback and human_feedback and human_feedback != 'no'
-            else ''
+            if include_human_feedback and human_feedback and human_feedback != "no"
+            else ""
         )
 
         return f"""Today's date is {today}
@@ -145,19 +162,23 @@ class EditorAgent:
     def _log_parallel_research(self, queries: List[str]) -> None:
         """Log the start of parallel research tasks."""
         if self.websocket and self.stream_output:
-            asyncio.create_task(self.stream_output(
-                "logs",
-                "parallel_research",
-                f"Running parallel research for the following queries: {queries}",
-                self.websocket,
-            ))
+            asyncio.create_task(
+                self.stream_output(
+                    "logs",
+                    "parallel_research",
+                    f"Running parallel research for the following queries: {queries}",
+                    self.websocket,
+                )
+            )
         else:
             print_agent_output(
                 f"Running the following research tasks in parallel: {queries}...",
                 agent="EDITOR",
             )
 
-    def _create_task_input(self, research_state: Dict[str, any], query: str, title: str) -> Dict[str, any]:
+    def _create_task_input(
+        self, research_state: Dict[str, any], query: str, title: str
+    ) -> Dict[str, any]:
         """Create the input for a single research task."""
         return {
             "task": research_state.get("task"),
