@@ -52,7 +52,11 @@ Assume the current date is {datetime.now(timezone.utc).strftime('%B %d, %Y')} if
 You must respond with a list of strings in the following format: [{dynamic_example}].
 The response should contain ONLY the list.
 """
+def generate_precis_prompt():
+    pass
 
+def generate_research_questions_prompt():
+    pass
 
 def generate_report_prompt(
     question: str,
@@ -581,6 +585,7 @@ report_type_mapping = {
 
 
 def get_prompt_by_report_type(report_type):
+    # Use the mapping above to get the prompt 
     prompt_by_type = report_type_mapping.get(report_type)
     default_report_type = ReportType.ResearchReport.value
     if not prompt_by_type:
