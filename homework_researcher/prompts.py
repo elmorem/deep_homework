@@ -59,6 +59,7 @@ def generate_precis_prompt(
     context: str,
     report_source: str,
     report_format="apa",
+    total_words: int = 300,
     precis_word_count: int = 300,
     tone: Tone = None,
     education_level=None,
