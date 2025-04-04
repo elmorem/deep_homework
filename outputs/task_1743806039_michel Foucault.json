@@ -1,0 +1,766 @@
+{
+  "timestamp": "2025-04-04T15:33:59.363369",
+  "events": [
+    {
+      "timestamp": "2025-04-04T15:33:59.393146",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "planning_research",
+        "output": "\ud83c\udf10 We are now starting to conduct our research. This is a PrecisReport",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-04-04T15:34:00.760637",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "planning_research",
+        "output": "We are now moving to the research_conducotr",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-04-04T15:34:00.761132",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "starting_research",
+        "output": "\ud83d\udd0d Starting the research task for 'michel Foucault'...",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-04-04T15:34:00.761340",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "agent_generated",
+        "output": "\ud83d\udcda Philosophy Agent",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-04-04T15:34:00.761543",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "planning_research",
+        "output": "\ud83c\udf10 Browsing the web to learn more about the task: michel Foucault...",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-04-04T15:34:03.010960",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "planning_research",
+        "output": "\ud83e\udd14 Planning the research strategy and subtasks...",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-04-04T15:34:12.947086",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "subqueries",
+        "output": "\ud83d\uddc2\ufe0f I will conduct my research based on the following queries: ['Michel Foucault objective biography and impact on modern philosophy', \"Objective analysis of Michel Foucault's theories on power, knowledge, and social institutions\", \"Scholarly review of Michel Foucault's contributions to sociology and critical theory\", \"Balanced critique of Michel Foucault's works on discipline, surveillance, and modern subjectivity\", 'michel Foucault']...",
+        "metadata": [
+          "Michel Foucault objective biography and impact on modern philosophy",
+          "Objective analysis of Michel Foucault's theories on power, knowledge, and social institutions",
+          "Scholarly review of Michel Foucault's contributions to sociology and critical theory",
+          "Balanced critique of Michel Foucault's works on discipline, surveillance, and modern subjectivity",
+          "michel Foucault"
+        ]
+      }
+    },
+    {
+      "timestamp": "2025-04-04T15:34:12.947592",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "running_subquery_research",
+        "output": "\n\ud83d\udd0d Running research for 'Michel Foucault objective biography and impact on modern philosophy'...",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-04-04T15:34:12.948068",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "running_subquery_research",
+        "output": "\n\ud83d\udd0d Running research for 'Objective analysis of Michel Foucault's theories on power, knowledge, and social institutions'...",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-04-04T15:34:12.948911",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "running_subquery_research",
+        "output": "\n\ud83d\udd0d Running research for 'Scholarly review of Michel Foucault's contributions to sociology and critical theory'...",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-04-04T15:34:12.949782",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "running_subquery_research",
+        "output": "\n\ud83d\udd0d Running research for 'Balanced critique of Michel Foucault's works on discipline, surveillance, and modern subjectivity'...",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-04-04T15:34:12.950588",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "running_subquery_research",
+        "output": "\n\ud83d\udd0d Running research for 'michel Foucault'...",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-04-04T15:34:14.766260",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "added_source_url",
+        "output": "\u2705 Added source url to research: https://www.britannica.com/biography/Michel-Foucault\n",
+        "metadata": "https://www.britannica.com/biography/Michel-Foucault"
+      }
+    },
+    {
+      "timestamp": "2025-04-04T15:34:14.766671",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "added_source_url",
+        "output": "\u2705 Added source url to research: https://plato.stanford.edu/entries/foucault/\n",
+        "metadata": "https://plato.stanford.edu/entries/foucault/"
+      }
+    },
+    {
+      "timestamp": "2025-04-04T15:34:14.766943",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "added_source_url",
+        "output": "\u2705 Added source url to research: https://en.wikipedia.org/wiki/Michel_Foucault\n",
+        "metadata": "https://en.wikipedia.org/wiki/Michel_Foucault"
+      }
+    },
+    {
+      "timestamp": "2025-04-04T15:34:14.767273",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "added_source_url",
+        "output": "\u2705 Added source url to research: https://www.britannica.com/biography/Michel-Foucault/Foucaults-ideas\n",
+        "metadata": "https://www.britannica.com/biography/Michel-Foucault/Foucaults-ideas"
+      }
+    },
+    {
+      "timestamp": "2025-04-04T15:34:14.767607",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "added_source_url",
+        "output": "\u2705 Added source url to research: https://literariness.org/2017/03/28/key-theories-of-michel-foucault/\n",
+        "metadata": "https://literariness.org/2017/03/28/key-theories-of-michel-foucault/"
+      }
+    },
+    {
+      "timestamp": "2025-04-04T15:34:14.767990",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "researching",
+        "output": "\ud83e\udd14 Researching for relevant information across multiple sources...\n",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-04-04T15:34:14.768396",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "scraping_urls",
+        "output": "\ud83c\udf10 Scraping content from 5 URLs...",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-04-04T15:34:15.074143",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "added_source_url",
+        "output": "\u2705 Added source url to research: https://www.cambridge.org/core/journals/american-bar-foundation-research-journal/article/abs/foucaults-discipline-and-punish-an-exposition-and-critique/D06D179F726FADC025C451C6D51B64B8\n",
+        "metadata": "https://www.cambridge.org/core/journals/american-bar-foundation-research-journal/article/abs/foucaults-discipline-and-punish-an-exposition-and-critique/D06D179F726FADC025C451C6D51B64B8"
+      }
+    },
+    {
+      "timestamp": "2025-04-04T15:34:15.074700",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "added_source_url",
+        "output": "\u2705 Added source url to research: https://core.ac.uk/download/pdf/46603812.pdf\n",
+        "metadata": "https://core.ac.uk/download/pdf/46603812.pdf"
+      }
+    },
+    {
+      "timestamp": "2025-04-04T15:34:15.074996",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "added_source_url",
+        "output": "\u2705 Added source url to research: https://mwctipton.substack.com/p/michel-foucault-in-the-modern-context\n",
+        "metadata": "https://mwctipton.substack.com/p/michel-foucault-in-the-modern-context"
+      }
+    },
+    {
+      "timestamp": "2025-04-04T15:34:15.075263",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "added_source_url",
+        "output": "\u2705 Added source url to research: https://www.jstor.org/stable/828299\n",
+        "metadata": "https://www.jstor.org/stable/828299"
+      }
+    },
+    {
+      "timestamp": "2025-04-04T15:34:15.075537",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "added_source_url",
+        "output": "\u2705 Added source url to research: https://www.researchgate.net/publication/365110898_Foucault_and_Power_A_Critique_and_Retheorization\n",
+        "metadata": "https://www.researchgate.net/publication/365110898_Foucault_and_Power_A_Critique_and_Retheorization"
+      }
+    },
+    {
+      "timestamp": "2025-04-04T15:34:15.075803",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "researching",
+        "output": "\ud83e\udd14 Researching for relevant information across multiple sources...\n",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-04-04T15:34:15.076068",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "scraping_urls",
+        "output": "\ud83c\udf10 Scraping content from 5 URLs...",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-04-04T15:34:15.380055",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "added_source_url",
+        "output": "\u2705 Added source url to research: https://www.researchgate.net/publication/374506826_Biography_and_Philosophy_of_Michel_Foucault\n",
+        "metadata": "https://www.researchgate.net/publication/374506826_Biography_and_Philosophy_of_Michel_Foucault"
+      }
+    },
+    {
+      "timestamp": "2025-04-04T15:34:15.380810",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "added_source_url",
+        "output": "\u2705 Added source url to research: https://www.britannica.com/biography/Michel-Foucault/Foucaults-influence\n",
+        "metadata": "https://www.britannica.com/biography/Michel-Foucault/Foucaults-influence"
+      }
+    },
+    {
+      "timestamp": "2025-04-04T15:34:15.381419",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "researching",
+        "output": "\ud83e\udd14 Researching for relevant information across multiple sources...\n",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-04-04T15:34:15.381908",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "scraping_urls",
+        "output": "\ud83c\udf10 Scraping content from 2 URLs...",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-04-04T15:34:15.412151",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "added_source_url",
+        "output": "\u2705 Added source url to research: https://www.annualreviews.org/content/journals/10.1146/annurev-soc-081309-150133\n",
+        "metadata": "https://www.annualreviews.org/content/journals/10.1146/annurev-soc-081309-150133"
+      }
+    },
+    {
+      "timestamp": "2025-04-04T15:34:15.413196",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "added_source_url",
+        "output": "\u2705 Added source url to research: https://papers.ssrn.com/sol3/papers.cfm?abstract_id=1886886\n",
+        "metadata": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=1886886"
+      }
+    },
+    {
+      "timestamp": "2025-04-04T15:34:15.413842",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "added_source_url",
+        "output": "\u2705 Added source url to research: https://www.researchgate.net/publication/228173926_Foucault_and_Sociology\n",
+        "metadata": "https://www.researchgate.net/publication/228173926_Foucault_and_Sociology"
+      }
+    },
+    {
+      "timestamp": "2025-04-04T15:34:15.414328",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "added_source_url",
+        "output": "\u2705 Added source url to research: https://www.researchgate.net/profile/Michael-Power/publication/228173926_Foucault_and_Sociology/links/0c96053c6536c333d9000000/Foucault-and-Sociology.pdf\n",
+        "metadata": "https://www.researchgate.net/profile/Michael-Power/publication/228173926_Foucault_and_Sociology/links/0c96053c6536c333d9000000/Foucault-and-Sociology.pdf"
+      }
+    },
+    {
+      "timestamp": "2025-04-04T15:34:15.414772",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "added_source_url",
+        "output": "\u2705 Added source url to research: https://www.cambridge.org/core/books/discourse-interpretation-organization/critical-approaches-michel-foucaults-conceptions-of-discourse/AA1D614E2F3D07C7198DA01A8254075F\n",
+        "metadata": "https://www.cambridge.org/core/books/discourse-interpretation-organization/critical-approaches-michel-foucaults-conceptions-of-discourse/AA1D614E2F3D07C7198DA01A8254075F"
+      }
+    },
+    {
+      "timestamp": "2025-04-04T15:34:15.415203",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "researching",
+        "output": "\ud83e\udd14 Researching for relevant information across multiple sources...\n",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-04-04T15:34:15.415630",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "scraping_urls",
+        "output": "\ud83c\udf10 Scraping content from 5 URLs...",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-04-04T15:34:15.488640",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "added_source_url",
+        "output": "\u2705 Added source url to research: https://www.researchgate.net/publication/335060981_Michel_Foucault_Power_Knowledge_Nexus_Critical_Analysis_and_Its_Relevance\n",
+        "metadata": "https://www.researchgate.net/publication/335060981_Michel_Foucault_Power_Knowledge_Nexus_Critical_Analysis_and_Its_Relevance"
+      }
+    },
+    {
+      "timestamp": "2025-04-04T15:34:15.489864",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "added_source_url",
+        "output": "\u2705 Added source url to research: https://sserr.ro/wp-content/uploads/2024/07/sserr-11-1-41-51.pdf\n",
+        "metadata": "https://sserr.ro/wp-content/uploads/2024/07/sserr-11-1-41-51.pdf"
+      }
+    },
+    {
+      "timestamp": "2025-04-04T15:34:15.491366",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "added_source_url",
+        "output": "\u2705 Added source url to research: https://www.sociologylearners.com/michel-foucaults-power-and-knowledge/\n",
+        "metadata": "https://www.sociologylearners.com/michel-foucaults-power-and-knowledge/"
+      }
+    },
+    {
+      "timestamp": "2025-04-04T15:34:15.492274",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "added_source_url",
+        "output": "\u2705 Added source url to research: https://www.researchgate.net/publication/375996546_On_Michel_Foucault_PowerKnowledge_Discourse_and_Subjectivity\n",
+        "metadata": "https://www.researchgate.net/publication/375996546_On_Michel_Foucault_PowerKnowledge_Discourse_and_Subjectivity"
+      }
+    },
+    {
+      "timestamp": "2025-04-04T15:34:15.493546",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "added_source_url",
+        "output": "\u2705 Added source url to research: https://www.perlego.com/knowledge/study-guides/foucaults-theory-of-power-knowledge/\n",
+        "metadata": "https://www.perlego.com/knowledge/study-guides/foucaults-theory-of-power-knowledge/"
+      }
+    },
+    {
+      "timestamp": "2025-04-04T15:34:15.494488",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "researching",
+        "output": "\ud83e\udd14 Researching for relevant information across multiple sources...\n",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-04-04T15:34:15.495828",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "scraping_urls",
+        "output": "\ud83c\udf10 Scraping content from 5 URLs...",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-04-04T15:34:15.598050",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "scraping_content",
+        "output": "\ud83d\udcc4 Scraped 5 pages of content",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-04-04T15:34:15.598925",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "scraping_images",
+        "output": "\ud83d\uddbc\ufe0f Selected 4 new images from 16 total images",
+        "metadata": [
+          "https://i0.wp.com/literariness.org/wp-content/uploads/2017/03/michel_foucault_sithum.jpg?resize=700%2C700&ssl=1",
+          "https://i0.wp.com/literariness.org/wp-content/uploads/2017/03/511pwc78cql-_sx331_bo1204203200_.jpg?w=346&h=519&ssl=1",
+          "https://i0.wp.com/literariness.org/wp-content/uploads/2017/03/download-1.jpg?w=346&h=519&ssl=1",
+          "https://plato.stanford.edu/symbols/sep-man-red.png"
+        ]
+      }
+    },
+    {
+      "timestamp": "2025-04-04T15:34:15.601279",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "scraping_complete",
+        "output": "\ud83c\udf10 Scraping complete",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-04-04T15:34:15.602208",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "fetching_query_content",
+        "output": "\ud83d\udcda Getting relevant content based on query: michel Foucault...",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-04-04T15:34:16.346807",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "scraping_content",
+        "output": "\ud83d\udcc4 Scraped 1 pages of content",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-04-04T15:34:16.347335",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "scraping_images",
+        "output": "\ud83d\uddbc\ufe0f Selected 2 new images from 3 total images",
+        "metadata": [
+          "https://cdn.britannica.com/mendel/eb-logo/MendelNewThistleLogo.png",
+          "https://cdn.britannica.com/88/61988-004-23F422E1/Paul-Michel-Foucault.jpg"
+        ]
+      }
+    },
+    {
+      "timestamp": "2025-04-04T15:34:16.347751",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "scraping_complete",
+        "output": "\ud83c\udf10 Scraping complete",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-04-04T15:34:16.348174",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "fetching_query_content",
+        "output": "\ud83d\udcda Getting relevant content based on query: Michel Foucault objective biography and impact on modern philosophy...",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-04-04T15:34:16.476992",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "scraping_content",
+        "output": "\ud83d\udcc4 Scraped 3 pages of content",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-04-04T15:34:16.477749",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "scraping_images",
+        "output": "\ud83d\uddbc\ufe0f Selected 4 new images from 6 total images",
+        "metadata": [
+          "https://i0.wp.com/content.flexlinks.com/sharedimages/products/2183967/1534842.jpg?w=1080&ssl=1",
+          "https://track.flexlinkspro.com/i.ashx?foid=1192022.2183967&fot=9999&foc=2&fos=1",
+          "https://perlego-cms.cdn.prismic.io/perlego-cms/612e00f7-f8fa-416b-b7db-fd961d683b0a_logo.svg",
+          "https://images.prismic.io/perlego-cms/3315d34a-ab16-4377-b70a-2fb2c5c306cd_sophie+raine.png?auto=compress,format"
+        ]
+      }
+    },
+    {
+      "timestamp": "2025-04-04T15:34:16.478188",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "scraping_complete",
+        "output": "\ud83c\udf10 Scraping complete",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-04-04T15:34:16.478624",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "fetching_query_content",
+        "output": "\ud83d\udcda Getting relevant content based on query: Objective analysis of Michel Foucault's theories on power, knowledge, and social institutions...",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-04-04T15:34:17.651084",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "scraping_content",
+        "output": "\ud83d\udcc4 Scraped 3 pages of content",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-04-04T15:34:17.651833",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "scraping_images",
+        "output": "\ud83d\uddbc\ufe0f Selected 4 new images from 13 total images",
+        "metadata": [
+          "https://substackcdn.com/image/fetch/w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F6cb01bc5-4e82-4784-a8b2-f0787ecadf1e_1920x1277.jpeg",
+          "https://www.cambridge.org/core/cambridge-core/public/images/icn_circle__btn_close_white.svg",
+          "https://static.cambridge.org/covers/ABF_0_0_0/american-bar-foundation-research-journal.jpg",
+          "https://www.cambridge.org/core/page-component/img/share-icon.cbcfad8.svg"
+        ]
+      }
+    },
+    {
+      "timestamp": "2025-04-04T15:34:17.652284",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "scraping_complete",
+        "output": "\ud83c\udf10 Scraping complete",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-04-04T15:34:17.652756",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "fetching_query_content",
+        "output": "\ud83d\udcda Getting relevant content based on query: Balanced critique of Michel Foucault's works on discipline, surveillance, and modern subjectivity...",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-04-04T15:34:18.427706",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "scraping_content",
+        "output": "\ud83d\udcc4 Scraped 2 pages of content",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-04-04T15:34:18.428477",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "scraping_images",
+        "output": "\ud83d\uddbc\ufe0f Selected 4 new images from 5 total images",
+        "metadata": [
+          "https://www.cambridge.org/core/cambridge-core/public/images/icn_circle__btn_close_white.svg",
+          "https://assets.cambridge.org/97805218/44024/cover/9780521844024.jpg",
+          "https://www.cambridge.org/core/page-component/img/share-icon.cbcfad8.svg",
+          "https://www.cambridge.org/core/page-component/img/close-icon.194b28a.svg"
+        ]
+      }
+    },
+    {
+      "timestamp": "2025-04-04T15:34:18.428964",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "scraping_complete",
+        "output": "\ud83c\udf10 Scraping complete",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-04-04T15:34:18.429438",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "fetching_query_content",
+        "output": "\ud83d\udcda Getting relevant content based on query: Scholarly review of Michel Foucault's contributions to sociology and critical theory...",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-04-04T15:34:19.079886",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "research_step_finalized",
+        "output": "Finalized research step.\n\ud83d\udcb8 Total Research Costs: $0.01629548",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-04-04T15:34:19.081910",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "writing_report",
+        "output": "\u270d\ufe0f Writing report for 'michel Foucault'...",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-04-04T15:34:19.082717",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "report_written with params",
+        "output": "\ud83d\udcdd Report about to be written report_generation.generate_report",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-04-04T15:34:19.083482",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "report_written with params",
+        "output": "\ud83d\udcdd Report about to be written of report_type = precis_report",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-04-04T15:34:19.084235",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "report_written with params",
+        "output": "\ud83d\udcdd Report about to be written with prompt = <function generate_precis_prompt at 0x109c65a80>",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-04-04T15:34:19.087732",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "report_written with params",
+        "output": "\ud83d\udcdd Report about to be written based on content = \n    Information: \"Source: https://www.britannica.com/biography/Michel-Foucault/Foucaults-influence\nTitle: Michel Foucault - Philosopher, Postmodernism, Structuralism | Britannica\nContent: Foucault has been widely read and discussed in his own right. He has galvanized an army of detractors, the less attentive of whom have misread his critique of \u201cman\u201d as radically antihumanist, his critique of power-knowledge as radically relativist, and his ethics as radically aestheticist. They have not, however, prevented him from inspiring increasingly important alternatives to established practices of cultural and intellectual history. In France and the Americas, Foucault\u2019s unraveling of Marxist universalism has continued both to vex and to inspire activists of the left. The antipsychiatry movement of the 1970s and \u201980s owed much to Foucault, though he did not consider himself one of its members. His critique of the human sciences provoked much soul-searching within anthropology and its allied fields, even as it helped a new generation of scholars to embark upon a cross-cultural dialogue on the themes and variations of domination and subjectivation. Foucault\u2019s elucidation of the\n\nSource: https://www.britannica.com/biography/Michel-Foucault/Foucaults-influence\nTitle: Michel Foucault - Philosopher, Postmodernism, Structuralism | Britannica\nContent: Internet Encyclopedia of Philosophy - Michel Foucault\nContemporary Thinkers - Michel Foucault\nPhilosophy Now - Michel Foucault (1926-84)\nThe Basics of Philosophy - Biography of Michel Foucault\nStanford Encyclopedia of Philosophy - Michel Foucault\nUniersity of Warwick - Who is Michael Foucault?\nSanta Clara University - Scholar Commons - Power and Punishment: An Intellectual Biography of Michel Foucault\nWorld History Encyclopedia - Michel Foucault\nHistory Learning Site - Biography of Michel Foucault\nColl\u00e8ge de France - Michel Foucault - History of systems of though\n\nBritannica Websites\nArticles from Britannica Encyclopedias for elementary and high school students.\n\nMichel Foucault - Student Encyclopedia (Ages 11 and up)\n\nSource: https://www.britannica.com/biography/Michel-Foucault/Foucaults-influence\nTitle: Michel Foucault - Philosopher, Postmodernism, Structuralism | Britannica\nContent: Foucault has attracted several biographers, some of whom have been happy to flout his opposition to the practice of seeking the key to an oeuvre in the psychology or personality of its author. Yet, in their favour, it must be admitted that Foucault\u2019s personal life is a worthy subject of attention. He regularly made the issues that most troubled him personally\u2014emotional suffering, exclusion, sexuality\u2014the topics of his research. His critiques were often both theoretical and practical; he did not merely write about prisons, for example, but also organized protests against them. In 1975, while in Spain to protest the impending executions of two members of ETA, the Basque separatist movement, by the government of Francisco Franco, Foucault confronted police officers who had come to seize the protest leaflets he had prepared. He also publicly attacked Jean-Paul Sartre at a time when Sartre was still the demigod of Parisian intellectuals.\n\nSource: https://www.britannica.com/biography/Michel-Foucault/Foucaults-influence\nTitle: Michel Foucault - Philosopher, Postmodernism, Structuralism | Britannica\nContent: Feedback\nCorrections? Updates? Omissions? Let us know if you have suggestions to improve this article (requires login).\nFeedback Type \nYour Feedback Submit Feedback\nThank you for your feedback\nOur editors will review what you\u2019ve submitted and determine whether to revise the article.\nprint Print\nPlease select which sections you would like to print:\n\nTable Of Contents\nIntroduction & Top Questions\nEducation and career\nFoucault\u2019s ideas\nFoucault\u2019s influence\n\n_verified_Cite\nWhile every effort has been made to follow citation style rules, there may be some discrepancies. Please refer to the appropriate style manual or other sources if you have any questions.\nSelect Citation Style\nFaubion, James. \"Michel Foucault\". Encyclopedia Britannica, 13 Feb. 2025, https://www.britannica.com/biography/Michel-Foucault. Accessed 24 February 2025.\nCopy Citation\nShare\nShare to social media\nFacebook X\nURL\nhttps://www.britannica.com/biography/Michel-Foucault\nExternal Websites\n\nSource: https://www.britannica.com/biography/Michel-Foucault/Foucaults-influence\nTitle: Michel Foucault - Philosopher, Postmodernism, Structuralism | Britannica\nContent: Michel Foucault - Philosopher, Postmodernism, Structuralism | Britannica\n\nSearch Britannica  Click here to search\n\nSearch Britannica  Click here to search\nSUBSCRIBE\nSUBSCRIBE\nLogin\nhttps://premium.britannica.com/premium-membership/?utm_source=premium&utm_medium=nav-login-box&utm_campaign=evergreen\nSUBSCRIBE\n\nHome\nHistory & Society\nScience & Tech\nBiographies\nAnimals & Nature\nGeography & Travel\nArts & Culture\nProCon\n\nMoney\n\n\nGames & Quizzes\n\nVideos\nOn This Day\nOne Good Fact\nDictionary\nNew Articles\n\nHistory & Society\n\nLifestyles & Social Issues\nPhilosophy & Religion\nPolitics, Law & Government\nWorld History\n\nScience & Tech\n\nHealth & Medicine\nScience\nTechnology\n\nBiographies\n\nBrowse Biographies\n\nAnimals & Nature\n\nBirds, Reptiles & Other Vertebrates\nBugs, Mollusks & Other Invertebrates\nEnvironment\nFossils & Geologic Time\nMammals\nPlants\n\nGeography & Travel\n\nGeography & Travel\n\nArts & Culture\n\nEntertainment & Pop Culture\nLiterature\nSports & Recreation\n\nVisual Arts\n\n\nCompanions\n\nSource: https://www.britannica.com/biography/Michel-Foucault/Foucaults-influence\nTitle: Michel Foucault - Philosopher, Postmodernism, Structuralism | Britannica\nContent: on the themes and variations of domination and subjectivation. Foucault\u2019s elucidation of the dense and minute dimensions of discipline and biopolitics likewise has had a noticeable impact on recent studies of colonialism, law, technology, gender, and race. The first volume of The History of Sexuality has become canonical for both gay and lesbian studies and \u201cqueer\u201d theory, a multidisciplinary study aimed at critical examinations of traditional conceptions of sexual and gender identity. The terms discourse, genealogy, and power-knowledge have become deeply entrenched in the lexicon of virtually all contemporary social and cultural research.\n\nSource: https://www.britannica.com/biography/Michel-Foucault/Foucaults-influence\nTitle: Michel Foucault - Philosopher, Postmodernism, Structuralism | Britannica\nContent: Last Updated: Feb 13, 2025 \u2022 Article History\nTable of Contents\nTable of Contents Ask the Chatbot\nQuick Facts\nIn full:\nPaul-Michel Foucault\n(Show\u00a0more)\nBorn:\nOctober 15, 1926, Poitiers, France\n(Show\u00a0more)\nDied:\nJune 25, 1984, Paris (aged 57)\n(Show\u00a0more)\nSubjects Of Study:\nmental disorder\nprison\nsexuality\nsociety\n(Show\u00a0more)\nSee all related content\n\nSource: https://www.britannica.com/biography/Michel-Foucault/Foucaults-influence\nTitle: Michel Foucault - Philosopher, Postmodernism, Structuralism | Britannica\nContent: Although he despised the label \u201chomosexual,\u201d he was openly gay and occasionally praised the pleasures of sadomasochism and the bathhouse. He was something of a dandy, preferring to shave his head and dress in black and white. He declared that he had experimented with drugs. Even more scandalously (at least to the French), he declared that his favourite meal was \u201ca good club sandwich with a Coke.\u201d Foucault cultivated his celebrity as \u201can all-purpose subversive,\u201d but neither his thought nor his life contain the substantive principles of an activist program. Foucault was skeptical of conventional wisdom and conventional moralism\u2014but not without exception. He was an ironist\u2014but not without restraint. He could be subversive and could admire subversion\u2014but he was not a revolutionary. He dismissed even the possibility of providing an answer to Vladimir Ilich Lenin\u2019s great, abstract question \u201cWhat is to be done?\u201d Rather, he insisted upon asking, more concretely and more locally, \u201cWhat, in a\n\nSource: https://www.britannica.com/biography/Michel-Foucault/Foucaults-influence\nTitle: Michel Foucault - Philosopher, Postmodernism, Structuralism | Britannica\nContent: Entertainment & Pop Culture\nLiterature\nSports & Recreation\n\nVisual Arts\n\n\nCompanions\n\nDemystified\nImage Galleries\nLists\nPodcasts\nSpotlight\nSummaries\nThe Forum\nTop Questions\n\n#WTFact\n\n\nBritannica Kids\n\n\nAsk the ChatbotGames & QuizzesHistory & SocietyScience & TechBiographiesAnimals & NatureGeography & TravelArts & CultureProConMoneyVideos\nMichel Foucault\nTable of Contents\n\n\nIntroduction & Top Questions\n\n\nEducation and career\n\n\nFoucault\u2019s ideas\n\n\nFoucault\u2019s influence\n\n\nReferences & Edit History Quick Facts & Related Topics\nImages\n\nFor Students\n\nMichel Foucault summary\nQuizzes\n\nPhilosophy 101\nRelated Questions\n\nWhy is Michel Foucault important?\nWhat did Michel Foucault write?\nWhat was Michel Foucault\u2019s occupation?\nWhat is the weather like in Paris?\nWhat is the landscape of Paris?\n\nRead Next\n\n5 Common Misconceptions About Schizophrenia\n\nPhilosophers to Know, Part I\n\nWhy New York Is Called \"The Big Apple\" and How 8 Other Famous Cities Got Their Nicknames\n\nPro and Con: Private Prisons\n\nSource: https://www.britannica.com/biography/Michel-Foucault/Foucaults-influence\nTitle: Michel Foucault - Philosopher, Postmodernism, Structuralism | Britannica\nContent: Which Waters Do You Pass Through When You \u201cSail the Seven Seas\u201d?\nContents\nAsk the Chatbot a Question\nPhilosophy & Religion Philosophers\nFoucault\u2019s influence\ninMichel Foucault\nAsk the Chatbot a Question\nMore Actions\nPrint\nCite\nShare\nFeedback\nExternal Websites\nAlso known as: Paul-Michel Foucault\nWritten by\nJames Faubion Radoslav Tsanoff Chair and Professor Emeritus of Anthropology, Rice University, Houston, Texas. Editor of Essential Works of Michel Foucault; author of Modern Greek Lessons: A Primer in Historical...\nJames Faubion\nFact-checked by\nThe Editors of Encyclopaedia Britannica Encyclopaedia Britannica's editors oversee subject areas in which they have extensive knowledge, whether from years of experience gained by working on that content or via study for an advanced degree. They write new content and verify and edit content received from contributors.\nThe Editors of Encyclopaedia Britannica\nLast Updated: Feb 13, 2025 \u2022 Article History\nTable of Contents\n Source: https://www.perlego.com/knowledge/study-guides/foucaults-theory-of-power-knowledge/\nTitle: Foucault's Theory of Power & Knowledge | Definition, Examples & Analysis\nContent: copy link for article\nTable of contents\nDefining Foucault\u2019s theory of power and knowledge\nMichel Foucault (1926-89) was a French philosopher and sociologist notable for his works\u00a0Madness and Civilization\u00a0(1961),\u00a0Discipline and Punish\u00a0(1975) and\u00a0The History of Sexuality\u00a0(1976). A persistent theme in Foucault\u2019s work is the relationship between power and knowledge, culminating in his neologism \u2018power/knowledge\u2019. The term power/knowledge demonstrates how, for Foucault, power and knowledge are inextricably linked. Foucault writes that \u2018the exercise of power itself creates and causes to emerge new objects of knowledge and accumulates new bodies of information\u2026[t]he exercise of power perpetually creates knowledge and, conversely, knowledge constantly induces effects of power\u2019\u00a0(1975, 52). Power and knowledge are not separate nor are they synonymous; instead, power both makes use of and shapes knowledge.\n\nSource: https://www.perlego.com/knowledge/study-guides/foucaults-theory-of-power-knowledge/\nTitle: Foucault's Theory of Power & Knowledge | Definition, Examples & Analysis\nContent: Foucault's Theory of Power & Knowledge | Definition, Examples & Analysis\nSkip to main content\n\nBrowseInstitutionsLearnersLogin\nSign up to read\nLogin\nHome\nKnowledge Base\nStudy Guides\nWhat is Foucault's Theory of Power & Knowledge?\nStudy Guides\nWhat is Foucault's Theory of Power & Knowledge?\nPhilosophyCritical Theory\n\nSource: https://www.perlego.com/knowledge/study-guides/foucaults-theory-of-power-knowledge/\nTitle: Foucault's Theory of Power & Knowledge | Definition, Examples & Analysis\nContent: Critique of Foucault\u2019s power/knowledge\nFoucault\u2019s theories of power and knowledge have been the subject of much debate over the decades with critics drawing attention to inconsistencies, contradictions or oversights in his work.\u00a0A reoccurring point of discussion for scholars regarding power/knowledge theory is how it discounts the idea of knowledge without power.\u00a0Joseph Rouse has called attention to the limitations, and contradictions, in this assertion. In \u2018Power/Knowledge\u2019 Rouse writes that:\n\nSource: https://www.sociologylearners.com/michel-foucaults-power-and-knowledge/\nTitle: Michel Foucault's Power and Knowledge - Sociology Learners\nContent: Michel Foucault\u2019s Power and Knowledge\nby kdkasi | Dec 24, 2024 | Theories | 0 comments\nMichel Foucault\u2019s Power and Knowledge\nMichel Foucault\u2019s idea of power and knowledge is one of the most fascinating and influential theories in modern thought. While it can seem complex, it essentially revolves around the relationship between power and the way we understand and share knowledge. Foucault believed that power is not just about authority or force; it is also about how knowledge is created, shared, and used to shape our lives. In his view, power and knowledge are deeply connected and cannot exist without each other. Let us explore this in simple terms to make it easier to understand.\n\nSource: https://www.perlego.com/knowledge/study-guides/foucaults-theory-of-power-knowledge/\nTitle: Foucault's Theory of Power & Knowledge | Definition, Examples & Analysis\nContent: Foucault Power/Knowledge FAQs\nWhat is Foucault's theory of Power/Knowledge in simple terms?\nIn short, for Foucault, power decides what is knowable and by whom. The term power/knowledge demonstrates how, for Foucault, power and knowledge are inextricably linked. Foucault writes that \u2018the exercise of power itself creates and causes to emerge new objects of knowledge and accumulates new bodies of information\u2026[t]he exercise of power perpetually creates knowledge and, conversely, knowledge constantly induces effects of power\u2019.\nWho was Michel Foucault?\nMichel Foucault (1926-89) was a French philosopher and sociologist notable for his works\u00a0Madness and Civilization\u00a0(1961),\u00a0Discipline and Punish\u00a0(1975) and\u00a0The History of Sexuality\u00a0(1976). Foucault is namely known for his theories on the intrinsically linked relationship between power and knowledge, and how societal institutions (such as prisons, or hospitals) may use them to exert control over their inhabitants.\n\nSource: https://sserr.ro/wp-content/uploads/2024/07/sserr-11-1-41-51.pdf\nTitle: 11.1\nContent: Foucault's theory is useful for analysis. In light of Foucault's (1980, 1991, 1994a, 1994b) conception of the power-\nknowledge dynamic, academics are encouraged to investigate not just the nature of knowledge but also its \nproduction, dissemination, and legitimization processes. In modern higher education, Foucault's impact is seen in\n\nSource: https://www.perlego.com/knowledge/study-guides/foucaults-theory-of-power-knowledge/\nTitle: Foucault's Theory of Power & Knowledge | Definition, Examples & Analysis\nContent: Power and knowledge in practice\nMuch of Foucault\u2019s work focuses on hospitals, schools, prisons and asylums, places where he argues power dynamics can be clearly demonstrated. Looking at these spaces, rather than focusing on the holder of the power \u2013 such as prison guards, teachers, or doctors \u2013 Foucault is interested in how this power is exacted over the subject through their environment and rigid structuring of activities. Each of these environments have the individual conditioned to respond to their particular mode of authority.\n\nSource: https://sserr.ro/wp-content/uploads/2024/07/sserr-11-1-41-51.pdf\nTitle: 11.1\nContent: Academic and Research in Higher Education Institutions, 2019). It is possible to critically examine Foucault's \ntheories, despite the fact that they provide a strong foundation for comprehending the intricacies of knowledge \nformation. Investigating Foucault's power/knowledge paradigm within the framework of research on higher \neducation, this article sets out on an extensive examination. This analysis goes beyond a simple theoretical \ndissection to probe the difficulties, paradoxes, and possible constraints that may occur when academics apply \nFoucault's perspective to the complex terrain of academic research. \nIt is fundamental to highlight that research into higher education in the Fourth Industrial Revolution (4IR) era \nis complex, but Foucault's theories on knowledge and power provide a theoretical compass (Glueck & Jauch, \n1975). At a time when universities are being seen as hubs of power dynamics and information production,\n\nSource: https://www.sociologylearners.com/michel-foucaults-power-and-knowledge/\nTitle: Michel Foucault's Power and Knowledge - Sociology Learners\nContent: Foucault\u2019s work encourages us to question how power operates in our lives and who decides what knowledge is important. He believed that by understanding the relationship between power and knowledge, we can become more aware of how society functions and more critical of the systems that shape our lives. For example, we can ask questions like: Who controls the media, and how does that affect what information we see? Who decides what is taught in schools, and how does that influence our beliefs? These questions help us recognize the hidden dynamics of power and knowledge around us.\nIn today\u2019s world, Foucault\u2019s ideas are more relevant than ever. From debates about fake news to discussions about surveillance and privacy, we can see how power and knowledge continue to shape our society. By exploring his theories, we can better understand the forces at play and work towards a more inclusive and equitable world.\n\nSource: https://www.perlego.com/knowledge/study-guides/foucaults-theory-of-power-knowledge/\nTitle: Foucault's Theory of Power & Knowledge | Definition, Examples & Analysis\nContent: Recent scholarship\nDespite these oversights, it is difficult to deny the enormous influence Foucault has had on sociology and beyond. Scholarship continues to draw upon Foucault and his work on power and knowledge in relation to a whole host of new topics. Petra Carlsson Redell\u2019s\u00a0Foucault, Art, and Radical Theology: The Mystery of Things\u00a0(2018) examines Foucault\u2019s philosophy in relation to performativity, materiality and politics in contemporary theology.\u00a0 More recently, Christian M\u00f6ller\u2019s work\u00a0Food Charity and the Psychologisation of Poverty: Foucault in the Food Bank\u00a0(2021) explores Foucault\u2019s power/knowledge theory in the context of food charity. While Foucault has been critiqued for his abstract concepts, current research still relies upon the work of Foucault and makes clear how the power/knowledge relations Foucault writes of (as well as his broader philosophy) can be applied to contemporary society.\nFurther Foucault reading and resources on Perlego\n Source: https://papers.ssrn.com/sol3/papers.cfm?abstract_id=1886886\nTitle: Foucault and Sociology by Michael K. Power :: SSRN\nContent: Foucault and Sociology\n\nAnnual Review of Sociology, Vol. 37, pp. 35-56, 2011\n\nPosted: 16 Jul 2011\n\nMichael K. Power\n\nLondon School of Economics & Political Science (LSE)\n\nDate Written: August 2011\n\nAbstract\n\nSource: https://papers.ssrn.com/sol3/papers.cfm?abstract_id=1886886\nTitle: Foucault and Sociology by Michael K. Power :: SSRN\nContent: Michel Foucault was a gifted but elusive thinker with a wide and continuing impact across many academic fields. This article positions his work as a historical sociology of knowledge and evaluates its contribution. After reviewing Foucault's central preoccupations as they emerge in his major works, the argument briefly considers their influence on accounting scholarship as an informative exemplar of a wider Foucault effect. Four key areas for the sociological reception of Foucault are then considered: the nature of discourse and archaeology, his historical method, the problem of agency and action, and his conception of power. Articulating Foucault's relationship to sociology is inherently problematic, not least because he takes the emergence of the sciences of man as something to be explained rather than augmented. Yet his work remains a rich resource for inquiries of the sociological type, is broadly aligned with a practice turn in social theory, and intersects with several themes in\n\nSource: https://www.cambridge.org/core/books/discourse-interpretation-organization/critical-approaches-michel-foucaults-conceptions-of-discourse/AA1D614E2F3D07C7198DA01A8254075F\nTitle: Critical approaches: Michel Foucault's conceptions of discourse (Chapter 4) - Discourse, Interpretation, Organization\nContent: Critiques of Foucault's discussions of discourse have received much attention in philosophy (Frank, 1992; Habermas, 1987), literature (Kermode, 1973; Said, 1974), sociology (Brown and Cousins, 1994; Freundlieb, 1994), and organization studies (Newton, 1994, 1998; Reed, 1998).\n\nAccess options\n\nReferences\n\nCited by\n\nLoading...\n\nSave book to Kindle\n\nTo save this book to your Kindle, first ensure no-reply@cambridge.org\n              is added to your Approved Personal Document E-mail List under your Personal Document Settings\n              on the Manage Your Content and Devices page of your Amazon account. Then enter the \u2018name\u2019 part\n              of your Kindle email address below.\n              Find out more about saving to your Kindle.\n\nSource: https://www.cambridge.org/core/books/discourse-interpretation-organization/critical-approaches-michel-foucaults-conceptions-of-discourse/AA1D614E2F3D07C7198DA01A8254075F\nTitle: Critical approaches: Michel Foucault's conceptions of discourse (Chapter 4) - Discourse, Interpretation, Organization\nContent: We use cookies to distinguish you from other users and to provide you with a better experience on our websites. Close this message to accept cookies or find out how to manage your cookie settings.\n\nLogin Alert\n\nMenu links\n\nBook contents\n\n4 - Critical approaches: Michel Foucault's conceptions of discourse\n\nPublished online by Cambridge University Press:\u00a0\n      \n  22 September 2009\n\nSummary\n\nSource: https://www.cambridge.org/core/books/discourse-interpretation-organization/critical-approaches-michel-foucaults-conceptions-of-discourse/AA1D614E2F3D07C7198DA01A8254075F\nTitle: Critical approaches: Michel Foucault's conceptions of discourse (Chapter 4) - Discourse, Interpretation, Organization\nContent: Michel Foucault has been a key figure providing inspiration, concepts, and analytical frameworks for critical discourse scholars. This chapter traces the development of Foucault's concept(s) of discourse from the Archaeological to the Genealogical periods, significantly drawing from Foucault's own texts. Second, it offers a critique of Archaeological conceptions of discourse, focusing on the discourse\u2013subject relationship, and on Foucault's related conceptions of change, choice, and rules of discursive formations. Third, it traces Foucault's conceptual shifts and concerns in his Genealogical period, in particular his views on power, discourse as a manifestation of the will to power, and a tacit acceptance of the importance of agency. Finally, implications for organizational discourse analysis are discussed.\n\nSource: https://papers.ssrn.com/sol3/papers.cfm?abstract_id=1886886\nTitle: Foucault and Sociology by Michael K. Power :: SSRN\nContent: is broadly aligned with a practice turn in social theory, and intersects with several themes in both mainstream and critical sociology.\n\nSource: https://www.cambridge.org/core/books/discourse-interpretation-organization/critical-approaches-michel-foucaults-conceptions-of-discourse/AA1D614E2F3D07C7198DA01A8254075F\nTitle: Critical approaches: Michel Foucault's conceptions of discourse (Chapter 4) - Discourse, Interpretation, Organization\nContent: Published online by Cambridge University Press:\u00a0\n      \n  22 September 2009\n\nSummary\n\nAs discussed in chapter 1, critical approaches view discursive social reality construction as imbued with power and interest considerations, where dominant groups attempt to shape reality, social practices, and even subjects' identities in ways that perpetuate these groups' own interests. Far from being neutral, language-based constructs, discourses are seen as the sites of polyphonic struggles as domains of power\u2013knowledge relations that can dominate subjectivity in favor of the already powerful. The politically motivated task of critical discourse analysis is thus to demystify and expose the processes involved and ideally weaken their grip.\n\nSource: https://papers.ssrn.com/sol3/papers.cfm?abstract_id=1886886\nTitle: Foucault and Sociology by Michael K. Power :: SSRN\nContent: Suggested Citation:\nSuggested Citation\n\nMichael K. Power (Contact Author)\n\nLondon School of Economics & Political Science (LSE)  ( email )\n\nHoughton StreetLondon, WC2A 2AEUnited Kingdom\n\nDo you have a job opening that you would like to promote on SSRN?\n\nPaper statistics\n\nRelated eJournals\n\nSocial & Personality Psychology eJournal\n\nSocial & Personality Psychology eJournal\n\nSubscribe to this fee journal for more curated articles on this topic\n\nCognitive Psychology eJournal\n\nCognitive Psychology eJournal\n\nSubscribe to this fee journal for more curated articles on this topic\n\nSSRN Quick Links\n\nSSRN Rankings\n\nAbout SSRN\n\nAll content on this site: Copyright \u00a9 2024 Elsevier Inc., its licensors, and contributors. All rights are reserved, including those for text and data mining, AI training, and similar technologies. For all open access content, the relevant licensing terms apply.\n\nWe use cookies to help provide and enhance our service and tailor content.\n Source: https://core.ac.uk/download/pdf/46603812.pdf\nTitle: \nContent: Symposia Melitensia  Number 11 (2015)\nConducting Critique: \nReconsidering Foucault\u2019s \nEngagement with the \nQuestion of the Subject\nKurt Borg\nkurt.borg@um.edu.mt\nAbstract: A common criticism of Michel Foucault\u2019s works is that his writings on power \nrelations over-emphasized the effects that technologies of power have upon the \nsubjection of humans, rendering any attempt of resistance futile and reducing the subject \nto a mere passive effect of power. This criticism treats Foucault\u2019s consideration of ethics \nin his later works as a break from his earlier views. In this paper, by reading Foucault\u2019s \nbooks alongside his lectures and interviews, two ways will be proposed through which \nthe question of the subject can be productively raised and located throughout Foucault\u2019s \nworks, even within his concerns with power relations. The first way is through the relation \nbetween assujettisement and critique, and the second way is through the notions of \ngovernment and conduct.\n\nSource: https://core.ac.uk/download/pdf/46603812.pdf\nTitle: \nContent: government and conduct.\nKeywords: power relations, subject, assujettisement, critique, governmentality, counter-\nconduct.\nS\nince his death in 1984, Michel Foucault\u2019s works have been \nproductively used in multiple fields of study, ranging from \ngeography to politics to psychology and education studies. Rather \nthan emphasize the particular applicability of his ideas, I would like to \npropose a reading of Foucault\u2019s works that highlights the question of \nthe subject and its formation in relation to power relations. A common \ncriticism is that his writings on power over-emphasized the effects that \ntechnologies of power have on the subjection of humans, rendering \nattempts of resistance futile and reducing the subject to a mere passive \nbrought to you by \nCORE\nView metadata, citation and similar papers at core.ac.uk\nprovided by OAR@UM\n\nSource: https://www.cambridge.org/core/journals/american-bar-foundation-research-journal/article/abs/foucaults-discipline-and-punish-an-exposition-and-critique/D06D179F726FADC025C451C6D51B64B8\nTitle: Foucault's Discipline and Punish An Exposition and Critique | American Bar Foundation Research Journal | Cambridge Core\nContent: 47\nIn The History of Sexuality, Vol.1, supra note 1, the study which followed Discipline and Punish, Foucault turns his attention to the way in which social discourses and practices work to bring about the \u201csubjectification\u201d of individuals, i.e., to create them as persons with a particular kind of subjectivity. Although some of Discipline and Punish's arguments allude to this process, Discipline and Punish is more explicitly concerned with what might be termed the \u201cobjectification\u201d of individuals. See Gordon, Colin, The Birth of the Subject, in Radical Philosophy, No. 17 (Summer 1977). This later work also develops an important conception Foucault terms \u201cbio-politics.\u201d This refers to those strategies of government that concern themselves with the life, health, efficiency, and security of whole populations. Bio-political regulation is seen as a form of regulation that accompanies and complements the individually oriented \u201cdisciplines.\u201dGoogle Scholar\n\n48\n\nSource: https://mwctipton.substack.com/p/michel-foucault-in-the-modern-context\nTitle: Michel Foucault in the Modern Context - by Marcus WC Tipton\nContent: Foucault\u2019s insights, when adapted within a modern context and made available and understandable or relatable to the average person, offer practical and important lessons for fostering individual agency and critical consciousness. This is especially relevant in modern society, which is increasingly shaped by centralized power structures, engineered narratives, and the interplay between subjective and objective truths.\nFoucault argued that power is not solely repressive but also productive, meaning it shapes identities, desires, and norms. This dual nature of power creates opportunities for resistance. Foucault\u2019s concept of \u201cpractices of the self\u201d refers to the ways individuals can cultivate ethical self-awareness and exercise agency within power structures through civic participation.\n\nSource: https://mwctipton.substack.com/p/michel-foucault-in-the-modern-context\nTitle: Michel Foucault in the Modern Context - by Marcus WC Tipton\nContent: These works marked a shift in Foucault\u2019s focus from the analysis of power structures to the possibilities for individual autonomy and resistance, which is where the true lessons and the ultimate benefit of his teachings should be introduced for discussion and consideration.\nMichel Foucault\u2019s work on individual autonomy and resistance provides a powerful basis for understanding how individuals can navigate, critique, and resist the forces of power that shape their lives, often under the auspices of the greater good. His theories emphasize the importance of self-awareness, ethical self-formation, and the capacity for critical thought as tools to challenge dominant structures of control and manipulation or social engineering.\n\nSource: https://mwctipton.substack.com/p/michel-foucault-in-the-modern-context\nTitle: Michel Foucault in the Modern Context - by Marcus WC Tipton\nContent: This approach examines the historical conditions under which particular systems of thought emerge and how these systems define and regulate what is considered to be true or false. Foucault introduced the concept of epistemes, or the implicit frameworks of knowledge, to describe the underlying rules and structures that govern intellectual paradigms in specific historical periods.\nIn his seminal work \u201cDiscipline and Punish: The Birth of the Prison\u201d, Foucault explored the evolution of disciplinary institutions and their role in the regulation of individuals. He analyzed how modern societies transitioned from overt displays of sovereign power, such as public executions, to more subtle forms of control through surveillance and normalization.\n\nSource: https://mwctipton.substack.com/p/michel-foucault-in-the-modern-context\nTitle: Michel Foucault in the Modern Context - by Marcus WC Tipton\nContent: Michel Foucault\u2019s work on individual autonomy and resistance provides a powerful basis for understanding how individuals can navigate, critique, and resist the forces of power\nMichel Foucault, one of the most influential philosophers and social theorists of the twentieth century, made significant contributions to fields such as philosophy, sociology, history, cultural studies, and critical theory.\nBorn on October 15, 1926, in Poitiers, France, Paul-Michel Foucault was raised in a middle-class family with a strong academic orientation. He pursued his education at the prestigious \u00c9cole Normale Sup\u00e9rieure in Paris, where he studied philosophy and psychology. Foucault\u2019s academic journey was marked by his deep engagement with the works of existentialists, structuralists, and historians of ideas, all of which shaped the trajectory of his intellectual development.\n\nSource: https://www.cambridge.org/core/journals/american-bar-foundation-research-journal/article/abs/foucaults-discipline-and-punish-an-exposition-and-critique/D06D179F726FADC025C451C6D51B64B8\nTitle: Foucault's Discipline and Punish An Exposition and Critique | American Bar Foundation Research Journal | Cambridge Core\nContent: We use cookies to distinguish you from other users and to provide you with a better experience on our websites. Close this message to accept cookies or find out how to manage your cookie settings.\n\nLogin Alert\n\nMenu links\n\nArticle contents\n\nFoucault's Discipline and Punish An Exposition and Critique\n\nPublished online by Cambridge University Press:\u00a0\n      20 November 2018\n\nAbstract\n\nAccess options\n\nReferences\n\n1\n\nFoucault, M., Madness and Civilisation. A History of Insanity in the Age of Reason (New York: Random House, 1965); id., The Birth of the Clinic: An Archaeology of Medical Perception (London: Tavistock, 1973); id., The Order of Things: An Archaeology of the Human Sciences (London: Tavistock, 1970); id. The Archaeology of Knowledge (London: Tavistock, 1972); id., The History of Sexuality, Vol.1, An Introduction (New York: Random House, 1978); Vol.2, The Uses of Pleasure (New York: Viking Press, 1986).Google Scholar\n\nSource: https://mwctipton.substack.com/p/michel-foucault-in-the-modern-context\nTitle: Michel Foucault in the Modern Context - by Marcus WC Tipton\nContent: Foucault\u2019s analysis of power-knowledge relationships is also a cornerstone of his work.\nHe argued that knowledge is not independent of power but is instead, a key instrument through which power operates. Discourses, or systems of knowledge and language, establish what is considered valid or true, thereby enabling the exercise of power. Foucault\u2019s genealogical method, as demonstrated in works like \u201cNietzsche, Genealogy, History\u201d, traces the historical development of these discourses, uncovering their contingent and often arbitrary nature.\nFoucault\u2019s later works focused on the concepts of subjectivity and ethics.\nHe examined how individuals are shaped by power and discourse but also how they can resist these forces through practices of the self. In his \u201cHistory of Sexuality\u201d series, particularly \u201cThe Use of Pleasure\u201d and \u201cThe Care of the Self\u201d, Foucault explored how ancient Greek and Roman philosophies provided models for ethical self-fashioning.\n\nSource: https://mwctipton.substack.com/p/michel-foucault-in-the-modern-context\nTitle: Michel Foucault in the Modern Context - by Marcus WC Tipton\nContent: Thanks for reading Systemically Sustainable Human Growth and Development! Subscribe for free to receive new posts and support my work.\nSubscribe\nFoucault\u2019s academic career was characterized by his interest in understanding how power, knowledge, and discourse intersect to shape social institutions, practices, and individual subjectivity. His early works were influenced by structuralist approaches, particularly those of Ferdinand de Saussure and Claude L\u00e9vi-Strauss.\nHowever, Foucault later distanced himself from structuralism, preferring to situate his theories within what came to be known as poststructuralism. His personal approach rejected the larger narratives regarding universal truths, instead emphasizing the contextual and contingent nature of knowledge and power.\nFoucault\u2019s historical methodology, often referred to as archaeology, is outlined in works such as \u201cThe Archaeology of Knowledge\u201d.\n Source: https://plato.stanford.edu/entries/foucault/\nTitle: \nMichel Foucault (Stanford Encyclopedia of Philosophy)\n\nContent: Foucault after Foucault\n\nSource: https://en.wikipedia.org/wiki/Michel_Foucault\nTitle: Michel Foucault - Wikipedia\nContent: Jump to content\nMain menu\nSearch\nDonate\nCreate account\nLog in\nPersonal tools\nToggle the table of contents\nMichel Foucault\n90 languages\nArticle\nTalk\nRead\nView source\nView history\nTools\nFrom Wikipedia, the free encyclopedia\n\"Foucault\" redirects here. For other uses, see Foucault (disambiguation).\nMichel Foucault\nFoucault in 1974\nBorn    Paul-Michel Foucault\n15 October 1926\nPoitiers, France\nDied    25 June 1984 (aged\u00a057)\nParis, France\nEducation \n\u00c9cole normale sup\u00e9rieure (BA, MA)\nUniversity of Paris (BA, SpDip, PhD)\nNotable work  \nMadness and Civilization (1961)\nThe Birth of the Clinic (1963)\nThe Order of Things (1966)\nDiscipline and Punish (1975)\nThe History of Sexuality (1976)\nPartner Daniel Defert\nRegion  Western philosophy\nSchool\nContinental philosophy\nFrench Nietzscheanism[1]\nPost-structuralism\nNon-representational theory[citation needed]\nInstitutions  \n\u00c9cole Normale Sup\u00e9rieure (1951\u201355)[2]\nUniversit\u00e9 de Lille (1953\u201354)\nUppsala University\nUniversity of Warsaw\nInstitut fran\u00e7ais Hamburg\n\nSource: https://en.wikipedia.org/wiki/Michel_Foucault\nTitle: Michel Foucault - Wikipedia\nContent: Paul-Michel Foucault (UK: /\u02c8fu\u02d0ko\u028a/ FOO-koh, US: /fu\u02d0\u02c8ko\u028a/ foo-KOH;[9] French: [p\u0254l mi\u0283\u025bl fuko]; 15 October 1926\u00a0\u2013 25 June 1984) was a French historian of ideas and philosopher who was also an author, literary critic, political activist, and teacher. Foucault's theories primarily addressed the relationships between power versus knowledge and liberty, and he analyzed how they are used as a form of social control through multiple institutions. Though often cited as a structuralist and postmodernist, Foucault rejected these labels and sought to critique authority without limits on himself.[10] His thought has influenced academics within a large number of contrasting areas of study, with this especially including those working in anthropology, communication studies, criminology, cultural studies, feminism, literary theory, psychology, and sociology. His efforts against homophobia and racial prejudice as well as against other ideological doctrines have also shaped research into critical\n\nSource: https://en.wikipedia.org/wiki/Michel_Foucault\nTitle: Michel Foucault - Wikipedia\nContent: \u2014\u200aMichel Foucault, 1983[53]\n\nSource: https://en.wikipedia.org/wiki/Michel_Foucault\nTitle: Michel Foucault - Wikipedia\nContent: Johanna Oksala. \"Michel Foucault\". In Zalta, Edward N. (ed.). Stanford Encyclopedia of Philosophy.\nKelly, Mark. \"Michel Foucault (1926\u20131984)\". Internet Encyclopedia of Philosophy.\nFoucault.info. Large resource site which includes extracts from Foucault's work and a comprehensive bibliography of all of Foucault's work in French\nFoucault News. Large resource site, which includes a blog with news related to Foucault research, bibliographies and other resources\nFoucault bibliographies. Bibliographies and links to bibliographies of, and relating to Foucault, on the Foucault News site\nProgressive Geographies. Stuart Elden's blog and resource site. Includes extensive resources on Foucault\nvte\nMichel Foucault\nBooks \nMental Illness and Psychology (1954)Madness and Civilization (1961)The Birth of the Clinic (1963)Death and the Labyrinth (1963)The Order of Things (1966)This Is Not a Pipe (1968)The Archaeology of Knowledge (1969)Discipline and Punish (1975)The History of Sexuality (1976\u20132018)\n\nSource: https://www.britannica.com/biography/Michel-Foucault\nTitle: Michel Foucault | French Philosopher, Historian & Social Theorist | Britannica\nContent: What did Michel Foucault write?\nMichel Foucault began to attract wide notice as one of the most original and controversial thinkers of his day with the appearance of\u00a0The Order of Things in 1966. His best-known works included Discipline and Punish: The Birth of the Prison (1975) and The History of Sexuality, a multivolume history of Western sexuality.\n\nSource: https://plato.stanford.edu/entries/foucault/\nTitle: \nMichel Foucault (Stanford Encyclopedia of Philosophy)\n\nContent: Stanford Encyclopedia of Philosophy\n Browse\nTable of Contents\nWhat's New\nRandom Entry\nChronological\nArchives\n About\nEditorial Information\nAbout the SEP\nEditorial Board\nHow to Cite the SEP\nSpecial Characters\nAdvanced Tools\nContact\n Support SEP\nSupport the SEP\nPDFs for SEP Friends\nMake a Donation\nSEPIA for Libraries\nEntry Contents\nBibliography\nAcademic Tools\nFriends PDF Preview\nAuthor and Citation Info\nBack to Top\nMichel Foucault\nFirst published Wed Apr 2, 2003; substantive revision Fri Aug 5, 2022\nMichel Foucault (1926\u20131984) was a French historian and philosopher, associated with the structuralist and post-structuralist movements. He has had strong influence not only in philosophy but also in a wide range of humanistic and social scientific disciplines.\n\nSource: https://www.britannica.com/biography/Michel-Foucault/Foucaults-ideas\nTitle: Michel Foucault - Philosopher, Postmodernism, Power | Britannica\nContent: Table of Contents\nTable of Contents Ask the Chatbot\nQuick Facts\nIn full:\nPaul-Michel Foucault\n(Show\u00a0more)\nBorn:\nOctober 15, 1926, Poitiers, France\n(Show\u00a0more)\nDied:\nJune 25, 1984, Paris (aged 57)\n(Show\u00a0more)\nSubjects Of Study:\nmental disorder\nprison\nsexuality\nsociety\n(Show\u00a0more)\nOn the Web:\nBBC Sounds - Thinking Allowed - Michel Foucault - a special programme on his work and influence. (Mar. 26, 2025)\n(Show\u00a0more)\nSee all related content\n\nSource: https://en.wikipedia.org/wiki/Michel_Foucault\nTitle: Michel Foucault - Wikipedia\nContent: Smart, Barry (2002). Michel Foucault. London: Routledge. ISBN\u00a0978-0-415-28533-9.\nStokes, Philip (2004). Philosophy: 100 Essential Thinkers. Kettering: Index Books. ISBN\u00a0978-0-572-02935-7.\nFurther reading\nArti\u00e8res, Philippe, Jean-Fran\u00e7ois Bert, Fr\u00e9d\u00e9ric Gros, and Judith Revel (eds). 2011. Cahier Foucault. France: L'Herne.\nDerrida, Jacques. 1978. \"Cogito and the History of Madness\", pp.\u00a031\u201363 in Writing and Difference, translated by Alan Bass. Chicago: Chicago University Press.\nDreyfus, Herbert L., and Paul Rabinow. 1983. Michel Foucault: Beyond Structuralism and Hermeneutics (2nd edn). Chicago: University of Chicago Press.\nFoucault, Michel. \"Sexual Morality and the Law\" [originally published as \"La loi de la pudeur\"], pp.\u00a0271\u2013285 in Politics, Philosophy, Culture.[citation needed]\nFoucault, Michel, Ignacio Ramonet, Daniel Mermet, Jorge Majfud, and Federico Kukso. 2018. Cinco entrevistas a Noam Chomsky (in Spanish). Santiago: Aun Creemos en los Sue\u00f1os. ISBN\u00a0978-956-340-126-4.\n\nSource: https://www.britannica.com/biography/Michel-Foucault\nTitle: Michel Foucault | French Philosopher, Historian & Social Theorist | Britannica\nContent: June 25, 1984, Paris (aged 57)\n(Show\u00a0more)\nSubjects Of Study:\nmental disorder\nprison\nsexuality\nsociety\n(Show\u00a0more)\nOn the Web:\nColl\u00e8ge de France - Michel Foucault - History of systems of though (Jan. 17, 2025)\n(Show\u00a0more)\nSee all related content\nTop Questions\n\"\n    ---\n    Using the above information, answer the following query or task: \"michel Foucault\" in a summary report --\n    The report should focus on the answer to the query, should be well structured, informative, \n    and comprehensive, with facts and numbers if available.  It should be 1200 words.\n    You should strive to write the report using all relevant and necessary information provided\n    in a succinct manner not to esceed 1200 words.\n    \n    Please follow all of the following guidelines in your report:\n        - You MUST determine your own concrete and valid opinion based on the given information. Do NOT defer to general and meaningless conclusions.\n        - You MUST write the report with markdown syntax and APA format.\n        - You MUST prioritize the relevance, reliability, and significance of the sources you use. Choose trusted sources over less reliable ones.\n        - You must also prioritize new articles over older articles if the source can be trusted.\n        - Use in-text citation references in APA format and make it with markdown hyperlink placed at the end of the sentence or paragraph that references them like this: ([in-text citation](url)).\n        - Don't forget to add a reference list at the end of the report in APA format and full url links without hyperlinks.\n        - \n    You MUST write all used source urls at the end of the report as references, and make sure to not add duplicated sources, but only one reference for each.\n    Every url should be hyperlinked: [url website](url)\n    Additionally, you MUST include hyperlinks to the relevant URLs wherever they are referenced in the report: \n\n    eg: Author, A. A. (Year, Month Date). Title of web page. Website Name. [url website](url)\n    \n        - Write the report in a Objective (impartial and unbiased presentation of facts and findings) tone.\n        - IMPORTANT!: The report should be written at a Junior high school level (introductory concepts, basic sources, simple language). MAX_SUBTOPICS=2 level.\n\n    You MUST write the report in the following language: english.\n    Please do your best, this is very important to my future.\n    Assume that the current date is 2025-04-04.\n\n\n    ",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-04-04T15:34:35.692491",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "report_written",
+        "output": "\ud83d\udcdd Report written for 'michel Foucault'",
+        "metadata": null
+      }
+    }
+  ],
+  "content": {
+    "query": "",
+    "sources": [],
+    "context": [],
+    "report": "",
+    "costs": 0.0,
+    "type": "report",
+    "content": "selected_images",
+    "output": "8. SSRN. (2011). Foucault and Sociology by Michael K. Power. Retrieved from https://papers.ssrn.com/sol3/papers.cfm?abstract_id=1886886  ",
+    "metadata": [
+      "https://i0.wp.com/literariness.org/wp-content/uploads/2017/03/michel_foucault_sithum.jpg?resize=700%2C700&ssl=1",
+      "https://i0.wp.com/literariness.org/wp-content/uploads/2017/03/511pwc78cql-_sx331_bo1204203200_.jpg?w=346&h=519&ssl=1",
+      "https://i0.wp.com/literariness.org/wp-content/uploads/2017/03/download-1.jpg?w=346&h=519&ssl=1",
+      "https://plato.stanford.edu/symbols/sep-man-red.png",
+      "https://cdn.britannica.com/mendel/eb-logo/MendelNewThistleLogo.png",
+      "https://cdn.britannica.com/88/61988-004-23F422E1/Paul-Michel-Foucault.jpg",
+      "https://i0.wp.com/content.flexlinks.com/sharedimages/products/2183967/1534842.jpg?w=1080&ssl=1",
+      "https://track.flexlinkspro.com/i.ashx?foid=1192022.2183967&fot=9999&foc=2&fos=1",
+      "https://perlego-cms.cdn.prismic.io/perlego-cms/612e00f7-f8fa-416b-b7db-fd961d683b0a_logo.svg",
+      "https://images.prismic.io/perlego-cms/3315d34a-ab16-4377-b70a-2fb2c5c306cd_sophie+raine.png?auto=compress,format"
+    ]
+  }
+}

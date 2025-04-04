@@ -59,7 +59,7 @@ def generate_precis_prompt(
     context: str,
     report_source: str,
     report_format="apa",
-    total_words: int = 300,
+    precis_word_count: int = 300,
     tone: Tone = None,
     education_level=None,
     language="english",
@@ -89,9 +89,9 @@ def generate_precis_prompt(
     ---
     Using the above information, answer the following query or task: "{question}" in a summary report --
     The report should focus on the answer to the query, should be well structured, informative, 
-    and comprehensive, with facts and numbers if available.  It should be {total_words} words.
+    and comprehensive, with facts and numbers if available.  It should be {precis_word_count} words.
     You should strive to write the report using all relevant and necessary information provided
-    in a succinct manner not to esceed {total_words} words.
+    in a succinct manner not to exceed {precis_word_count} words.
     
     Please follow all of the following guidelines in your report:
         - You MUST determine your own concrete and valid opinion based on the given information. Do NOT defer to general and meaningless conclusions.

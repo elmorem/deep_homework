@@ -249,6 +249,12 @@ async def generate_report(
     await stream_output(
         "logs",
         "report_written with params",
+        f"📝 Report about to be written of report_type = {report_type}",
+        websocket,
+    )
+    await stream_output(
+        "logs",
+        "report_written with params",
         f"📝 Report about to be written with prompt = {generate_prompt}",
         websocket,
     )
@@ -256,6 +262,13 @@ async def generate_report(
         content = f"{generate_prompt(query, existing_headers, relevant_written_contents, main_topic, context, report_format=cfg.report_format, tone=tone, education_level=education_level, total_words=cfg.total_words, language=cfg.language)}"
     else:
         content = f"{generate_prompt(query, context, report_source, report_format=cfg.report_format, tone=tone, education_level=education_level, total_words=cfg.total_words, language=cfg.language)}"
+    
+    await stream_output(
+        "logs",
+        "report_written with params",
+        f"📝 Report about to be written based on content = {content}",
+        websocket,
+    )
     try:
         report = await create_chat_completion(
             model=cfg.smart_llm_model,
