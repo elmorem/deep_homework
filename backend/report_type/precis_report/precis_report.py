@@ -5,7 +5,7 @@ from homework_researcher.actions.utils import stream_output
 from homework_researcher.agent import HomeworkResearcher
 
 
-class BasicReport:
+class PrecisReport:
     def __init__(
         self,
         query: str,
@@ -51,11 +51,10 @@ class BasicReport:
         await stream_output(
             "logs",
             "planning_research",
-            f"🌐 we are now starting to conduct our research. This is a BasicReport",
+            f"🌐 we are now starting to conduct our research. This is a PrecisReport",
             self.researcher.websocket,
         )
 
         await self.researcher.conduct_research()
         report = await self.researcher.write_report()
-
         return report
