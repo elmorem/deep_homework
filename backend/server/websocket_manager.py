@@ -4,6 +4,7 @@ from typing import Dict, List
 
 from fastapi import WebSocket
 
+from backend.report_type.precis_report.precis_report import PrecisReport
 from backend.report_type.basic_report.basic_report import BasicReport
 from backend.report_type.detailed_report.detailed_report import DetailedReport
 from backend.chat.chat import ChatAgentWithMemory
@@ -95,14 +96,12 @@ class WebSocketManager:
         """Start streaming the output."""
         tone = Tone[tone]
         education_level = EducationLevel[education_level]
-        print(f"Tone: {tone}")
-        print(f"Education Level: {education_level}")
         config_path = "default"
 
         await stream_output(
             "logs",
             "planning_research",
-            f"🌐 Here is what we are working with: ed level = {education_level}tone ={tone}task = {task} report_type={report_type} ...",
+            f"🌐 {education_level = }, {tone = }, {task = }, {report_type = }...",
             websocket,
         )
 
@@ -155,6 +154,13 @@ async def run_agent(
     # Create logs handler for this research task
     logs_handler = CustomLogsHandler(websocket, task)
 
+    await stream_output(
+        "logs",
+        "planning_research",
+        f"🌐 We are about the run the agent {report_type = }",
+        websocket,
+        )
+
     # Initialize researcher based on report type
     if report_type == "multi_agents":
         report = await run_research_task(
@@ -166,6 +172,23 @@ async def run_agent(
             headers=headers,
         )
         report = report.get("report", "")
+
+    elif report_type == ReportType.PrecisReport.value:
+        researcher = PrecisReport(
+            query=task,
+            query_domains=query_domains,
+            report_type=report_type,
+            report_source=report_source,
+            source_urls=source_urls,
+            document_urls=document_urls,
+            tone=tone,
+            education_level=education_level,
+            config_path=config_path,
+            websocket=logs_handler,  # Use logs_handler instead of raw websocket
+            headers=headers,
+        )
+        report = await researcher.run()
+
 
     elif report_type == ReportType.DetailedReport.value:
         researcher = DetailedReport(

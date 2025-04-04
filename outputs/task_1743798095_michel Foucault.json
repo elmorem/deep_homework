@@ -1,0 +1,724 @@
+{
+  "timestamp": "2025-04-04T13:21:35.818592",
+  "events": [
+    {
+      "timestamp": "2025-04-04T13:21:36.126611",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "planning_research",
+        "output": "\ud83c\udf10 we are now starting to conduct our research. This is a BasicReport",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-04-04T13:21:38.881859",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "planning_research",
+        "output": "We are now moving to the research_conducotr",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-04-04T13:21:38.882120",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "starting_research",
+        "output": "\ud83d\udd0d Starting the research task for 'michel Foucault'...",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-04-04T13:21:38.882284",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "agent_generated",
+        "output": "\ud83d\udcda Philosophy Agent",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-04-04T13:21:38.882479",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "planning_research",
+        "output": "\ud83c\udf10 Browsing the web to learn more about the task: michel Foucault...",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-04-04T13:21:41.006526",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "planning_research",
+        "output": "\ud83e\udd14 Planning the research strategy and subtasks...",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-04-04T13:21:52.050912",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "subqueries",
+        "output": "\ud83d\uddc2\ufe0f I will conduct my research based on the following queries: ['Michel Foucault objective biography and analysis of major works', \"Unbiased review of Michel Foucault's theories on power, knowledge, and social institutions\", \"Academic perspective on Michel Foucault's influence on postmodern and poststructural thought\", \"Critical evaluation of Michel Foucault's legacy in contemporary philosophy\", 'michel Foucault']...",
+        "metadata": [
+          "Michel Foucault objective biography and analysis of major works",
+          "Unbiased review of Michel Foucault's theories on power, knowledge, and social institutions",
+          "Academic perspective on Michel Foucault's influence on postmodern and poststructural thought",
+          "Critical evaluation of Michel Foucault's legacy in contemporary philosophy",
+          "michel Foucault"
+        ]
+      }
+    },
+    {
+      "timestamp": "2025-04-04T13:21:52.051379",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "running_subquery_research",
+        "output": "\n\ud83d\udd0d Running research for 'Michel Foucault objective biography and analysis of major works'...",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-04-04T13:21:52.051815",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "running_subquery_research",
+        "output": "\n\ud83d\udd0d Running research for 'Unbiased review of Michel Foucault's theories on power, knowledge, and social institutions'...",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-04-04T13:21:52.052500",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "running_subquery_research",
+        "output": "\n\ud83d\udd0d Running research for 'Academic perspective on Michel Foucault's influence on postmodern and poststructural thought'...",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-04-04T13:21:52.053133",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "running_subquery_research",
+        "output": "\n\ud83d\udd0d Running research for 'Critical evaluation of Michel Foucault's legacy in contemporary philosophy'...",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-04-04T13:21:52.054161",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "running_subquery_research",
+        "output": "\n\ud83d\udd0d Running research for 'michel Foucault'...",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-04-04T13:21:54.249490",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "added_source_url",
+        "output": "\u2705 Added source url to research: https://www.britannica.com/biography/Michel-Foucault\n",
+        "metadata": "https://www.britannica.com/biography/Michel-Foucault"
+      }
+    },
+    {
+      "timestamp": "2025-04-04T13:21:54.250074",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "added_source_url",
+        "output": "\u2705 Added source url to research: https://plato.stanford.edu/entries/foucault/\n",
+        "metadata": "https://plato.stanford.edu/entries/foucault/"
+      }
+    },
+    {
+      "timestamp": "2025-04-04T13:21:54.250380",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "added_source_url",
+        "output": "\u2705 Added source url to research: https://en.wikipedia.org/wiki/Michel_Foucault\n",
+        "metadata": "https://en.wikipedia.org/wiki/Michel_Foucault"
+      }
+    },
+    {
+      "timestamp": "2025-04-04T13:21:54.250670",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "added_source_url",
+        "output": "\u2705 Added source url to research: https://www.britannica.com/biography/Michel-Foucault/Foucaults-ideas\n",
+        "metadata": "https://www.britannica.com/biography/Michel-Foucault/Foucaults-ideas"
+      }
+    },
+    {
+      "timestamp": "2025-04-04T13:21:54.250942",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "added_source_url",
+        "output": "\u2705 Added source url to research: https://literariness.org/2017/03/28/key-theories-of-michel-foucault/\n",
+        "metadata": "https://literariness.org/2017/03/28/key-theories-of-michel-foucault/"
+      }
+    },
+    {
+      "timestamp": "2025-04-04T13:21:54.251241",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "researching",
+        "output": "\ud83e\udd14 Researching for relevant information across multiple sources...\n",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-04-04T13:21:54.251517",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "scraping_urls",
+        "output": "\ud83c\udf10 Scraping content from 5 URLs...",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-04-04T13:21:54.406394",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "added_source_url",
+        "output": "\u2705 Added source url to research: https://www.researchgate.net/publication/383867812_Introduction_Foucault's_Legacy_in_Contemporary_Thinking_Forty_Years_Later_1984-2024\n",
+        "metadata": "https://www.researchgate.net/publication/383867812_Introduction_Foucault's_Legacy_in_Contemporary_Thinking_Forty_Years_Later_1984-2024"
+      }
+    },
+    {
+      "timestamp": "2025-04-04T13:21:54.406790",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "added_source_url",
+        "output": "\u2705 Added source url to research: https://rauli.cbs.dk/index.php/foucault-studies/libraryFiles/downloadPublic/3\n",
+        "metadata": "https://rauli.cbs.dk/index.php/foucault-studies/libraryFiles/downloadPublic/3"
+      }
+    },
+    {
+      "timestamp": "2025-04-04T13:21:54.407102",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "added_source_url",
+        "output": "\u2705 Added source url to research: https://thecritic.co.uk/the-enduring-legacy-of-michel-foucault/\n",
+        "metadata": "https://thecritic.co.uk/the-enduring-legacy-of-michel-foucault/"
+      }
+    },
+    {
+      "timestamp": "2025-04-04T13:21:54.407390",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "added_source_url",
+        "output": "\u2705 Added source url to research: https://rauli.cbs.dk/index.php/foucault-studies/article/download/7218/7490/23666\n",
+        "metadata": "https://rauli.cbs.dk/index.php/foucault-studies/article/download/7218/7490/23666"
+      }
+    },
+    {
+      "timestamp": "2025-04-04T13:21:54.407685",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "added_source_url",
+        "output": "\u2705 Added source url to research: https://www.sociologija.org/admin/published/2024_66/4/871.pdf\n",
+        "metadata": "https://www.sociologija.org/admin/published/2024_66/4/871.pdf"
+      }
+    },
+    {
+      "timestamp": "2025-04-04T13:21:54.407985",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "researching",
+        "output": "\ud83e\udd14 Researching for relevant information across multiple sources...\n",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-04-04T13:21:54.408280",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "scraping_urls",
+        "output": "\ud83c\udf10 Scraping content from 5 URLs...",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-04-04T13:21:54.412285",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "added_source_url",
+        "output": "\u2705 Added source url to research: https://www.sociosite.net/sociologists/michel-foucault\n",
+        "metadata": "https://www.sociosite.net/sociologists/michel-foucault"
+      }
+    },
+    {
+      "timestamp": "2025-04-04T13:21:54.412663",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "added_source_url",
+        "output": "\u2705 Added source url to research: https://www.worldhistory.org/Michel_Foucault/\n",
+        "metadata": "https://www.worldhistory.org/Michel_Foucault/"
+      }
+    },
+    {
+      "timestamp": "2025-04-04T13:21:54.412978",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "added_source_url",
+        "output": "\u2705 Added source url to research: https://iep.utm.edu/foucault/\n",
+        "metadata": "https://iep.utm.edu/foucault/"
+      }
+    },
+    {
+      "timestamp": "2025-04-04T13:21:54.413291",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "researching",
+        "output": "\ud83e\udd14 Researching for relevant information across multiple sources...\n",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-04-04T13:21:54.413596",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "scraping_urls",
+        "output": "\ud83c\udf10 Scraping content from 3 URLs...",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-04-04T13:21:54.729450",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "added_source_url",
+        "output": "\u2705 Added source url to research: https://www.academia.edu/119965168/Foucault_And_Post_Modernism\n",
+        "metadata": "https://www.academia.edu/119965168/Foucault_And_Post_Modernism"
+      }
+    },
+    {
+      "timestamp": "2025-04-04T13:21:54.730041",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "added_source_url",
+        "output": "\u2705 Added source url to research: https://literariness.org/2016/04/04/foucaults-influence-on-postmodern-thought/\n",
+        "metadata": "https://literariness.org/2016/04/04/foucaults-influence-on-postmodern-thought/"
+      }
+    },
+    {
+      "timestamp": "2025-04-04T13:21:54.730389",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "added_source_url",
+        "output": "\u2705 Added source url to research: https://www.academia.edu/8153249/_Watchmen_over_the_flux_of_thought_Michel_Foucault_and_the_historical_development_of_postmodernist_philosophy\n",
+        "metadata": "https://www.academia.edu/8153249/_Watchmen_over_the_flux_of_thought_Michel_Foucault_and_the_historical_development_of_postmodernist_philosophy"
+      }
+    },
+    {
+      "timestamp": "2025-04-04T13:21:54.730723",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "added_source_url",
+        "output": "\u2705 Added source url to research: https://pages.gseis.ucla.edu/faculty/kellner/essays/postmoderntheorych2.pdf\n",
+        "metadata": "https://pages.gseis.ucla.edu/faculty/kellner/essays/postmoderntheorych2.pdf"
+      }
+    },
+    {
+      "timestamp": "2025-04-04T13:21:54.731069",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "added_source_url",
+        "output": "\u2705 Added source url to research: https://www.researchgate.net/publication/343384537_Postmodernism_Derrida_Foucault_Rorty\n",
+        "metadata": "https://www.researchgate.net/publication/343384537_Postmodernism_Derrida_Foucault_Rorty"
+      }
+    },
+    {
+      "timestamp": "2025-04-04T13:21:54.731413",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "researching",
+        "output": "\ud83e\udd14 Researching for relevant information across multiple sources...\n",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-04-04T13:21:54.731755",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "scraping_urls",
+        "output": "\ud83c\udf10 Scraping content from 5 URLs...",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-04-04T13:21:55.457223",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "added_source_url",
+        "output": "\u2705 Added source url to research: https://www.researchgate.net/publication/365110898_Foucault_and_Power_A_Critique_and_Retheorization\n",
+        "metadata": "https://www.researchgate.net/publication/365110898_Foucault_and_Power_A_Critique_and_Retheorization"
+      }
+    },
+    {
+      "timestamp": "2025-04-04T13:21:55.459829",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "added_source_url",
+        "output": "\u2705 Added source url to research: https://sserr.ro/wp-content/uploads/2024/07/sserr-11-1-41-51.pdf\n",
+        "metadata": "https://sserr.ro/wp-content/uploads/2024/07/sserr-11-1-41-51.pdf"
+      }
+    },
+    {
+      "timestamp": "2025-04-04T13:21:55.461955",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "added_source_url",
+        "output": "\u2705 Added source url to research: https://journals.sagepub.com/doi/full/10.1177/0961463X20911786\n",
+        "metadata": "https://journals.sagepub.com/doi/full/10.1177/0961463X20911786"
+      }
+    },
+    {
+      "timestamp": "2025-04-04T13:21:55.462949",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "added_source_url",
+        "output": "\u2705 Added source url to research: https://journals.sagepub.com/doi/full/10.1177/17577438231187129\n",
+        "metadata": "https://journals.sagepub.com/doi/full/10.1177/17577438231187129"
+      }
+    },
+    {
+      "timestamp": "2025-04-04T13:21:55.464801",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "added_source_url",
+        "output": "\u2705 Added source url to research: https://www.tandfonline.com/doi/full/10.1080/08913811.2022.2133803\n",
+        "metadata": "https://www.tandfonline.com/doi/full/10.1080/08913811.2022.2133803"
+      }
+    },
+    {
+      "timestamp": "2025-04-04T13:21:55.465748",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "researching",
+        "output": "\ud83e\udd14 Researching for relevant information across multiple sources...\n",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-04-04T13:21:55.466726",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "scraping_urls",
+        "output": "\ud83c\udf10 Scraping content from 5 URLs...",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-04-04T13:21:55.474998",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "scraping_content",
+        "output": "\ud83d\udcc4 Scraped 2 pages of content",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-04-04T13:21:55.475505",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "scraping_images",
+        "output": "\ud83d\uddbc\ufe0f Selected 1 new images from 1 total images",
+        "metadata": [
+          "https://i0.wp.com/literariness.org/wp-content/uploads/2016/04/michael-ulrich.jpg?resize=700%2C509&ssl=1"
+        ]
+      }
+    },
+    {
+      "timestamp": "2025-04-04T13:21:55.475909",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "scraping_complete",
+        "output": "\ud83c\udf10 Scraping complete",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-04-04T13:21:55.476321",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "fetching_query_content",
+        "output": "\ud83d\udcda Getting relevant content based on query: Academic perspective on Michel Foucault's influence on postmodern and poststructural thought...",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-04-04T13:21:56.335664",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "scraping_content",
+        "output": "\ud83d\udcc4 Scraped 1 pages of content",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-04-04T13:21:56.336319",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "scraping_images",
+        "output": "\ud83d\uddbc\ufe0f Selected 0 new images from 0 total images",
+        "metadata": []
+      }
+    },
+    {
+      "timestamp": "2025-04-04T13:21:56.337888",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "scraping_complete",
+        "output": "\ud83c\udf10 Scraping complete",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-04-04T13:21:56.338325",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "fetching_query_content",
+        "output": "\ud83d\udcda Getting relevant content based on query: Unbiased review of Michel Foucault's theories on power, knowledge, and social institutions...",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-04-04T13:21:56.344597",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "scraping_content",
+        "output": "\ud83d\udcc4 Scraped 5 pages of content",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-04-04T13:21:56.346903",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "scraping_images",
+        "output": "\ud83d\uddbc\ufe0f Selected 4 new images from 16 total images",
+        "metadata": [
+          "https://i0.wp.com/literariness.org/wp-content/uploads/2017/03/michel_foucault_sithum.jpg?resize=700%2C700&ssl=1",
+          "https://i0.wp.com/literariness.org/wp-content/uploads/2017/03/511pwc78cql-_sx331_bo1204203200_.jpg?w=346&h=519&ssl=1",
+          "https://i0.wp.com/literariness.org/wp-content/uploads/2017/03/download-1.jpg?w=346&h=519&ssl=1",
+          "https://cdn.britannica.com/mendel/eb-logo/MendelNewThistleLogo.png"
+        ]
+      }
+    },
+    {
+      "timestamp": "2025-04-04T13:21:56.347641",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "scraping_complete",
+        "output": "\ud83c\udf10 Scraping complete",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-04-04T13:21:56.348392",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "fetching_query_content",
+        "output": "\ud83d\udcda Getting relevant content based on query: michel Foucault...",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-04-04T13:21:58.812527",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "scraping_content",
+        "output": "\ud83d\udcc4 Scraped 3 pages of content",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-04-04T13:21:58.813259",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "scraping_images",
+        "output": "\ud83d\uddbc\ufe0f Selected 0 new images from 0 total images",
+        "metadata": []
+      }
+    },
+    {
+      "timestamp": "2025-04-04T13:21:58.813699",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "scraping_complete",
+        "output": "\ud83c\udf10 Scraping complete",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-04-04T13:21:58.814135",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "fetching_query_content",
+        "output": "\ud83d\udcda Getting relevant content based on query: Critical evaluation of Michel Foucault's legacy in contemporary philosophy...",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-04-04T13:21:59.280067",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "scraping_content",
+        "output": "\ud83d\udcc4 Scraped 3 pages of content",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-04-04T13:21:59.280828",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "scraping_images",
+        "output": "\ud83d\uddbc\ufe0f Selected 4 new images from 13 total images",
+        "metadata": [
+          "https://www.worldhistory.org/img/r/p/500x600/19249.jpg?v=1729027146-1721302806",
+          "https://www.worldhistory.org/img/r/p/500x600/18477.png?v=1707897152-1707897181",
+          "https://tracker.metricool.com/c3po.jpg?hash=583da8995f3bf53448b13ddf790ada6c",
+          "https://www.worldhistory.org/img/r/p/500x600/19248.jpg?v=1722269166-1721297431"
+        ]
+      }
+    },
+    {
+      "timestamp": "2025-04-04T13:21:59.281300",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "scraping_complete",
+        "output": "\ud83c\udf10 Scraping complete",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-04-04T13:21:59.281774",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "fetching_query_content",
+        "output": "\ud83d\udcda Getting relevant content based on query: Michel Foucault objective biography and analysis of major works...",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-04-04T13:22:02.605597",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "research_step_finalized",
+        "output": "Finalized research step.\n\ud83d\udcb8 Total Research Costs: $0.01097936",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-04-04T13:22:02.606882",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "writing_report",
+        "output": "\u270d\ufe0f Writing report for 'michel Foucault'...",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-04-04T13:22:22.158703",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "report_written",
+        "output": "\ud83d\udcdd Report written for 'michel Foucault'",
+        "metadata": null
+      }
+    }
+  ],
+  "content": {
+    "query": "",
+    "sources": [],
+    "context": [],
+    "report": "",
+    "costs": 0.0,
+    "type": "report",
+    "content": "selected_images",
+    "output": "7. Stanford Encyclopedia of Philosophy. (2022, August 5). Michel Foucault. Retrieved from https://plato.stanford.edu/entries/foucault/",
+    "metadata": [
+      "https://i0.wp.com/literariness.org/wp-content/uploads/2016/04/michael-ulrich.jpg?resize=700%2C509&ssl=1",
+      "https://i0.wp.com/literariness.org/wp-content/uploads/2017/03/michel_foucault_sithum.jpg?resize=700%2C700&ssl=1",
+      "https://i0.wp.com/literariness.org/wp-content/uploads/2017/03/511pwc78cql-_sx331_bo1204203200_.jpg?w=346&h=519&ssl=1",
+      "https://i0.wp.com/literariness.org/wp-content/uploads/2017/03/download-1.jpg?w=346&h=519&ssl=1",
+      "https://cdn.britannica.com/mendel/eb-logo/MendelNewThistleLogo.png",
+      "https://www.worldhistory.org/img/r/p/500x600/19249.jpg?v=1729027146-1721302806",
+      "https://www.worldhistory.org/img/r/p/500x600/18477.png?v=1707897152-1707897181",
+      "https://tracker.metricool.com/c3po.jpg?hash=583da8995f3bf53448b13ddf790ada6c",
+      "https://www.worldhistory.org/img/r/p/500x600/19248.jpg?v=1722269166-1721297431"
+    ]
+  }
+}

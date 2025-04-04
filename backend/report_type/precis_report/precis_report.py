@@ -51,7 +51,7 @@ class PrecisReport:
         await stream_output(
             "logs",
             "planning_research",
-            f"🌐 we are now starting to conduct our research. This is a PrecisReport",
+            f"🌐 We are now starting to conduct our research. This is a PrecisReport",
             self.researcher.websocket,
         )
 

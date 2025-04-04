@@ -9,6 +9,7 @@ class EducationLevel(Enum):
 
 
 class ReportType(Enum):
+    PrecisReport = "precis_report"
     ResearchReport = "research_report"
     ResourceReport = "resource_report"
     OutlineReport = "outline_report"
