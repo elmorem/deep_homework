@@ -1,0 +1,716 @@
+{
+  "timestamp": "2025-04-04T14:45:57.628892",
+  "events": [
+    {
+      "timestamp": "2025-04-04T14:45:57.925619",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "planning_research",
+        "output": "\ud83c\udf10 We are now starting to conduct our research. This is a PrecisReport",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-04-04T14:45:59.470902",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "planning_research",
+        "output": "We are now moving to the research_conducotr",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-04-04T14:45:59.471246",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "starting_research",
+        "output": "\ud83d\udd0d Starting the research task for 'michel Foucault'...",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-04-04T14:45:59.471440",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "agent_generated",
+        "output": "\ud83d\udcda Philosophy Agent",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-04-04T14:45:59.471652",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "planning_research",
+        "output": "\ud83c\udf10 Browsing the web to learn more about the task: michel Foucault...",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-04-04T14:46:01.427558",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "planning_research",
+        "output": "\ud83e\udd14 Planning the research strategy and subtasks...",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-04-04T14:46:14.122552",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "subqueries",
+        "output": "\ud83d\uddc2\ufe0f I will conduct my research based on the following queries: ['Michel Foucault objective analysis biography and theories on power, knowledge, and surveillance', 'Critical review of Michel Foucault\u2019s Discipline and Punish and its influence on modern disciplinary institutions', 'Academic evaluation of Michel Foucault\u2019s contributions to sociology, cultural studies, and literary criticism', 'Balanced scholarly perspectives on Michel Foucault\u2019s concepts of power, genealogy, and modern social theory', 'michel Foucault']...",
+        "metadata": [
+          "Michel Foucault objective analysis biography and theories on power, knowledge, and surveillance",
+          "Critical review of Michel Foucault\u2019s Discipline and Punish and its influence on modern disciplinary institutions",
+          "Academic evaluation of Michel Foucault\u2019s contributions to sociology, cultural studies, and literary criticism",
+          "Balanced scholarly perspectives on Michel Foucault\u2019s concepts of power, genealogy, and modern social theory",
+          "michel Foucault"
+        ]
+      }
+    },
+    {
+      "timestamp": "2025-04-04T14:46:14.123036",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "running_subquery_research",
+        "output": "\n\ud83d\udd0d Running research for 'Michel Foucault objective analysis biography and theories on power, knowledge, and surveillance'...",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-04-04T14:46:14.123472",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "running_subquery_research",
+        "output": "\n\ud83d\udd0d Running research for 'Critical review of Michel Foucault\u2019s Discipline and Punish and its influence on modern disciplinary institutions'...",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-04-04T14:46:14.124127",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "running_subquery_research",
+        "output": "\n\ud83d\udd0d Running research for 'Academic evaluation of Michel Foucault\u2019s contributions to sociology, cultural studies, and literary criticism'...",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-04-04T14:46:14.124809",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "running_subquery_research",
+        "output": "\n\ud83d\udd0d Running research for 'Balanced scholarly perspectives on Michel Foucault\u2019s concepts of power, genealogy, and modern social theory'...",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-04-04T14:46:14.125680",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "running_subquery_research",
+        "output": "\n\ud83d\udd0d Running research for 'michel Foucault'...",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-04-04T14:46:16.377106",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "added_source_url",
+        "output": "\u2705 Added source url to research: https://revisesociology.com/2025/02/20/michel-foucault-where-there-is-power-there-is-resistance/\n",
+        "metadata": "https://revisesociology.com/2025/02/20/michel-foucault-where-there-is-power-there-is-resistance/"
+      }
+    },
+    {
+      "timestamp": "2025-04-04T14:46:16.379805",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "added_source_url",
+        "output": "\u2705 Added source url to research: https://egyankosh.ac.in/bitstream/123456789/90663/1/Unit-11.pdf\n",
+        "metadata": "https://egyankosh.ac.in/bitstream/123456789/90663/1/Unit-11.pdf"
+      }
+    },
+    {
+      "timestamp": "2025-04-04T14:46:16.381817",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "added_source_url",
+        "output": "\u2705 Added source url to research: https://www.perlego.com/knowledge/study-guides/foucaults-theory-of-power-knowledge/\n",
+        "metadata": "https://www.perlego.com/knowledge/study-guides/foucaults-theory-of-power-knowledge/"
+      }
+    },
+    {
+      "timestamp": "2025-04-04T14:46:16.388763",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "added_source_url",
+        "output": "\u2705 Added source url to research: https://plato.stanford.edu/entries/foucault/\n",
+        "metadata": "https://plato.stanford.edu/entries/foucault/"
+      }
+    },
+    {
+      "timestamp": "2025-04-04T14:46:16.390183",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "added_source_url",
+        "output": "\u2705 Added source url to research: https://en.wikipedia.org/wiki/Michel_Foucault\n",
+        "metadata": "https://en.wikipedia.org/wiki/Michel_Foucault"
+      }
+    },
+    {
+      "timestamp": "2025-04-04T14:46:16.391211",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "researching",
+        "output": "\ud83e\udd14 Researching for relevant information across multiple sources...\n",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-04-04T14:46:16.392037",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "scraping_urls",
+        "output": "\ud83c\udf10 Scraping content from 5 URLs...",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-04-04T14:46:16.393202",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "added_source_url",
+        "output": "\u2705 Added source url to research: https://www.britannica.com/biography/Michel-Foucault\n",
+        "metadata": "https://www.britannica.com/biography/Michel-Foucault"
+      }
+    },
+    {
+      "timestamp": "2025-04-04T14:46:16.393964",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "added_source_url",
+        "output": "\u2705 Added source url to research: https://www.britannica.com/biography/Michel-Foucault/Foucaults-ideas\n",
+        "metadata": "https://www.britannica.com/biography/Michel-Foucault/Foucaults-ideas"
+      }
+    },
+    {
+      "timestamp": "2025-04-04T14:46:16.394714",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "added_source_url",
+        "output": "\u2705 Added source url to research: https://literariness.org/2017/03/28/key-theories-of-michel-foucault/\n",
+        "metadata": "https://literariness.org/2017/03/28/key-theories-of-michel-foucault/"
+      }
+    },
+    {
+      "timestamp": "2025-04-04T14:46:16.395709",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "researching",
+        "output": "\ud83e\udd14 Researching for relevant information across multiple sources...\n",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-04-04T14:46:16.396457",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "scraping_urls",
+        "output": "\ud83c\udf10 Scraping content from 3 URLs...",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-04-04T14:46:16.713341",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "added_source_url",
+        "output": "\u2705 Added source url to research: https://polsci.institute/understanding-political-theory/foucault-genealogy-power-discourse-discipline/\n",
+        "metadata": "https://polsci.institute/understanding-political-theory/foucault-genealogy-power-discourse-discipline/"
+      }
+    },
+    {
+      "timestamp": "2025-04-04T14:46:16.713973",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "added_source_url",
+        "output": "\u2705 Added source url to research: https://sociology.institute/sociological-theories-concepts/foucault-genealogy-power-beyond-surface/\n",
+        "metadata": "https://sociology.institute/sociological-theories-concepts/foucault-genealogy-power-beyond-surface/"
+      }
+    },
+    {
+      "timestamp": "2025-04-04T14:46:16.714342",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "added_source_url",
+        "output": "\u2705 Added source url to research: https://systemicsustainability.wordpress.com/2025/01/07/michel-foucault-in-the-modern-context/\n",
+        "metadata": "https://systemicsustainability.wordpress.com/2025/01/07/michel-foucault-in-the-modern-context/"
+      }
+    },
+    {
+      "timestamp": "2025-04-04T14:46:16.714686",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "added_source_url",
+        "output": "\u2705 Added source url to research: https://academic.oup.com/chicago-scholarship-online/book/55547\n",
+        "metadata": "https://academic.oup.com/chicago-scholarship-online/book/55547"
+      }
+    },
+    {
+      "timestamp": "2025-04-04T14:46:16.715026",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "added_source_url",
+        "output": "\u2705 Added source url to research: https://genealogiesofmodernity.org/journal/2021/6/8/what-foucault-meant\n",
+        "metadata": "https://genealogiesofmodernity.org/journal/2021/6/8/what-foucault-meant"
+      }
+    },
+    {
+      "timestamp": "2025-04-04T14:46:16.715366",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "researching",
+        "output": "\ud83e\udd14 Researching for relevant information across multiple sources...\n",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-04-04T14:46:16.715706",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "scraping_urls",
+        "output": "\ud83c\udf10 Scraping content from 5 URLs...",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-04-04T14:46:17.119730",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "added_source_url",
+        "output": "\u2705 Added source url to research: https://routledgesoc.com/profile/michel-foucault\n",
+        "metadata": "https://routledgesoc.com/profile/michel-foucault"
+      }
+    },
+    {
+      "timestamp": "2025-04-04T14:46:17.120797",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "added_source_url",
+        "output": "\u2705 Added source url to research: https://literariness.org/2016/04/04/foucaults-influence-on-postmodern-thought/\n",
+        "metadata": "https://literariness.org/2016/04/04/foucaults-influence-on-postmodern-thought/"
+      }
+    },
+    {
+      "timestamp": "2025-04-04T14:46:17.121544",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "researching",
+        "output": "\ud83e\udd14 Researching for relevant information across multiple sources...\n",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-04-04T14:46:17.122187",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "scraping_urls",
+        "output": "\ud83c\udf10 Scraping content from 2 URLs...",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-04-04T14:46:17.196049",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "scraping_content",
+        "output": "\ud83d\udcc4 Scraped 3 pages of content",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-04-04T14:46:17.196758",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "scraping_images",
+        "output": "\ud83d\uddbc\ufe0f Selected 4 new images from 10 total images",
+        "metadata": [
+          "https://i0.wp.com/literariness.org/wp-content/uploads/2017/03/michel_foucault_sithum.jpg?resize=700%2C700&ssl=1",
+          "https://i0.wp.com/literariness.org/wp-content/uploads/2017/03/511pwc78cql-_sx331_bo1204203200_.jpg?w=346&h=519&ssl=1",
+          "https://i0.wp.com/literariness.org/wp-content/uploads/2017/03/download-1.jpg?w=346&h=519&ssl=1",
+          "https://cdn.britannica.com/mendel/eb-logo/MendelNewThistleLogo.png"
+        ]
+      }
+    },
+    {
+      "timestamp": "2025-04-04T14:46:17.197187",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "scraping_complete",
+        "output": "\ud83c\udf10 Scraping complete",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-04-04T14:46:17.197563",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "fetching_query_content",
+        "output": "\ud83d\udcda Getting relevant content based on query: michel Foucault...",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-04-04T14:46:17.312325",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "added_source_url",
+        "output": "\u2705 Added source url to research: https://medium.com/@jenniwalfordbcn/exploring-michel-foucaults-discipline-and-punish-power-control-and-the-birth-of-the-modern-c6cfc5a47b03\n",
+        "metadata": "https://medium.com/@jenniwalfordbcn/exploring-michel-foucaults-discipline-and-punish-power-control-and-the-birth-of-the-modern-c6cfc5a47b03"
+      }
+    },
+    {
+      "timestamp": "2025-04-04T14:46:17.312845",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "added_source_url",
+        "output": "\u2705 Added source url to research: https://www.cambridge.org/core/journals/american-bar-foundation-research-journal/article/abs/foucaults-discipline-and-punish-an-exposition-and-critique/D06D179F726FADC025C451C6D51B64B8\n",
+        "metadata": "https://www.cambridge.org/core/journals/american-bar-foundation-research-journal/article/abs/foucaults-discipline-and-punish-an-exposition-and-critique/D06D179F726FADC025C451C6D51B64B8"
+      }
+    },
+    {
+      "timestamp": "2025-04-04T14:46:17.313245",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "added_source_url",
+        "output": "\u2705 Added source url to research: https://www.academia.edu/25268518/An_Analysis_of_Michel_Foucaults_Discipline_and_Punish\n",
+        "metadata": "https://www.academia.edu/25268518/An_Analysis_of_Michel_Foucaults_Discipline_and_Punish"
+      }
+    },
+    {
+      "timestamp": "2025-04-04T14:46:17.313639",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "added_source_url",
+        "output": "\u2705 Added source url to research: https://www.jstor.org/stable/828299\n",
+        "metadata": "https://www.jstor.org/stable/828299"
+      }
+    },
+    {
+      "timestamp": "2025-04-04T14:46:17.314040",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "added_source_url",
+        "output": "\u2705 Added source url to research: https://www.researchgate.net/publication/351921545_A_Book_Reviews_of_Foucault's_Discipline_and_Punish_with_Educational_Refletions\n",
+        "metadata": "https://www.researchgate.net/publication/351921545_A_Book_Reviews_of_Foucault's_Discipline_and_Punish_with_Educational_Refletions"
+      }
+    },
+    {
+      "timestamp": "2025-04-04T14:46:17.314425",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "researching",
+        "output": "\ud83e\udd14 Researching for relevant information across multiple sources...\n",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-04-04T14:46:17.314798",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "scraping_urls",
+        "output": "\ud83c\udf10 Scraping content from 5 URLs...",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-04-04T14:46:17.806027",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "scraping_content",
+        "output": "\ud83d\udcc4 Scraped 4 pages of content",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-04-04T14:46:17.806711",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "scraping_images",
+        "output": "\ud83d\uddbc\ufe0f Selected 4 new images from 13 total images",
+        "metadata": [
+          "https://i0.wp.com/revisesociology.com/wp-content/uploads/2025/02/DALL%C2%B7E-2025-02-02-13.11.21-A-conceptual-illustration-of-power-as-a-looming-shadow-over-people-with-a-small-group-pushing-back.-The-shadow-takes-the-form-of-a-massive-imposing-.webp?resize=1024%2C1024&ssl=1",
+          "https://i0.wp.com/revisesociology.com/wp-content/uploads/2025/02/DALL%C2%B7E-2025-02-02-13.13.26-An-architectural-illustration-of-a-prison-cell-layout-resembling-Benthams-Panopticon.-The-design-features-a-circular-prison-with-multiple-floors-of-c.webp?resize=1024%2C1024&ssl=1",
+          "https://perlego-cms.cdn.prismic.io/perlego-cms/612e00f7-f8fa-416b-b7db-fd961d683b0a_logo.svg",
+          "https://images.prismic.io/perlego-cms/3315d34a-ab16-4377-b70a-2fb2c5c306cd_sophie+raine.png?auto=compress,format"
+        ]
+      }
+    },
+    {
+      "timestamp": "2025-04-04T14:46:17.807145",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "scraping_complete",
+        "output": "\ud83c\udf10 Scraping complete",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-04-04T14:46:17.807558",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "fetching_query_content",
+        "output": "\ud83d\udcda Getting relevant content based on query: Michel Foucault objective analysis biography and theories on power, knowledge, and surveillance...",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-04-04T14:46:18.087530",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "scraping_content",
+        "output": "\ud83d\udcc4 Scraped 2 pages of content",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-04-04T14:46:18.088216",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "scraping_images",
+        "output": "\ud83d\uddbc\ufe0f Selected 2 new images from 2 total images",
+        "metadata": [
+          "https://i0.wp.com/literariness.org/wp-content/uploads/2016/04/michael-ulrich.jpg?resize=700%2C509&ssl=1",
+          "https://s3-eu-west-1.amazonaws.com/s3-euw1-ap-pe-ws4-cws-documents.ri-prod/routledgesoc/Michel-Foucault.jpg"
+        ]
+      }
+    },
+    {
+      "timestamp": "2025-04-04T14:46:18.088659",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "scraping_complete",
+        "output": "\ud83c\udf10 Scraping complete",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-04-04T14:46:18.089139",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "fetching_query_content",
+        "output": "\ud83d\udcda Getting relevant content based on query: Academic evaluation of Michel Foucault\u2019s contributions to sociology, cultural studies, and literary criticism...",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-04-04T14:46:19.139386",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "scraping_content",
+        "output": "\ud83d\udcc4 Scraped 4 pages of content",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-04-04T14:46:19.140158",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "scraping_images",
+        "output": "\ud83d\uddbc\ufe0f Selected 4 new images from 7 total images",
+        "metadata": [
+          "https://images.squarespace-cdn.com/content/v1/63a0f2f3521cec70121e541e/1699761676081-N7DNXPR01D1D155EF6NK/foucault.jpg",
+          "https://images.squarespace-cdn.com/content/v1/63a0f2f3521cec70121e541e/1699761677749-H9ZX4DZUZATTFC0D1VFE/tree-family-Richard-Abigail-Lippincott-America-Charles-1880.jpg",
+          "https://images.squarespace-cdn.com/content/v1/63a0f2f3521cec70121e541e/3fe5aa48-69ec-4d1e-a82c-2f35d5e6cf7f/Screenshot+2023-11-13+at+11.54.02+AM.png",
+          "https://systemicsustainability.wordpress.com/wp-content/uploads/2025/01/barber-shop-7226341_1920.jpg?w=1568"
+        ]
+      }
+    },
+    {
+      "timestamp": "2025-04-04T14:46:19.140675",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "scraping_complete",
+        "output": "\ud83c\udf10 Scraping complete",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-04-04T14:46:19.141154",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "fetching_query_content",
+        "output": "\ud83d\udcda Getting relevant content based on query: Balanced scholarly perspectives on Michel Foucault\u2019s concepts of power, genealogy, and modern social theory...",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-04-04T14:46:20.364376",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "scraping_content",
+        "output": "\ud83d\udcc4 Scraped 2 pages of content",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-04-04T14:46:20.365191",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "scraping_images",
+        "output": "\ud83d\uddbc\ufe0f Selected 4 new images from 9 total images",
+        "metadata": [
+          "https://www.cambridge.org/core/cambridge-core/public/images/icn_circle__btn_close_white.svg",
+          "https://static.cambridge.org/covers/ABF_0_0_0/american-bar-foundation-research-journal.jpg",
+          "https://www.cambridge.org/core/page-component/img/share-icon.cbcfad8.svg",
+          "https://www.cambridge.org/core/page-component/img/close-icon.194b28a.svg"
+        ]
+      }
+    },
+    {
+      "timestamp": "2025-04-04T14:46:20.365686",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "scraping_complete",
+        "output": "\ud83c\udf10 Scraping complete",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-04-04T14:46:20.366188",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "fetching_query_content",
+        "output": "\ud83d\udcda Getting relevant content based on query: Critical review of Michel Foucault\u2019s Discipline and Punish and its influence on modern disciplinary institutions...",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-04-04T14:46:21.535376",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "research_step_finalized",
+        "output": "Finalized research step.\n\ud83d\udcb8 Total Research Costs: $0.0169341",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-04-04T14:46:21.536865",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "writing_report",
+        "output": "\u270d\ufe0f Writing report for 'michel Foucault'...",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-04-04T14:46:21.540470",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "report_written with params",
+        "output": "\ud83d\udcdd Report about to be written with '{'query': 'michel Foucault', 'agent_role_prompt': None, 'report_type': 'precis_report', 'report_source': 'web', 'tone': <Tone.Objective: 'Objective (impartial and unbiased presentation of facts and findings)'>, 'education_level': <EducationLevel.JuniorHigh: 'Junior high school level (introductory concepts, basic sources, simple language). MAX_SUBTOPICS=2'>, 'websocket': <backend.server.server_utils.CustomLogsHandler object at 0x107bd3770>, 'cfg': <homework_researcher.config.config.Config object at 0x107bd3800>, 'headers': {}, 'context': 'Source: https://en.wikipedia.org/wiki/Michel_Foucault\\nTitle: Michel Foucault - Wikipedia\\nContent: Later in his life, Foucault explained that his work was less about analyzing power as a phenomenon than about trying to characterize the different ways in which contemporary society has expressed the use of power to \"objectivise subjects\". These have taken three broad forms: one involving scientific authority to classify and \\'order\\' knowledge about human populations; the second has been to categorize and \\'normalise\\' human subjects (by identifying madness, illness, physical features, and so on); and the third relates to the manner in which the impulse to fashion sexual identities and train one\\'s own body to engage in routines and practices ends up reproducing certain patterns within a given society.[190]\\nLiterature\\n\\nSource: https://www.perlego.com/knowledge/study-guides/foucaults-theory-of-power-knowledge/\\nTitle: Foucault\\'s Theory of Power & Knowledge | Definition, Examples & Analysis\\nContent: copy link for article\\nTable of contents\\nDefining Foucault\u2019s theory of power and knowledge\\nMichel Foucault (1926-89) was a French philosopher and sociologist notable for his works\\xa0Madness and Civilization\\xa0(1961),\\xa0Discipline and Punish\\xa0(1975) and\\xa0The History of Sexuality\\xa0(1976). A persistent theme in Foucault\u2019s work is the relationship between power and knowledge, culminating in his neologism \u2018power/knowledge\u2019. The term power/knowledge demonstrates how, for Foucault, power and knowledge are inextricably linked. Foucault writes that \u2018the exercise of power itself creates and causes to emerge new objects of knowledge and accumulates new bodies of information\u2026[t]he exercise of power perpetually creates knowledge and, conversely, knowledge constantly induces effects of power\u2019\\xa0(1975, 52). Power and knowledge are not separate nor are they synonymous; instead, power both makes use of and shapes knowledge.\\n\\nSource: https://www.perlego.com/knowledge/study-guides/foucaults-theory-of-power-knowledge/\\nTitle: Foucault\\'s Theory of Power & Knowledge | Definition, Examples & Analysis\\nContent: Foucault Power/Knowledge FAQs\\nWhat is Foucault\\'s theory of Power/Knowledge in simple terms?\\nIn short, for Foucault, power decides what is knowable and by whom. The term power/knowledge demonstrates how, for Foucault, power and knowledge are inextricably linked. Foucault writes that \u2018the exercise of power itself creates and causes to emerge new objects of knowledge and accumulates new bodies of information\u2026[t]he exercise of power perpetually creates knowledge and, conversely, knowledge constantly induces effects of power\u2019.\\nWho was Michel Foucault?\\nMichel Foucault (1926-89) was a French philosopher and sociologist notable for his works\\xa0Madness and Civilization\\xa0(1961),\\xa0Discipline and Punish\\xa0(1975) and\\xa0The History of Sexuality\\xa0(1976). Foucault is namely known for his theories on the intrinsically linked relationship between power and knowledge, and how societal institutions (such as prisons, or hospitals) may use them to exert control over their inhabitants.\\n\\nSource: https://revisesociology.com/2025/02/20/michel-foucault-where-there-is-power-there-is-resistance/\\nTitle: Michel Foucault: Where there is power, there is resistance - ReviseSociology\\nContent: behavior are enforced.Today, opinion is still divided as to whether Foucault\u2019s theories are:Vague conclusions based on poor research, ORA brilliant and original contribution to the social sciences.Foucault\u2019s Quote on Power and Discourse\u201cDiscourse transmits and produces power; it reinforces it, but also undermines and exposes it.\u201d\u2014 Michel Foucault \\u200bQuote from Judith Butler on Foucault\u2019s Theory of Power\u201cFoucault\u2019s History of Sexuality\u2026 warns us against imagining a complete liberation from power. There can never be a total liberation from power.\u201d\u2014 Judith Butler \\u200bMichel Foucault Brief Biography (1926-1984)A brilliant polymath, influential in the fields of philosophy, psychology, politics, and literary criticism, as well as sociology, Michel Foucault was often associated with the structuralist and post-structuralist movements in France but disliked being labelled as such.Born in Poitiers, France, he studied philosophy and psychology at the \u00c9cole Normale Sup\u00e9rieure in Paris. He taught in\\n\\nSource: https://revisesociology.com/2025/02/20/michel-foucault-where-there-is-power-there-is-resistance/\\nTitle: Michel Foucault: Where there is power, there is resistance - ReviseSociology\\nContent: opinion is still divided as to whether Foucault\u2019s theories are:Vague conclusions based on poor research, ORA brilliant and original contribution to the social sciences.Foucault\u2019s Quote on Power and Discourse\u201cDiscourse transmits and produces power; it reinforces it, but also undermines and exposes it.\u201d\u2014 Michel Foucault \\u200bQuote from Judith Butler on Foucault\u2019s Theory of Power\u201cFoucault\u2019s History of Sexuality\u2026 warns us against imagining a complete liberation from power. There can never be a total liberation from power.\u201d\u2014 Judith Butler \\u200bMichel Foucault Brief Biography (1926-1984)A brilliant polymath, influential in the fields of philosophy, psychology, politics, and literary criticism, as well as sociology, Michel Foucault was often associated with the structuralist and post-structuralist movements in France but disliked being labelled as such.Born in Poitiers, France, he studied philosophy and psychology at the \u00c9cole Normale Sup\u00e9rieure in Paris. He taught in Sweden, Poland, and Germany in\\n\\nSource: https://revisesociology.com/2025/02/20/michel-foucault-where-there-is-power-there-is-resistance/\\nTitle: Michel Foucault: Where there is power, there is resistance - ReviseSociology\\nContent: For further reading on Foucault\u2019s theories, visit: Stanford Encyclopedia of Philosophy: Foucault.POWER casts a long shadow over all of us according to Foucault\u2026Surveillance and ControlIn place of harsh physical punishment, a more pervasive means of controlling behavior emerged: discipline. The establishment of institutions such as prisons, asylums, hospitals, and schools characterized the move away from merely punishing individuals toward a disciplinary exercise of power\u2014acting to prevent people from behaving in certain ways.These institutions not only removed opportunities for transgression but also provided the conditions in which people\u2019s conduct could be corrected, regulated, and above all, monitored and controlled.This element of surveillance is especially important in the evolution of modern power structures.For a more detailed discussion on Foucault\u2019s perspective on surveillance and crime control, see Foucault \u2013 Surveillance and Crime Control.The PanopticonFoucault was\\n\\nSource: https://revisesociology.com/2025/02/20/michel-foucault-where-there-is-power-there-is-resistance/\\nTitle: Michel Foucault: Where there is power, there is resistance - ReviseSociology\\nContent: Today, opinion is still divided as to whether Foucault\u2019s theories are:Vague conclusions based on poor research, ORA brilliant and original contribution to the social sciences.Foucault\u2019s Quote on Power and Discourse\u201cDiscourse transmits and produces power; it reinforces it, but also undermines and exposes it.\u201d\u2014 Michel Foucault \\u200bQuote from Judith Butler on Foucault\u2019s Theory of Power\u201cFoucault\u2019s History of Sexuality\u2026 warns us against imagining a complete liberation from power. There can never be a total liberation from power.\u201d\u2014 Judith Butler \\u200bMichel Foucault Brief Biography (1926-1984)A brilliant polymath, influential in the fields of philosophy, psychology, politics, and literary criticism, as well as sociology, Michel Foucault was often associated with the structuralist and post-structuralist movements in France but disliked being labelled as such.Born in Poitiers, France, he studied philosophy and psychology at the \u00c9cole Normale Sup\u00e9rieure in Paris. He taught in Sweden, Poland, and\\n\\nSource: https://www.perlego.com/knowledge/study-guides/foucaults-theory-of-power-knowledge/\\nTitle: Foucault\\'s Theory of Power & Knowledge | Definition, Examples & Analysis\\nContent: Foucault\\'s Theory of Power & Knowledge | Definition, Examples & Analysis\\nSkip to main content\\n\\nBrowseInstitutionsLearnersLogin\\nSign up to read\\nLogin\\nHome\\nKnowledge Base\\nStudy Guides\\nWhat is Foucault\\'s Theory of Power & Knowledge?\\nStudy Guides\\nWhat is Foucault\\'s Theory of Power & Knowledge?\\nPhilosophyCritical Theory\\n\\nSource: https://revisesociology.com/2025/02/20/michel-foucault-where-there-is-power-there-is-resistance/\\nTitle: Michel Foucault: Where there is power, there is resistance - ReviseSociology\\nContent: philosophers).Eventually, Foucault\u2019s work influenced the analysis of how discourse is used as an instrument of power in many areas, including:Modern feminismQueer theoryCultural studiesThese fields owe much to Foucault\u2019s explanation of how norms of behavior are enforced.Today, opinion is still divided as to whether Foucault\u2019s theories are:Vague conclusions based on poor research, ORA brilliant and original contribution to the social sciences.Foucault\u2019s Quote on Power and Discourse\u201cDiscourse transmits and produces power; it reinforces it, but also undermines and exposes it.\u201d\u2014 Michel Foucault \\u200bQuote from Judith Butler on Foucault\u2019s Theory of Power\u201cFoucault\u2019s History of Sexuality\u2026 warns us against imagining a complete liberation from power. There can never be a total liberation from power.\u201d\u2014 Judith Butler \\u200bMichel Foucault Brief Biography (1926-1984)A brilliant polymath, influential in the fields of philosophy, psychology, politics, and literary criticism, as well as sociology, Michel\\n\\nSource: https://revisesociology.com/2025/02/20/michel-foucault-where-there-is-power-there-is-resistance/\\nTitle: Michel Foucault: Where there is power, there is resistance - ReviseSociology\\nContent: prose style.The ideas of power described in Discipline and Punish and The History of Sexuality gradually gained acceptance in the mainstream of sociology (though not always among historians and philosophers).Eventually, Foucault\u2019s work influenced the analysis of how discourse is used as an instrument of power in many areas, including:Modern feminismQueer theoryCultural studiesThese fields owe much to Foucault\u2019s explanation of how norms of behavior are enforced.Today, opinion is still divided as to whether Foucault\u2019s theories are:Vague conclusions based on poor research, ORA brilliant and original contribution to the social sciences.Foucault\u2019s Quote on Power and Discourse\u201cDiscourse transmits and produces power; it reinforces it, but also undermines and exposes it.\u201d\u2014 Michel Foucault \\u200bQuote from Judith Butler on Foucault\u2019s Theory of Power\u201cFoucault\u2019s History of Sexuality\u2026 warns us against imagining a complete liberation from power. There can never be a total liberation from power.\u201d\u2014\\n Source: https://medium.com/@jenniwalfordbcn/exploring-michel-foucaults-discipline-and-punish-power-control-and-the-birth-of-the-modern-c6cfc5a47b03\\nTitle: Michel Foucault\u2019s Discipline and Punish: The Hidden Architecture of Control in Modern Society | by Jenni Walford | Medium\\nContent: Conclusion\\n\\nMichel Foucault\u2019s Discipline and Punish offers an eye-opening critique of how society controls individuals through discipline, surveillance, and the accumulation of knowledge. His concepts, such as the Panopticon and docile bodies, remain highly relevant in today\u2019s digital age, where surveillance and the collection of personal data are commonplace. By reflecting on how these ideas play out in our own lives, we can better understand the subtle ways we are shaped by society\u2019s power structures and how we might resist them.\\n\\nSource: https://medium.com/@jenniwalfordbcn/exploring-michel-foucaults-discipline-and-punish-power-control-and-the-birth-of-the-modern-c6cfc5a47b03\\nTitle: Michel Foucault\u2019s Discipline and Punish: The Hidden Architecture of Control in Modern Society | by Jenni Walford | Medium\\nContent: Key Points from Discipline and Punish\\n\\n1. The Shift from Public Punishment to Discipline\\n\\nFoucault begins by describing the violent, public spectacles of punishment that were common in the early modern period \u2014 executions, whippings, and torture served as both retribution and deterrent. These public punishments were intended to demonstrate the sovereign\u2019s power over the body of the criminal. However, in the 18th century, there was a significant shift in how punishment was administered. Society moved away from punishing the body and toward disciplining the mind and soul. Prisons and other institutions like schools and hospitals became places where individuals were trained to self-regulate, making them easier to control.\\n\\nSource: https://www.cambridge.org/core/journals/american-bar-foundation-research-journal/article/abs/foucaults-discipline-and-punish-an-exposition-and-critique/D06D179F726FADC025C451C6D51B64B8\\nTitle: Foucault\\'s Discipline and Punish An Exposition and Critique | American Bar Foundation Research Journal | Cambridge Core\\nContent: We use cookies to distinguish you from other users and to provide you with a better experience on our websites. Close this message to accept cookies or find out how to manage your cookie settings.\\n\\nLogin Alert\\n\\nMenu links\\n\\nArticle contents\\n\\nFoucault\\'s Discipline and Punish An Exposition and Critique\\n\\nPublished online by Cambridge University Press:\\xa0\\n      20 November 2018\\n\\nAbstract\\n\\nAccess options\\n\\nReferences\\n\\n1\\n\\nFoucault, M., Madness and Civilisation. A History of Insanity in the Age of Reason (New York: Random House, 1965); id., The Birth of the Clinic: An Archaeology of Medical Perception (London: Tavistock, 1973); id., The Order of Things: An Archaeology of the Human Sciences (London: Tavistock, 1970); id. The Archaeology of Knowledge (London: Tavistock, 1972); id., The History of Sexuality, Vol.1, An Introduction (New York: Random House, 1978); Vol.2, The Uses of Pleasure (New York: Viking Press, 1986).Google Scholar\\n\\nSource: https://medium.com/@jenniwalfordbcn/exploring-michel-foucaults-discipline-and-punish-power-control-and-the-birth-of-the-modern-c6cfc5a47b03\\nTitle: Michel Foucault\u2019s Discipline and Punish: The Hidden Architecture of Control in Modern Society | by Jenni Walford | Medium\\nContent: Sign up\\n\\nSign in\\n\\nSign up\\n\\nSign in\\n\\nMichel Foucault\u2019s Discipline and Punish: The Hidden Architecture of Control in Modern Society\\n\\nJenni Walford\\n\\nFollow\\n\\n--\\n\\nListen\\n\\nShare\\n\\nMichel Foucault\u2019s Discipline and Punish: The Birth of the Prison is a fascinating and thought-provoking exploration of how societies have historically managed punishment, discipline, and control. Written in 1975, it takes us on a journey through time, revealing the gradual shift from violent public spectacles of punishment to more subtle, internal forms of control. Foucault\u2019s work isn\u2019t just about prisons; it\u2019s about how systems of power infiltrate every aspect of our lives \u2014 from education and health care to workplaces and the internet. His analysis speaks directly to the ways we are trained, observed, and ultimately controlled in modern society.\\n\\nSource: https://medium.com/@jenniwalfordbcn/exploring-michel-foucaults-discipline-and-punish-power-control-and-the-birth-of-the-modern-c6cfc5a47b03\\nTitle: Michel Foucault\u2019s Discipline and Punish: The Hidden Architecture of Control in Modern Society | by Jenni Walford | Medium\\nContent: In this post, I want to delve into the key ideas from Discipline and Punish, highlighting what we can learn from Foucault\u2019s insights. I\u2019ll also include some reflection questions, practical exercises, and research assignments designed for my clients to help them engage with these concepts in fun and relevant ways. Foucault\u2019s work may be dense, but we can explore these ideas in a way that\u2019s accessible, interactive, and even enjoyable.\\n\\nKey Points from Discipline and Punish\\n\\n1. The Shift from Public Punishment to Discipline\\n\\nSource: https://www.cambridge.org/core/journals/american-bar-foundation-research-journal/article/abs/foucaults-discipline-and-punish-an-exposition-and-critique/D06D179F726FADC025C451C6D51B64B8\\nTitle: Foucault\\'s Discipline and Punish An Exposition and Critique | American Bar Foundation Research Journal | Cambridge Core\\nContent: 47\\nIn The History of Sexuality, Vol.1, supra note 1, the study which followed Discipline and Punish, Foucault turns his attention to the way in which social discourses and practices work to bring about the \u201csubjectification\u201d of individuals, i.e., to create them as persons with a particular kind of subjectivity. Although some of Discipline and Punish\\'s arguments allude to this process, Discipline and Punish is more explicitly concerned with what might be termed the \u201cobjectification\u201d of individuals. See Gordon, Colin, The Birth of the Subject, in Radical Philosophy, No. 17 (Summer 1977). This later work also develops an important conception Foucault terms \u201cbio-politics.\u201d This refers to those strategies of government that concern themselves with the life, health, efficiency, and security of whole populations. Bio-political regulation is seen as a form of regulation that accompanies and complements the individually oriented \u201cdisciplines.\u201dGoogle Scholar\\n\\n48\\n\\nSource: https://www.cambridge.org/core/journals/american-bar-foundation-research-journal/article/abs/foucaults-discipline-and-punish-an-exposition-and-critique/D06D179F726FADC025C451C6D51B64B8\\nTitle: Foucault\\'s Discipline and Punish An Exposition and Critique | American Bar Foundation Research Journal | Cambridge Core\\nContent: 23\\nSee Foucault, M., On Attica, 19 Telos, (Spring 1974).Google Scholar\\n\\n24\\nSee Durkheim, E., The Division of Labor in Society (New York: Free Press, 1964); Two Laws of Penal Evolution in S. Lukes & A. Scull, supra note 13; and G. Rusche & O. Kirchheimer, Punishment and Social Structure (New York: Russell & Russell, 1968).Google Scholar\\n\\n25\\nThe arguments of Discipline and Punish are not presented as complementary to others, and no attempt is made to link its theses into the penological literature and historical studies already in existence. On page 25 Foucault says, \u201cIt is certainly legitimate to write a history of punishment against the background of moral ideas or legal structures\u201d but the rhetorical force of the rest of the book tends to undercut this.Google Scholar\\n\\nSource: https://www.cambridge.org/core/journals/american-bar-foundation-research-journal/article/abs/foucaults-discipline-and-punish-an-exposition-and-critique/D06D179F726FADC025C451C6D51B64B8\\nTitle: Foucault\\'s Discipline and Punish An Exposition and Critique | American Bar Foundation Research Journal | Cambridge Core\\nContent: 18\\nThe following studies take up and apply Foucault\\'s ideas in this respect: J. Donzelot, The Policing of Families (London: Hutchison, 1980); D. Garland, Punishment and Welfare: A History of Penal Strategies (Aldershot: Gower, 1985); F. Castel et al., The Psychiatric Society (New York: Columbia University Press, 1982); P. Miller & N. Rose, eds., The Power of Psychiatry (Cambridge: Polity Press, 1986); J. Minson, The Genealogy of Morals (London: Macmillan, 1985). See also the journal Ideology and Consciousness.Google Scholar\\n\\n19\\nSee F. Guattari & G. Deleuze, supra note 8; B. S. Turner, Body and Society (Oxford: Basil Blackwell, 1985). See also the feminist journal m/f.\\nGoogle Scholar\\n\\n20\\n\\nCohen, Stanley, Visions of Social Control, at 10 (Cambridge: Polity Press, 1985).Google Scholar\\n\\nSource: https://medium.com/@jenniwalfordbcn/exploring-michel-foucaults-discipline-and-punish-power-control-and-the-birth-of-the-modern-c6cfc5a47b03\\nTitle: Michel Foucault\u2019s Discipline and Punish: The Hidden Architecture of Control in Modern Society | by Jenni Walford | Medium\\nContent: 4. The Power-Knowledge Nexus\\n\\nOne of Foucault\u2019s central ideas is that power and knowledge are deeply intertwined. In Discipline and Punish, he shows how the rise of modern institutions like schools and prisons was accompanied by the rise of new forms of knowledge \u2014 particularly the human sciences like psychology and criminology. These forms of knowledge gave institutions the ability to observe, classify, and manage individuals. Foucault argues that by gathering knowledge about people, institutions could exert power over them more effectively. Those who hold knowledge \u2014 such as doctors, teachers, or psychologists \u2014 also hold power.\\n\\nSource: https://www.cambridge.org/core/journals/american-bar-foundation-research-journal/article/abs/foucaults-discipline-and-punish-an-exposition-and-critique/D06D179F726FADC025C451C6D51B64B8\\nTitle: Foucault\\'s Discipline and Punish An Exposition and Critique | American Bar Foundation Research Journal | Cambridge Core\\nContent: 26\\nSee, e.g., S. Cohen, Visions of Social Control (Cambridge: Polity Press, 1985); D. Garland, Punishment and Welfare, supra note 18; T. Mathiesen, The Future of Control Systems in D. Garland & P. Young, supra note 21; P. Carlen, Women\\'s Imprisonment: A Study in Social Control (London: Rout-ledge & Kegan Paul, 1983).Google Scholar\\n\\n27\\nFor sociologists influenced by Discipline and Punish see supra note 26. For historians, see M. Perrot, ed., L\\'Impossible Prison (Paris: Editions du Seuil, 1980); G. Wright, Between the Guillotine and Liberty (New York: Oxford University Press, 1983); P. O\\'Brien, The Promise of Punishment: Prisons in Nineteenth Century France (Princeton, N.J.: Princeton University Press, 1982); P. Spierenburg, The Spectacle of Suffering: Executions and the Evolution of Repression (Cambridge: Cambridge University Press, 1984).Google Scholar\\n\\n28\\n\\nSpierenburg, P., supra note 27.Google Scholar\\n Source: https://literariness.org/2016/04/04/foucaults-influence-on-postmodern-thought/\\nTitle: Foucault\u2019s Influence on Postmodern Thought \u2013 Literary Theory and Criticism \\nContent: Published Time: 2016-04-04T18:34:00+00:00\\nFoucault\u2019s Influence on Postmodern Thought \u2013 Literary Theory and Criticism\\n\\nLiterary Theory and Criticism\\n\\nHome\\nAbout\\nMCQs\\nLibrary\\nPrivacy Policy\\n\\nSource: https://routledgesoc.com/profile/michel-foucault\\nTitle: Michel Foucault | Social Theory Rewired: New Connections to Classical and Contemporary Perspectives\\nContent: Foucault was also well known in France for his political activism. Foucault took a number of leftist (and sometimes unpopular) political stands, like supporting prisoners\u2019 rights in France and protesting the Vietnam and Algerian Wars.\\n\\nFoucault died in 1984 from an AIDS-related illness. Today he remains one of the most influential and widely read social theorists in recent history. Foucault\u2019s work has been groundbreaking not only for sociology, but also for anthropology, cultural studies, psychology, gender studies, gay and lesbian studies, philosophy, and literary criticism.\\n\\nKey Concepts\\n\\nDiscourse\\n\\nSource: https://routledgesoc.com/profile/michel-foucault\\nTitle: Michel Foucault | Social Theory Rewired: New Connections to Classical and Contemporary Perspectives\\nContent: Writing out Loud\\n\\nInteractive Reading\\n\\nHow Foucault Matters Today\\n\\nAs noted above, Foucault has served as theoretical inspiration across a multitude of disciplines, so much so that the term \u201cFoucauldian\u201d is often applied to analyses that utilize his theoretical approach. Outside of academia, Foucault\u2019s work is of interest to anyone looking to better understand and appreciate the subtle ways that power works in social life, particularly with regard to how seemingly mundane practices and ideas structure our personal experiences and senses of self. After reading Foucault, it\u2019s hard to think about your society or yourself in quite the same way.\\n\\nMore\\n\\nReading Foucault is always fascinating, but rarely easy. Foucault\u2019s work covers a wide range of institutions, historical periods, and themes, and his theories contain several difficult concepts. Luckily, there are some good introductory texts to help you make your way through. See, for example,\\n\\nSource: https://routledgesoc.com/profile/michel-foucault\\nTitle: Michel Foucault | Social Theory Rewired: New Connections to Classical and Contemporary Perspectives\\nContent: Profile Michel Foucault\\n\\nTheme: Rise of the Avatar\\n\\nBiography\\n\\nMichel Foucault (1926-1984) was born in Poiters, France. The son of a prestigious surgeon, Foucault did not excel in school until enrolling in college, eventually earning admittance to one of France\u2019s most prestigious universities, the \u00c9cole Normale Sup\u00e9rieure. There, Foucault earned degrees in both psychology and philosophy, but his academic success was not easily gained. Foucault suffered from horrible bouts of depression while enrolled at the \u00c9cole Normale, and he also failed his agr\u00e9gation (a competitive exam for placement in the public education system) the first time around in 1950. Later, in 1958, while serving as a French delegate in Sweden, Foucault submitted his doctoral thesis at the University of Uppsala and had it rejected.\\n\\nSource: https://literariness.org/2016/04/04/foucaults-influence-on-postmodern-thought/\\nTitle: Foucault\u2019s Influence on Postmodern Thought \u2013 Literary Theory and Criticism \\nContent: Home \u203a Philosophy \u203a Foucault\u2019s Influence on Postmodern Thought\\nFoucault\u2019s Influence on Postmodern Thought\\nBy NASRULLAH MAMBROL on April 4, 2016 \u2022 ( 0 )\\nMichel Foucault, best known for his critical studies of social institutions, such as psychiatry, medicine, the human sciences, and the prison systems as well as for his work on the history of human sexuality, has been tremendously influential on postmodern thought, especially through his writings on power, knowledge, and discourse.\\n\\nSource: https://routledgesoc.com/profile/michel-foucault\\nTitle: Michel Foucault | Social Theory Rewired: New Connections to Classical and Contemporary Perspectives\\nContent: Despite these early obstacles, Foucault eventually became one of France\u2019s most notable intellectuals. His thesis on the history of the concept of \u201cmadness\u201d (eventually accepted in France in 1961) was immediately well received, and Foucault continued to write influential books on some of the West\u2019s most powerful social institutions, such as medicine, prisons, and religion, as well as groundbreaking works on more abstract theoretical issues of power, knowledge, sexuality, and selfhood. While the objects of Foucault\u2019s studies seem to range widely, they all tend to focus on how knowledge of human beings is inextricably connected to power over them. For Foucault, the many modern concepts and practices that attempt to uncover \u201cthe truth\u201d about human beings (either psychologically, sexually, or spiritually) actually create the very types of people they purport to discover.\\n\\nSource: https://literariness.org/2016/04/04/foucaults-influence-on-postmodern-thought/\\nTitle: Foucault\u2019s Influence on Postmodern Thought \u2013 Literary Theory and Criticism \\nContent: However, Foucault despised being labeled as a postmodernist or a poststructuralist, preferring to classify his thoughts as a critical history of modernity rooted in Kant. He accused Derrida\u2019s obscurantist thoughts and writing and also disputed the idea that \u201cthere is nothing outside the text.\u201d His project was particularly influenced by Nietzsche, his genealogy of knowledge\\xa0being a direct allusion to Nietzsche\u2019s genealogy of morals, and hence perhaps, he preferred being labeled as a \u201cNietzschean.\u201d\\nShare this:\\n\\nSource: https://routledgesoc.com/profile/michel-foucault\\nTitle: Michel Foucault | Social Theory Rewired: New Connections to Classical and Contemporary Perspectives\\nContent: Sara Mills\u2019 Michel Foucault, part of the Routledge Critical Thinkers series.\\nhttps://www.routledge.com/Michel-Foucault/Mills/p/book/9780415245692\\n\\t\\t\\t\\t\\t\\t\\tand\\n\\t\\t\\t\\t\\t\\t\\tGary Gutting\u2019s blessedly brief Foucault: A Very Short Introduction.\\nhttps://www.veryshortintroductions.com/view/10.1093/actrade/9780192805577.001.0001/actrade-9780192805577\\n\\nTo hear Foucault explain his argument in Discipline & Punish in his own words, check out the clips below:\\nhttp://www.youtube.com/watch?v=Xk9ulS76PW8\\nhttp://www.youtube.com/watch?v=0EsEgwYdzlA&feature=related\\n\\nInformation\\n\\nContent\\n\\nBook Themes\\n\\n\u00a9 2025 Informa UK Ltd trading as Taylor & Francis Group\\n\\nWe use cookies on our website to give you the most relevant experience by remembering your preferences and repeat visits.\\n\\nHowever, you may visit \"Cookie Settings\" to provide a controlled consent.\\n\\nBy using this website, you agree to our Privacy Policy.\\n\\nSource: https://routledgesoc.com/profile/michel-foucault\\nTitle: Michel Foucault | Social Theory Rewired: New Connections to Classical and Contemporary Perspectives\\nContent: Key Concepts\\n\\nDiscourse\\n\\nFoucault was interested in the phenomenon of discourse throughout his career, primarily in how discourses define the reality of the social world and the people, ideas, and things that inhabit it. For Foucault, a discourse is an institutionalized way of speaking or writing about reality that defines what can be intelligibly thought and said about the world and what cannot. For example, in The History of Sexuality, Foucault argued that a new discourse of \"sexuality\" had fundamentally changed the way we think about desire, pleasure, and our innermost selves. In Foucault\u2019s argument, discourses about sexuality did not discover some pre-existing, core truth about human identity, but rather created it through particular practices of power/knowledge (see next entry).\\n\\nPower/Knowledge\\n\\nSource: https://routledgesoc.com/profile/michel-foucault\\nTitle: Michel Foucault | Social Theory Rewired: New Connections to Classical and Contemporary Perspectives\\nContent: Governmentality and Biopower\\n\\nIn his later work, Foucault coined the now influential concept of governmentality. According to Foucault, governmentality is the \u201cart of governing,\u201d not simply at the level of state politics, as we generally think of it, but the governing of a wide array of objects and persons such as entire populations at the most abstract level and one\u2019s own desires and thoughts at a more micro level.\\xa0 Foucault was especially interested in how, in contemporary times, the governing of conduct was increasingly focused on the management of populations. Unlike disciplinary power aimed at the training of individual bodies, the management of populations relied on biopower, understood as the policies and procedures that manage births, deaths, reproduction, and health and illness within the larger social body.\\n\\nWriting out Loud\\n\\nInteractive Reading\\n\\nHow Foucault Matters Today\\n Source: https://sociology.institute/sociological-theories-concepts/foucault-genealogy-power-beyond-surface/\\nTitle: Foucault\\'s Genealogy: Power Beyond the Surface \u2022 Sociology Notes by Sociology.Institute\\nContent: Foucault\u2019s Genealogy: Power Beyond the Surface\\n\\nMichel Foucault\u2019s genealogical writings mark a transformative shift in his work, offering a profound critique of how power operates beneath the surface of society. By delving into the intersections of social, political, and economic institutions, Foucault\u2019s genealogy explores how power shapes individuals and structures our modern world. In this blog, we\u2019ll unpack the concept of genealogy, understand how it differs from his earlier archaeological method, and examine key works like Discipline and Punish to understand the mechanisms of disciplinary power.\\n\\nTable of Contents\\n\\nUnderstanding genealogy in Foucault\u2019s work \ud83d\udd17\\n\\nSource: https://sociology.institute/sociological-theories-concepts/foucault-genealogy-power-beyond-surface/\\nTitle: Foucault\\'s Genealogy: Power Beyond the Surface \u2022 Sociology Notes by Sociology.Institute\\nContent: Implications of Foucault\u2019s genealogy \ud83d\udd17\\n\\nFoucault\u2019s genealogical writings challenge us to rethink power as something far more complex and dispersed than a simple top-down model. Power is not confined to governments or rulers; it is everywhere, embedded in the very fabric of society. This perspective has far-reaching implications:\\n\\nConclusion \ud83d\udd17\\n\\nMichel Foucault\u2019s genealogical writings provide a powerful lens to understand how power operates beyond the surface, shaping individuals and institutions in profound ways. By examining historical processes and everyday practices, Foucault uncovers the subtle, pervasive mechanisms of control that govern modern society. Works like Discipline and Punish offer invaluable insights into the dynamics of power-knowledge and its impact on the human body and identity.\\n\\nWhat do you think? How do you see power operating in your daily life? Can Foucault\u2019s ideas help us rethink the way we engage with societal norms and institutions?\\n\\nSource: https://systemicsustainability.wordpress.com/2025/01/07/michel-foucault-in-the-modern-context/\\nTitle: Michel Foucault in the Modern Context \u2013 Systemic Sustainability\\nContent: Systemic Sustainability\\n\\nSolutions Not Delusions\\n\\nMichel Foucault in the Modern\\xa0Context\\n\\nMichel Foucault, one of the most influential philosophers and social theorists of the twentieth century, made significant contributions to fields such as philosophy, sociology, history, cultural studies, and critical theory.\\n\\nBorn on October 15, 1926, in Poitiers, France, Paul-Michel Foucault was raised in a middle-class family with a strong academic orientation. He pursued his education at the prestigious \u00c9cole Normale Sup\u00e9rieure in Paris, where he studied philosophy and psychology. Foucault\u2019s academic journey was marked by his deep engagement with the works of existentialists, structuralists, and historians of ideas, all of which shaped the trajectory of his intellectual development.\\n\\nSource: https://systemicsustainability.wordpress.com/2025/01/07/michel-foucault-in-the-modern-context/\\nTitle: Michel Foucault in the Modern Context \u2013 Systemic Sustainability\\nContent: Foucault\u2019s analysis of power-knowledge relationships is also a cornerstone of his work.\\n\\nHe argued that knowledge is not independent of power but is instead, a key instrument through which power operates. Discourses, or systems of knowledge and language, establish what is considered valid or true, thereby enabling the exercise of power. Foucault\u2019s genealogical method, as demonstrated in works like \u201cNietzsche, Genealogy, History\u201d, traces the historical development of these discourses, uncovering their contingent and often arbitrary nature.\\n\\nFoucault\u2019s later works focused on the concepts of subjectivity and ethics.\\n\\nHe examined how individuals are shaped by power and discourse but also how they can resist these forces through practices of the self. In his \u201cHistory of Sexuality\u201d series, particularly \u201cThe Use of Pleasure\u201d and \u201cThe Care of the Self\u201d, Foucault explored how ancient Greek and Roman philosophies provided models for ethical self-fashioning.\\n\\nSource: https://sociology.institute/sociological-theories-concepts/foucault-genealogy-power-beyond-surface/\\nTitle: Foucault\\'s Genealogy: Power Beyond the Surface \u2022 Sociology Notes by Sociology.Institute\\nContent: Key features of Foucault\u2019s genealogical method \ud83d\udd17\\n\\nGenealogy vs. archaeology: A methodological shift \ud83d\udd17\\n\\nFoucault\u2019s earlier works, particularly in The Archaeology of Knowledge, focused on archaeology as a method for analyzing the rules and structures that govern knowledge production. Archaeology examines how discourses emerge and organize knowledge systems. While archaeology emphasizes the structural aspects of knowledge, genealogy shifts the focus to power and its role in shaping both knowledge and society.\\n\\nThe key distinction lies in their scope:\\n\\nThis methodological evolution allowed Foucault to move beyond a structural analysis of knowledge and into the dynamic, relational field of power, shedding light on how institutions like prisons, schools, and hospitals shape individuals.\\n\\nDisciplinary power: The making of the modern individual \ud83d\udd17\\n\\nSource: https://polsci.institute/understanding-political-theory/foucault-genealogy-power-discourse-discipline/\\nTitle: Foucault\\'s Genealogy of Power: Discourse and Discipline \u2022 PolSci Institute\\nContent: Foucault\u2019s Genealogy of Power: Discourse and Discipline\\n\\nWhen we think about power, we often imagine politicians, laws, and governments. But what if power is more pervasive, intricate, and embedded in our everyday lives than we realize? Michel Foucault, the French philosopher, redefined our understanding of power through his groundbreaking concepts of discourse, archaeology, and genealogy. He delved into institutions like prisons and asylums to reveal how power operates subtly yet effectively, shaping societies and individuals alike.\\n\\nTable of Contents\\n\\nUnraveling discourse: The power of words \ud83d\udd17\\n\\nAt the heart of Foucault\u2019s analysis is the concept of discourse. But what exactly is discourse? In simple terms, discourse refers to the ways in which knowledge and truth are constructed through language and practices. It\u2019s more than just words; it\u2019s the entire system of thoughts, beliefs, and norms that influence how we perceive and interact with the world.\\n\\nSource: https://systemicsustainability.wordpress.com/2025/01/07/michel-foucault-in-the-modern-context/\\nTitle: Michel Foucault in the Modern Context \u2013 Systemic Sustainability\\nContent: Instead, Foucault emphasized that power is also productive, shaping norms, identities, and desires ala Edward Bernays. His examination of sexuality challenged the idea that it had been suppressed in modern society, instead arguing that sexuality had become a central focus of scientific discourse and state intervention, and while this argument may be debated, it may also indicate that the modern disruption surrounding gender and sexuality is not necessarily a random, evolutionary process of societal norms.\\n\\nFoucault\u2019s analysis of power-knowledge relationships is also a cornerstone of his work.\\n\\nSource: https://systemicsustainability.wordpress.com/2025/01/07/michel-foucault-in-the-modern-context/\\nTitle: Michel Foucault in the Modern Context \u2013 Systemic Sustainability\\nContent: Foucault\u2019s insights, when adapted within a modern context and made available and understandable or relatable to the average person, offer practical and important lessons for fostering individual agency and critical consciousness. This is especially relevant in modern society, which is increasingly shaped by centralized power structures, engineered narratives, and the interplay between subjective and objective truths.\\n\\nFoucault argued that power is not solely repressive but also productive, meaning it shapes identities, desires, and norms. This dual nature of power creates opportunities for resistance. Foucault\u2019s concept of \u201cpractices of the self\u201d refers to the ways individuals can cultivate ethical self-awareness and exercise agency within power structures through civic participation.\\n\\nSource: https://sociology.institute/sociological-theories-concepts/foucault-genealogy-power-beyond-surface/\\nTitle: Foucault\\'s Genealogy: Power Beyond the Surface \u2022 Sociology Notes by Sociology.Institute\\nContent: Table of Contents\\n\\nUnderstanding genealogy in Foucault\u2019s work \ud83d\udd17\\n\\nGenealogy, as Foucault describes it, is a method of historical analysis that focuses on the origins and evolution of ideas, practices, and institutions. Rather than assuming a linear progression or a singular truth, genealogy uncovers the messy, contingent, and often contradictory processes through which power operates. Drawing inspiration from Nietzsche\u2019s concept of genealogy, Foucault emphasizes that history is not a march toward progress but a battlefield where power struggles and conflicting forces shape societal norms.\\n\\nFor Foucault, genealogy is about understanding \u201chow\u201d power works rather than \u201cwhy.\u201d It examines the emergence of societal norms, institutions, and practices to reveal the hidden mechanisms of control. This method rejects grand narratives, focusing instead on localized and contextual histories to demonstrate how power is dispersed and embedded in the fabric of everyday life.\\n\\nSource: https://genealogiesofmodernity.org/journal/2021/6/8/what-foucault-meant\\nTitle: Genealogies of Modernity \u2014 What Foucault Meant When He Said \u201cGenealogy\u201d\\nContent: In stressing possibility, I am emphasizing an underdeveloped dimension of Foucault\u2019s analysis of pouvoir, or power, as it usually appears in English translations of his work. As Philipp Rosemann reminded me, pouvoir has more semantic overlap with the Latin virtus than it does with the English power. Less a force against an object, or force made structure, as Derrida once defined it, Foucault\u2019s pouvoir is capacity or capability to do something; pouvoir is capability made possible by contingency.\\n\\nIt is common to describe Foucault\u2019s genealogy as a campaign dedicated to unmasking the will to power by revealing institutions\u2019 bad-faith assertions of noble origins. My charitable reading suggests another aspect of genealogy, a hermeneutic of historical contingency oriented to limit cases when new capabilities can emerge through different relations within and among institutions, communities, and individuals. This Foucault is not only critical but also constructive, creative.\\n Source: https://www.britannica.com/biography/Michel-Foucault\\nTitle: Michel Foucault | French Philosopher, Historian & Social Theorist | Britannica\\nContent: What did Michel Foucault write?\\nMichel Foucault began to attract wide notice as one of the most original and controversial thinkers of his day with the appearance of\\xa0The Order of Things in 1966. His best-known works included Discipline and Punish: The Birth of the Prison (1975) and The History of Sexuality, a multivolume history of Western sexuality.\\n\\nSource: https://www.britannica.com/biography/Michel-Foucault/Foucaults-ideas\\nTitle: Michel Foucault - Philosopher, Postmodernism, Power | Britannica\\nContent: Table of Contents\\nTable of Contents Ask the Chatbot\\nQuick Facts\\nIn full:\\nPaul-Michel Foucault\\n(Show\\xa0more)\\nBorn:\\nOctober 15, 1926, Poitiers, France\\n(Show\\xa0more)\\nDied:\\nJune 25, 1984, Paris (aged 57)\\n(Show\\xa0more)\\nSubjects Of Study:\\nmental disorder\\nprison\\nsexuality\\nsociety\\n(Show\\xa0more)\\nOn the Web:\\nBBC Sounds - Thinking Allowed - Michel Foucault - a special programme on his work and influence. (Mar. 26, 2025)\\n(Show\\xa0more)\\nSee all related content\\n\\nSource: https://www.britannica.com/biography/Michel-Foucault\\nTitle: Michel Foucault | French Philosopher, Historian & Social Theorist | Britannica\\nContent: June 25, 1984, Paris (aged 57)\\n(Show\\xa0more)\\nSubjects Of Study:\\nmental disorder\\nprison\\nsexuality\\nsociety\\n(Show\\xa0more)\\nOn the Web:\\nColl\u00e8ge de France - Michel Foucault - History of systems of though (Jan. 17, 2025)\\n(Show\\xa0more)\\nSee all related content\\nTop Questions\\n\\nSource: https://www.britannica.com/biography/Michel-Foucault/Foucaults-ideas\\nTitle: Michel Foucault - Philosopher, Postmodernism, Power | Britannica\\nContent: By 1971 Foucault had already demoted \u201carchaeology\u201d in favour of \u201cgenealogy,\u201d a method that traced the ensemble of historical contingencies, accidents, and illicit relations that made up the ancestry of one or another currently accepted theory or concept in the human sciences. With genealogy, Foucault set out to unearth the artificiality of the dividing line between the putatively illegitimate and its putatively normal and natural opposite. Discipline and Punish was his genealogical expos\u00e9 of the artifices of power-knowledge that had resulted in the naturalization of the \u201ccriminal character,\u201d and the first volume of Histoire de la sexualit\u00e9 (1976; The History of Sexuality) was his expos\u00e9 of the Frankensteinian machinations that had resulted in the naturalization of the dividing line between the \u201chomosexual\u201d and the \u201cheterosexual.\u201d Yet even in these luminous \u201chistories of the present\u201d something still remained out of view: human freedom. In order to bring it into focus, Foucault turned\\n\\nSource: https://www.britannica.com/biography/Michel-Foucault\\nTitle: Michel Foucault | French Philosopher, Historian & Social Theorist | Britannica\\nContent: Why is Michel Foucault important?\\nMichel Foucault was one of the most influential and controversial scholars of the post-World War II period. The first volume of\\xa0his work The History of Sexuality\\xa0became\\xa0canonical\\xa0for gay and lesbian\\xa0studies and queer theory. Through his work, the terms\\xa0discourse,\\xa0genealogy, and\\xa0power-knowledge\\xa0became entrenched in contemporary social and cultural research.\\n\\nWhere was Michel Foucault educated?\\nA distinguished but sometimes erratic student, Michel Foucault gained entry at the age of 20 to the \u00c9cole Normale Sup\u00e9rieure (ENS) in\\xa0Paris\\xa0in 1946. There he studied psychology and\\xa0philosophy, embraced and then abandoned\\xa0communism, and established a reputation as a sedulous, brilliant, and\\xa0eccentric\\xa0student.\\n\\nSource: https://www.britannica.com/biography/Michel-Foucault/Foucaults-ideas\\nTitle: Michel Foucault - Philosopher, Postmodernism, Power | Britannica\\nContent: Foucault has been widely read and discussed in his own right. He has galvanized an army of detractors, the less attentive of whom have misread his critique of \u201cman\u201d as radically antihumanist, his critique of power-knowledge as radically relativist, and his ethics as radically aestheticist. They have not, however, prevented him from inspiring increasingly important alternatives to established practices of cultural and intellectual history. In France and the Americas, Foucault\u2019s unraveling of Marxist universalism has continued both to vex and to inspire activists of the left. The antipsychiatry movement of the 1970s and \u201980s owed much to Foucault, though he did not consider himself one of its members. His critique of the human sciences provoked much soul-searching within anthropology and its allied fields, even as it helped a new generation of scholars to embark upon a cross-cultural dialogue on the themes and variations of domination and subjectivation. Foucault\u2019s elucidation of the\\n\\nSource: https://literariness.org/2017/03/28/key-theories-of-michel-foucault/\\nTitle: Key Theories of Michel Foucault \u2013 Literary Theory and Criticism \\nContent: Home \u203a Philosophy \u203a Key Theories of Michel Foucault\\nKey Theories of Michel Foucault\\nBy NASRULLAH MAMBROL on March 28, 2017 \u2022 ( 11 )\\n\\nSource: https://literariness.org/2017/03/28/key-theories-of-michel-foucault/\\nTitle: Key Theories of Michel Foucault \u2013 Literary Theory and Criticism \\nContent: Over three decades after his death, Michel Foucault\u2019s (1920\u20131984) legacy continues to impact upon the humanities. Key phrases and concepts drawn from Foucault\u2019s historical work now form part of the everyday language of criticism and analysis. Foucault\u2019s texts continue to resonate with contemporary readers, and this resonance can be misunderstood in a chronological survey of his key ideas and works, since the man who rejected notions of historical progress \u2013 preferring to work with the notion of what he called the epistemic break \u2013 produced works that cannot be neatly fitted into a condensed and orderly summary that appears to move smoothly from one text to another. In other words, it is important when reading any summary of Foucault\u2019s life and work, to think of his theories as forming a critical constellation, rather than a developmental, logical system. Born in Poitiers, France, Foucault studied at school with the great commentator on Hegel,\\n\\nSource: https://www.britannica.com/biography/Michel-Foucault\\nTitle: Michel Foucault | French Philosopher, Historian & Social Theorist | Britannica\\nContent: Between 1971 and 1984 Foucault wrote several works, including Surveiller et punir: naissance de la prison (1975; Discipline and Punish: The Birth of the Prison), a monograph on the emergence of the modern prison; three volumes of a history of Western sexuality; and numerous essays. Foucault continued to travel widely, and as his reputation grew he spent extended periods in Brazil, Japan, Italy, Canada, and the United States. He became particularly attached to Berkeley, California, and the San Francisco Bay area and was a visiting lecturer at the University of California at Berkeley for several years. Foucault died of a septicemia typical of AIDS in 1984, the fourth volume of his history of sexuality still incomplete.\\n\\nSource: https://www.britannica.com/biography/Michel-Foucault/Foucaults-ideas\\nTitle: Michel Foucault - Philosopher, Postmodernism, Power | Britannica\\nContent: Michel Foucault - Philosopher, Postmodernism, Power | Britannica\\n\\nSearch Britannica  Click here to search\\n\\nSearch Britannica  Click here to search\\nSUBSCRIBE\\nSUBSCRIBE\\nLogin\\nhttps://premium.britannica.com/premium-membership/?utm_source=premium&utm_medium=nav-login-box&utm_campaign=evergreen\\nSUBSCRIBE\\nAsk the ChatbotGames & QuizzesHistory & SocietyScience & TechBiographiesAnimals & NatureGeography & TravelArts & CultureProConMoneyVideos\\nMichel Foucault\\nTable of Contents\\n\\n\\nIntroduction & Top Questions\\n\\n\\nEducation and career\\n\\n\\nFoucault\u2019s ideas\\n\\n\\nFoucault\u2019s influence\\n\\n\\nReferences & Edit History Quick Facts & Related Topics\\nImages\\n\\nFor Students\\n\\nMichel Foucault summary\\nQuizzes\\n\\nPhilosophy 101\\nRelated Questions\\n\\nWhy is Michel Foucault important?\\nWhat did Michel Foucault write?\\nWhat was Michel Foucault\u2019s occupation?\\nWhat is the weather like in Paris?\\nWhat is the landscape of Paris?\\n\\nRead Next\\n\\n5 Common Misconceptions About Schizophrenia\\n\\nPhilosophers to Know, Part I\\n', 'cost_callback': <bound method HomeworkResearcher.add_costs of <homework_researcher.agent.HomeworkResearcher object at 0x107bd3710>>}'",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-04-04T14:46:38.962096",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "report_written",
+        "output": "\ud83d\udcdd Report written for 'michel Foucault'",
+        "metadata": null
+      }
+    }
+  ],
+  "content": {
+    "query": "",
+    "sources": [],
+    "context": [],
+    "report": "",
+    "costs": 0.0,
+    "type": "report",
+    "content": "selected_images",
+    "output": "8. Systemic Sustainability. (2025). Michel Foucault in the Modern Context. Retrieved from https://systemicsustainability.wordpress.com/2025/01/07/michel-foucault-in-the-modern-context/  ",
+    "metadata": [
+      "https://i0.wp.com/literariness.org/wp-content/uploads/2017/03/michel_foucault_sithum.jpg?resize=700%2C700&ssl=1",
+      "https://i0.wp.com/literariness.org/wp-content/uploads/2017/03/511pwc78cql-_sx331_bo1204203200_.jpg?w=346&h=519&ssl=1",
+      "https://i0.wp.com/literariness.org/wp-content/uploads/2017/03/download-1.jpg?w=346&h=519&ssl=1",
+      "https://cdn.britannica.com/mendel/eb-logo/MendelNewThistleLogo.png",
+      "https://i0.wp.com/revisesociology.com/wp-content/uploads/2025/02/DALL%C2%B7E-2025-02-02-13.11.21-A-conceptual-illustration-of-power-as-a-looming-shadow-over-people-with-a-small-group-pushing-back.-The-shadow-takes-the-form-of-a-massive-imposing-.webp?resize=1024%2C1024&ssl=1",
+      "https://i0.wp.com/revisesociology.com/wp-content/uploads/2025/02/DALL%C2%B7E-2025-02-02-13.13.26-An-architectural-illustration-of-a-prison-cell-layout-resembling-Benthams-Panopticon.-The-design-features-a-circular-prison-with-multiple-floors-of-c.webp?resize=1024%2C1024&ssl=1",
+      "https://perlego-cms.cdn.prismic.io/perlego-cms/612e00f7-f8fa-416b-b7db-fd961d683b0a_logo.svg",
+      "https://images.prismic.io/perlego-cms/3315d34a-ab16-4377-b70a-2fb2c5c306cd_sophie+raine.png?auto=compress,format",
+      "https://i0.wp.com/literariness.org/wp-content/uploads/2016/04/michael-ulrich.jpg?resize=700%2C509&ssl=1",
+      "https://s3-eu-west-1.amazonaws.com/s3-euw1-ap-pe-ws4-cws-documents.ri-prod/routledgesoc/Michel-Foucault.jpg"
+    ]
+  }
+}

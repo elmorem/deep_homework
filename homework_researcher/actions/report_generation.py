@@ -1,5 +1,6 @@
 import asyncio
 from typing import List, Dict, Any
+from ..actions.utils import stream_output
 from ..config.config import Config
 from ..utils.llm import create_chat_completion
 from ..utils.logger import get_formatted_logger
@@ -245,7 +246,12 @@ async def generate_report(
     """
     generate_prompt = get_prompt_by_report_type(report_type)
     report = ""
-
+    await stream_output(
+        "logs",
+        "report_written with params",
+        f"📝 Report about to be written with prompt = {generate_prompt}",
+        websocket,
+    )
     if report_type == "subtopic_report":
         content = f"{generate_prompt(query, existing_headers, relevant_written_contents, main_topic, context, report_format=cfg.report_format, tone=tone, education_level=education_level, total_words=cfg.total_words, language=cfg.language)}"
     else:

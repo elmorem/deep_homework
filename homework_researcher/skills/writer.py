@@ -81,13 +81,13 @@ class ReportGenerator:
         else:
             report_params["cost_callback"] = self.researcher.add_costs
 
-        # if self.researcher.verbose:
-        #     await stream_output(
-        #         "logs",
-        #         "report_written with params",
-        #         f"📝 Report written with '{report_params}'",
-        #         self.researcher.websocket,
-        #     )
+        if self.researcher.verbose:
+            await stream_output(
+                "logs",
+                "report_written with params",
+                f"📝 Report about to be written report_generation.generate_report",
+                self.researcher.websocket,
+            )
 
         report = await generate_report(**report_params)
 
