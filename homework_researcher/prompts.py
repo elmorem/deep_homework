@@ -52,8 +52,62 @@ Assume the current date is {datetime.now(timezone.utc).strftime('%B %d, %Y')} if
 You must respond with a list of strings in the following format: [{dynamic_example}].
 The response should contain ONLY the list.
 """
-def generate_precis_prompt():
-    pass
+def generate_precis_prompt(
+    question: str,
+    context: str,
+    report_source: str,
+    report_format="apa",
+    total_words: int = 300,
+    tone: Tone = None,
+    education_level=None,
+    language="english",
+):
+    reference_prompt = ""
+    if report_source == ReportSource.Web.value:
+        reference_prompt = f"""
+    You MUST write all used source urls at the end of the report as references, and make sure to not add duplicated sources, but only one reference for each.
+    Every url should be hyperlinked: [url website](url)
+    Additionally, you MUST include hyperlinks to the relevant URLs wherever they are referenced in the report: 
+
+    eg: Author, A. A. (Year, Month Date). Title of web page. Website Name. [url website](url)
+    """
+    else:
+        reference_prompt = f"""
+    You MUST write all used source document names at the end of the report as references, and make sure to not add duplicated sources, but only one reference for each."
+    """
+
+    tone_prompt = f"Write the report in a {tone.value} tone." if tone else ""
+    education_level_prompt = (
+        f"IMPORTANT!: The report should be written at a {education_level.value} level."
+        if education_level
+        else ""
+    )
+    return f"""
+    Information: "{context}"
+    ---
+    Using the above information, answer the following query or task: "{question}" in a summary report --
+    The report should focus on the answer to the query, should be well structured, informative, 
+    and comprehensive, with facts and numbers if available.  It should be {total_words} words.
+    You should strive to write the report using all relevant and necessary information provided
+    in a succinct manner not to esceed {total_words} words.
+    
+    Please follow all of the following guidelines in your report:
+        - You MUST determine your own concrete and valid opinion based on the given information. Do NOT defer to general and meaningless conclusions.
+        - You MUST write the report with markdown syntax and {report_format} format.
+        - You MUST prioritize the relevance, reliability, and significance of the sources you use. Choose trusted sources over less reliable ones.
+        - You must also prioritize new articles over older articles if the source can be trusted.
+        - Use in-text citation references in {report_format} format and make it with markdown hyperlink placed at the end of the sentence or paragraph that references them like this: ([in-text citation](url)).
+        - Don't forget to add a reference list at the end of the report in {report_format} format and full url links without hyperlinks.
+        - {reference_prompt}
+        - {tone_prompt}
+        - {education_level_prompt}
+
+    You MUST write the report in the following language: {language}.
+    Please do your best, this is very important to my future.
+    Assume that the current date is {date.today()}.
+
+
+    """ 
 
 def generate_research_questions_prompt():
     pass
