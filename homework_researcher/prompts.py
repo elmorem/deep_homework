@@ -113,8 +113,33 @@ def generate_precis_prompt(
     """
 
 
-def generate_research_questions_prompt():
-    pass
+def generate_research_questions_prompt(
+    question: str,
+    context: str,
+    report_source: str,
+    number_of_questions: int = 5,
+    report_format="apa",
+    total_words: int = 300,
+    tone: Tone = None,
+    education_level=None,
+    language="english",
+):
+    """
+    Generates the research questions prompt for a given question and context."""
+
+    return f"""
+    Information: "{context}"
+    Based on the above information, generate a list of {number_of_questions} research questions related to the following query or task: "{question}".
+    The questions should follow these guidelines:
+        - Make sure that the questions are distinct.
+        - They should cover a range of aspects related to the topic.
+        - The questions should encourage exploration and critical thinking.
+        - The questions should embrace differnt perspectives.
+        - The questions should encourage combining different approaches to the information.
+    
+    You MUST write the questions in the following language: {language}.
+    Please do your best, to help me see different approaches to the topic.  Learning to ask different types of questions is very important to my future.
+    """
 
 
 def generate_report_prompt(
